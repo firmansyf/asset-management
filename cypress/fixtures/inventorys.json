@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "guid": "148dcf66-8e5c-41a7-812f-c796f22909df",
+            "inventory_idno": "ABC00001",
+            "inventory_name": "Inventory V2",
+            "product_model": "-",
+            "inventory_identification_number": "-",
+            "category_guid": null,
+            "category_name": "Furniture",
+            "location_guid": "-",
+            "location_name": "-",
+            "supplier_guid": "-",
+            "supplier_name": "-",
+            "total_quantity": 0,
+            "price_for_add": 0,
+            "price_for_remove": 0,
+            "description": "Desc Warranty V1",
+            "low_stock_threshold": 0,
+            "is_barcode": null,
+            "is_serial_number": null,
+            "is_unique_idno": null,
+            "user_guid": "-",
+            "created_by": "testing",
+            "created_at": "2021-12-21 15:46:49"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/inventory?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/inventory?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/inventory?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/inventory",
+        "per_page": 20,
+        "to": 1,
+        "total": 1
+    }
+}

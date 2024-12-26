@@ -1,0 +1,43 @@
+.two-factor-auth {
+  display: flex !important;
+  width: 500px !important;
+  height: 300px;
+  align-items: center;
+  text-align: 'center';
+  justify-content: 'center';
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0.1rem 1rem 0.25rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.otpContainer {
+  margin: 5% auto;
+}
+
+.otpInput {
+  width: 3rem !important;
+  height: 50px !important;
+  margin: 0 0.2rem;
+  font-size: 2rem;
+  text-align: center;
+  border-top: 1px solid #fff;
+  border-bottom: 2px solid #050990;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+/*  Add breakpoint for iPhone */
+@media only screen and (max-width: 375px) {
+  .two-factor-auth {
+    width: 360px !important;
+    padding: 5px;
+  }
+  .otpInput {
+    width: 2rem !important;
+    height: 2rem;
+    font-size: 2rem;
+    padding: 1px;
+  }
+}

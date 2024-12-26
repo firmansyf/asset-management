@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "guid": "9438a17d-9183-4dda-84d2-56d397249d8c",
+            "message": "test",
+            "is_notify": false,
+            "notify_to": [],
+            "creator": {
+                "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                "name": "khairil anuar"
+            },
+            "created_at": "31-12-2021 11:21",
+            "updated_at": "31-12-2021 11:21"
+        }
+    ]
+}

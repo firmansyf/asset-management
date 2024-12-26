@@ -1,0 +1,25 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/codedeploy
+permissions:
+  - object: /home/ec2-user/codedeploy
+    owner: ec2-user
+    group: ec2-user
+    pattern: '*'
+    mode: 775
+    type:
+      - file
+      - directory
+file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: hooks/1.verify-folder-structure.sh
+      runas: ec2-user
+  AfterInstall:
+    - location: hooks/2.pull-s3-js.sh
+      runas: ec2-user
+  ApplicationStart:
+    - location: hooks/3.finish-deploy.sh
+      runas: ec2-user

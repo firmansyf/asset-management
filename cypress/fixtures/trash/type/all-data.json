@@ -1,0 +1,240 @@
+{
+   "data":[
+      {
+         "guid":"8d04a746-2550-45a8-8990-cd4f8f84269b",
+         "name":"types 1",
+         "status":1,
+         "category":{
+            "guid":"32d9196f-c07f-4a4b-8dde-4fe195c73079",
+            "name":"Computer"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:08:35.000000Z",
+         "updated_at":"2022-01-11T00:10:27.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"54f0e911-4f85-42c1-aa01-2a3faa2d7fc2",
+         "name":"types 10",
+         "status":1,
+         "category":{
+            "guid":"94953715-5833-43d8-8a50-4e56e00f168c",
+            "name":"Printer\/Scanner\/Copier"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:10:11.000000Z",
+         "updated_at":"2022-01-11T00:11:24.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"1455d3bc-4593-4668-9491-2f42760fc3be",
+         "name":"types 11",
+         "status":1,
+         "category":{
+            "guid":"b792c82f-b519-47e7-8854-14c8d47bafc3",
+            "name":"Network Equipment"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:10:18.000000Z",
+         "updated_at":"2022-01-11T00:11:24.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"387dc5db-c250-45ea-ada4-7ef53e7e2703",
+         "name":"types 2",
+         "status":1,
+         "category":{
+            "guid":"b792c82f-b519-47e7-8854-14c8d47bafc3",
+            "name":"Network Equipment"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:08:42.000000Z",
+         "updated_at":"2022-01-11T00:11:24.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"e312f9c8-3a1a-4f58-b729-3c5ebc9ac7a8",
+         "name":"types 3",
+         "status":1,
+         "category":{
+            "guid":"a360c92b-543d-4854-9652-6a5712d14e47",
+            "name":"Software\/License"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:08:49.000000Z",
+         "updated_at":"2022-01-11T00:11:24.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"8600b872-f2bc-4ba4-ae1f-4f01954bcff1",
+         "name":"types 4",
+         "status":1,
+         "category":{
+            "guid":"0385f36a-adf1-48cf-b1ca-77bc281a70c3",
+            "name":"Furniture"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:08:55.000000Z",
+         "updated_at":"2022-01-11T00:11:24.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"a77bb4f3-7eb4-4949-a325-26ac7bd49f25",
+         "name":"types 5",
+         "status":1,
+         "category":{
+            "guid":"a360c92b-543d-4854-9652-6a5712d14e47",
+            "name":"Software\/License"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:09:02.000000Z",
+         "updated_at":"2022-01-11T00:11:41.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"4d00de57-c46f-40d6-baab-4bd59fc1b9ba",
+         "name":"types 6",
+         "status":1,
+         "category":{
+            "guid":"d9ec2d10-1d7f-4708-8283-054008f4151b",
+            "name":"Telephone \/ Fax Machine"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:09:09.000000Z",
+         "updated_at":"2022-01-11T00:11:46.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"bcd7f2d1-81c3-4f99-ac69-f5eca0ac6186",
+         "name":"types 7",
+         "status":1,
+         "category":{
+            "guid":"0385f36a-adf1-48cf-b1ca-77bc281a70c3",
+            "name":"Furniture"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:09:17.000000Z",
+         "updated_at":"2022-01-11T00:11:34.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"17eadd9f-b77e-43fd-a514-ace7278dd3da",
+         "name":"types 8",
+         "status":1,
+         "category":{
+            "guid":"94953715-5833-43d8-8a50-4e56e00f168c",
+            "name":"Printer\/Scanner\/Copier"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:09:55.000000Z",
+         "updated_at":"2022-01-11T00:11:37.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"04ef19bf-f979-49e4-b7d9-08e98edfced3",
+         "name":"types 9",
+         "status":1,
+         "category":{
+            "guid":"d39022c4-2215-4389-872b-89a7023363d0",
+            "name":"Others"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2022-01-11T00:10:04.000000Z",
+         "updated_at":"2022-01-11T00:11:30.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"87dca005-b593-48dd-8d60-6149aa352643",
+         "name":"typoe",
+         "status":1,
+         "category":{
+            "guid":"32d9196f-c07f-4a4b-8dde-4fe195c73079",
+            "name":"Computer"
+         },
+         "subs":[
+            
+         ],
+         "created_at":"2021-10-26T09:49:40.000000Z",
+         "updated_at":"2022-01-04T04:24:46.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      }
+   ],
+   "links":{
+      "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/types?page=1",
+      "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/types?page=1",
+      "prev":null,
+      "next":null
+   },
+   "meta":{
+      "current_page":1,
+      "from":1,
+      "last_page":1,
+      "links":[
+         {
+            "url":null,
+            "label":"&laquo; Previous",
+            "active":false
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/types?page=1",
+            "label":1,
+            "active":true
+         },
+         {
+            "url":null,
+            "label":"Next &raquo;",
+            "active":false
+         }
+      ],
+      "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/types",
+      "per_page":25,
+      "to":12,
+      "total":12
+   }
+}

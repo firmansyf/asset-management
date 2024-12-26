@@ -1,0 +1,15 @@
+# docker-compose -f docker-compose.production.yml up -d --build (update images & run)
+# docker-compose -f docker-compose.production.yml up -d (run all container)
+# docker-compose -f docker-compose.production.yml up -d assetdata-prod (run single service/container)
+# docker-compose -f docker-compose.production.yml restart (restart container)
+# docker-compose -f docker-compose.production.yml down (stop container)
+
+version: '1'
+services:
+  assetdata-prod: # nginx service
+    container_name: assetdata-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.production
+    ports:
+      - 3000:80

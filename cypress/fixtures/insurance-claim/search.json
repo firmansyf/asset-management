@@ -1,0 +1,96 @@
+{
+    "data": [
+        {
+            "guid": "e338a015-46e3-4e4a-b1d7-f7538ef9daec",
+            "case_id": "123",
+            "case_title": "abc001",
+            "incident_timestamp": "1969-12-31T17:00:00.000000Z",
+            "incident_date": "1970-01-01",
+            "incident_time": "08:00:00",
+            "police_report_no": null,
+            "sitename_id": "abc11",
+            "action_taken": null,
+            "damages": "Others",
+            "damages_detail": null,
+            "suspicions": 0,
+            "suspicions_details": null,
+            "region": "region a",
+            "sitename": "test insurance",
+            "tm": "azi anuar",
+            "type_of_peril": null,
+            "deductible_amount": null,
+            "ro_number": null,
+            "invoice_amount": null,
+            "brief_description": null,
+            "status": "Pending Documents Upload",
+            "created_at": "2021-12-28T06:51:14.000000Z",
+            "claim_time": "1969-12-31T17:00:00.000000Z",
+            "updated_at": "2021-12-28T06:51:14.000000Z",
+            "gr_status": null,
+            "vendor": null,
+            "insurance_claim_peril": null,
+            "insurance_claim_status": {
+                "guid": "51b74e33-8e91-4107-a71d-aa6062841a21",
+                "name": "Pending Documents Upload"
+            },
+            "tm_email": "hazirah@assetdata.io",
+            "regional_engineer": "azi loom3",
+            "regional_engineer_email": "aziloom3@gmail.com",
+            "claim_approver": null,
+            "approval_date": null,
+            "approval_by": null,
+            "location_guid": "88a82007-f23d-4d7b-bd62-35163b5f7965",
+            "tm_super1": "testing 002",
+            "tm_super2": "Humin Hanban",
+            "re_super1": "testing 003",
+            "re_super2": "Mohammad Ricky",
+            "insurance_group": null,
+            "last_changed_status_at": "2021-12-28 13:51:14",
+            "police_report_date": null,
+            "invoice_date": "N/A",
+            "invoice_number": null,
+            "invoice_total": "0.00",
+            "number_of_repair_invoice": 0,
+            "number_of_other_report": 0,
+            "number_of_incident_photo": 0,
+            "number_of_police_report": 0,
+            "is_claimable": 1,
+            "approved_by": null,
+            "total_invoice": "0.00",
+            "pic_name": null,
+            "pic_role": null
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim",
+        "per_page": 15,
+        "to": 1,
+        "total": 1
+    }
+}

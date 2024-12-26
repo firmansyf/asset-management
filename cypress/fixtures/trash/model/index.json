@@ -1,0 +1,48 @@
+{
+  "data": [
+      {
+          "guid": "430a8395-7e86-45a6-9b99-75f753a9ea4f",
+          "name": "test",
+          "manufacturer": {
+              "guid": "13712ddf-144e-4f05-8e7b-043b9a1cb0d8",
+              "name": "test"
+          },
+          "created_at": "2021-10-03T21:08:39.000000Z",
+          "update": "2021-10-03T21:08:39.000000Z",
+          "deleted_by": "khairil anuar",
+          "delete_permanent_in": null
+      }
+  ],
+  "links": {
+      "first": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-model?page=1",
+      "last": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-model?page=1",
+      "prev": null,
+      "next": null
+  },
+  "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+          {
+              "url": null,
+              "label": "&laquo; Previous",
+              "active": false
+          },
+          {
+              "url": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-model?page=1",
+              "label": 1,
+              "active": true
+          },
+          {
+              "url": null,
+              "label": "Next &raquo;",
+              "active": false
+          }
+      ],
+      "path": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-model",
+      "per_page": 1000000,
+      "to": 1,
+      "total": 1
+  }
+}

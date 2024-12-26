@@ -1,0 +1,25 @@
+{
+    "data": {
+        "guid": "70d676c7-6308-4ee8-8a7e-c788bae896db",
+        "first_name": "testing",
+        "last_name": "account",
+        "email": "testingaccount@mailinator.com",
+        "employee_number": null,
+        "phone_number": null,
+        "job_title": null,
+        "last_login": "2021-11-05 15:13:37",
+        "email_verified_at": "2021-11-04T20:37:11.000000Z",
+        "status": 1,
+        "role_name": "owner",
+        "user_status": "owner",
+        "timezone": null,
+        "registration_wizard_status": 1,
+        "roles": [
+            {
+                "id": 7,
+                "name": "owner",
+                "label": "Account Owner"
+            }
+        ]
+    }
+}

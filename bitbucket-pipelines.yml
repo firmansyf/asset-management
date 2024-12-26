@@ -1,0 +1,62 @@
+definitions:
+  services:
+    docker-for-sonar:
+      memory: 4096
+      type: docker
+  steps:
+    - step: &sonar-scan
+        name: Analyze code on SonarCloud
+        image: maven:3.3.9
+        services:
+          - docker-for-sonar
+        size: 2x
+        script:
+          - pipe: sonarsource/sonarqube-scan:1.1.0
+            variables:
+              SONAR_HOST_URL: ${SONAR_HOST_URL}
+              SONAR_TOKEN: ${SONAR_TOKEN}
+              SONAR_SCANNER_OPTS: -Xmx2048m
+    - step: &test-build
+        name: Test Build
+        image: node:14.19.3
+        trigger: manual
+        caches:
+          - node
+        script:
+          - yarn install
+          - yarn build
+    - step: &upload-s3
+        name: Upload to S3
+        image: atlassian/default-image:2
+        script:
+          - mkdir artifact
+          - zip -r artifact/application.zip .
+          - pipe: atlassian/aws-s3-deploy:0.5.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+              APPLICATION_NAME: $APPLICATION_NAME_STG
+              S3_BUCKET: $S3_BUCKET_STG
+              LOCAL_PATH: 'artifact'
+              COMMAND: 'upload-only'
+              ZIP_FILE: 'application.zip'
+              DEBUG: 'true'
+
+  caches:
+    sonar: ~/.sonar
+
+clone:
+  depth: full
+
+pipelines:
+  custom:
+    improvement:
+      - step: *sonar-scan
+    release/*:
+      - step: *test-build
+    staging:
+      - step: *upload-s3
+  branches:
+    '{master}':
+      - step: *sonar-scan

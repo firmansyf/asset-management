@@ -1,0 +1,15 @@
+// React root container
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+// Global link cursor
+a {
+  cursor: pointer;
+}
+
+.text-justify {
+  text-align: justify;
+}

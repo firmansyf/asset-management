@@ -1,0 +1,221 @@
+{
+    "data":[
+       {
+          "guid":"76b7273c-938f-45c5-95bb-a4373b64b0c9",
+          "name":"dep 1",
+          "company":{
+             "guid":"e7ee9438-87d6-4c21-9ece-694adb56e5ba",
+             "name":"Compass",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-04T04:23:09.000000Z",
+          "updated_at":"2022-01-04T04:23:21.000000Z",
+          "deleted_by":null,
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"d4b2db02-bf65-4273-91dc-80db99c7027e",
+          "name":"dep 1",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:49:22.000000Z",
+          "updated_at":"2022-01-10T01:50:54.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"a27a8249-ea25-4b68-b7a3-2cee45a9b6be",
+          "name":"dep 10",
+          "company":{
+             "guid":"e7ee9438-87d6-4c21-9ece-694adb56e5ba",
+             "name":"Compass",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:50:44.000000Z",
+          "updated_at":"2022-01-10T01:51:10.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"2970b18f-dc01-420a-8a6e-bf221771b204",
+          "name":"dep 2",
+          "company":{
+             "guid":"e7ee9438-87d6-4c21-9ece-694adb56e5ba",
+             "name":"Compass",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:49:30.000000Z",
+          "updated_at":"2022-01-10T01:50:57.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"f958528f-5388-447b-b8a4-51ee3534c165",
+          "name":"dep 2",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-04T04:23:02.000000Z",
+          "updated_at":"2022-01-04T04:23:21.000000Z",
+          "deleted_by":null,
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"4e59e9f2-5cc4-4a0d-8818-c2cfe18cc74a",
+          "name":"dep 3",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-04T04:23:16.000000Z",
+          "updated_at":"2022-01-04T04:23:21.000000Z",
+          "deleted_by":null,
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"d9980d43-cb2a-4770-a622-6273548c48be",
+          "name":"dep 4",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:49:43.000000Z",
+          "updated_at":"2022-01-10T01:51:18.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"addf62e3-4076-4e07-beaa-63d6d66b0232",
+          "name":"dep 5",
+          "company":{
+             "guid":"e7ee9438-87d6-4c21-9ece-694adb56e5ba",
+             "name":"Compass",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:49:52.000000Z",
+          "updated_at":"2022-01-10T01:51:01.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"fafb9555-cc0e-4868-ae4f-39abeae658a9",
+          "name":"dep 6",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:49:59.000000Z",
+          "updated_at":"2022-01-10T01:51:05.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       },
+       {
+          "guid":"b72becf5-9b3d-43fb-968c-e0116f5f92db",
+          "name":"dep 7",
+          "company":{
+             "guid":"3ad390da-20ed-4aac-acec-963b62178f55",
+             "name":"New Compan",
+             "is_default":null
+          },
+          "contact_person":null,
+          "contact_number":null,
+          "contact_number_alternate":null,
+          "email":null,
+          "status":1,
+          "created_at":"2022-01-10T01:50:06.000000Z",
+          "updated_at":"2022-01-10T01:51:22.000000Z",
+          "deleted_by":"Itep Dz567",
+          "delete_permanent_in":null
+       }
+    ],
+    "links":{
+       "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=1",
+       "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=2",
+       "prev":null,
+       "next":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=2"
+    },
+    "meta":{
+       "current_page":1,
+       "from":1,
+       "last_page":2,
+       "links":[
+          {
+             "url":null,
+             "label":"&laquo; Previous",
+             "active":false
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=1",
+             "label":1,
+             "active":true
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=2",
+             "label":2,
+             "active":false
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department?page=2",
+             "label":"Next &raquo;",
+             "active":false
+          }
+       ],
+       "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/department",
+       "per_page":10,
+       "to":10,
+       "total":20
+    }
+ }

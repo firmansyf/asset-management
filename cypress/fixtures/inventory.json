@@ -1,0 +1,41 @@
+{
+    "data": {
+        "guid": "148dcf66-8e5c-41a7-812f-c796f22909df",
+        "inventory_idno": "ABC00001",
+        "inventory_name": "Inventory V2",
+        "product_model": "-",
+        "inventory_identification_number": "-",
+        "category_guid": "81de6e2c-7e6f-493f-a84d-b5ef038f3822",
+        "category_name": "Furniture",
+        "location_guid": "-",
+        "location_name": "-",
+        "supplier_guid": "-",
+        "supplier_name": "-",
+        "total_quantity": 100,
+        "price_for_add": 0,
+        "price_for_remove": 0,
+        "description": "Desc Warranty V1",
+        "low_stock_threshold": 0,
+        "is_barcode": 0,
+        "is_serial_number": 0,
+        "is_unique_idno": 0,
+        "user_guid": "70d676c7-6308-4ee8-8a7e-c788bae896db",
+        "created_by": "testing account",
+        "created_at": "2021-12-21 15:46:49",
+        "files": {
+            "photos": null,
+            "invoices": null,
+            "others": null
+        },
+        "videos": null,
+        "comments": [],
+        "quantity_by_location": [
+            {
+                "quantity": "100",
+                "location_name": "Petaling Jaya",
+                "location_guid": "31b42b1b-9807-4c6f-bf83-8790ef8bc772"
+            }
+        ],
+        "custom_fields": []
+    }
+}

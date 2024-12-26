@@ -1,0 +1,53 @@
+//
+// Theme style
+//
+
+// Skin
+$skin: default;
+
+// Initialize
+@import 'init';
+
+// Components
+@import './core/components/components';
+@import 'components/components';
+
+// Layout
+@import 'layout/layout';
+
+// React vendors
+@import 'core/vendors/react/general';
+// @import '~socicon/css/socicon.css';
+// @import '~@fortawesome/fontawesome-free/css/regular.min.css';
+// @import '~line-awesome/dist/line-awesome/css/line-awesome.css';
+// @import '~prism-themes/themes/prism-shades-of-purple.css';
+// @import '~bootstrap-icons/font/bootstrap-icons.css';
+// @import '~animate.css/animate.css';
+// @import './core/vendors/plugins/prismjs';
+@import './core/vendors/plugins/formvalidation';
+
+// Custom
+@import './custom/style.scss';
+
+.days {
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+
+    border-radius: 50%;
+
+    &:hover,
+    &.active {
+      color: white;
+
+      background-color: #5499e7;
+    }
+
+    input[type='checkbox'] {
+      display: none;
+    }
+  }
+}

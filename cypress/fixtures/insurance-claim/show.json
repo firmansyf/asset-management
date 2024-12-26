@@ -1,0 +1,157 @@
+{
+    "data": {
+        "guid": "e338a015-46e3-4e4a-b1d7-f7538ef9daec",
+        "case_id": "123",
+        "case_title": "abc001",
+        "region": "region a",
+        "sitename": "test insurance",
+        "tm": null,
+        "ro_number": null,
+        "invoice_amount": null,
+        "vendor": {
+            "guid": null,
+            "name": null
+        },
+        "brief_description": null,
+        "insurance_claim_peril": {
+            "guid": null,
+            "name": null,
+            "deductible_amount": "0.00"
+        },
+        "insurance_claim_status": {
+            "guid": "51b74e33-8e91-4107-a71d-aa6062841a21",
+            "name": "Pending Documents Upload"
+        },
+        "previous_status": {
+            "guid": null,
+            "name": null
+        },
+        "first_review_comment": null,
+        "is_claimable": 1,
+        "review_status": "Proposed to reject and close",
+        "number_of_incident_photo": 0,
+        "claim_time": "1970-01-01 00:00:00",
+        "created_at": "2021-12-28T06:51:14.000000Z",
+        "updated_at": "2021-12-28T06:51:14.000000Z",
+        "gr_status": null,
+        "location_guid": "88a82007-f23d-4d7b-bd62-35163b5f7965",
+        "location": {
+            "guid": "88a82007-f23d-4d7b-bd62-35163b5f7965",
+            "name": "test insurance",
+            "region": "region a",
+            "site_id": "abc11",
+            "tm": {
+                "guid": "77650ec6-f1aa-47b7-9a50-30a848a1e09b",
+                "name": "azi anuar",
+                "email": "hazirah@assetdata.io"
+            },
+            "re": {
+                "guid": "bd7740ec-ec7a-4b82-872a-0830929de219",
+                "name": "azi loom3",
+                "email": "aziloom3@gmail.com"
+            },
+            "superior1": {
+                "tm": {
+                    "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                    "name": "testing 002",
+                    "email": "tqah.testing002@gmail.com"
+                },
+                "re": {
+                    "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                    "name": "testing 003",
+                    "email": "tqah.testing003@gmail.com"
+                }
+            },
+            "superior2": {
+                "tm": {
+                    "guid": "19de1c8d-a0aa-4fdb-ad24-f02d2853dc2a",
+                    "name": "Humin Hanban",
+                    "email": "hunbin6700@mailinator.com"
+                },
+                "re": {
+                    "guid": "781a7d32-2dcd-4301-9a5d-4b80449793fd",
+                    "name": "Mohammad Ricky",
+                    "email": "mricky.it@gmail.com"
+                }
+            }
+        },
+        "incident_timestamp": "1970-01-01 00:00:00",
+        "sitename_id": "abc11",
+        "police_report_no": null,
+        "action_taken": null,
+        "claim_approver": null,
+        "damages": "Others",
+        "damages_details": null,
+        "suspicions": 0,
+        "suspicions_details": null,
+        "tm_email": null,
+        "regional_engineer": null,
+        "regional_engineer_email": null,
+        "submit_comment": null,
+        "invoice_number": null,
+        "police_report_date": "N/A",
+        "invoice_date": "N/A",
+        "ro_data_infos": [],
+        "total_invoice": "0.00",
+        "invoice_total": "0.00",
+        "pic_name": "azi anuar",
+        "pic_role": "Territory Manager",
+        "incident_date": "1970-01-01",
+        "incident_time": "08:00:00",
+        "number_of_police_report": 0,
+        "number_of_repair_invoice": 0,
+        "number_of_other_report": 0,
+        "documents": [
+            {
+                "guid": "5c4d49b1-e7e9-475f-87bd-301bb98bfd63",
+                "name": "00test",
+                "files": [
+                    {
+                        "guid": "566a5d19-765d-493d-9668-ca230583e927",
+                        "title": "invoice - test.png",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/14d1c3f2-655a-4338-908f-919a00895c2f/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/14d1c3f2-655a-4338-908f-919a00895c2f/download",
+                        "mime_type": "image/png",
+                        "uploaded_date": "2021-12-28T05:21:19.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "test"
+                    }
+                ]
+            },
+            {
+                "guid": "3c63f663-b275-4489-863c-1201890b3df0",
+                "name": "01test",
+                "files": []
+            }
+        ],
+        "invoices": [
+            {
+                "guid": "75ede613-77d5-40ca-bb76-81f1ee7c0978",
+                "title": "invoice - test.png",
+                "url": "https://petronasnew2.be.assetd.xyz/file/75ede613-77d5-40ca-bb76-81f1ee7c0978/view",
+                "download_url": "https://petronasnew2.be.assetd.xyz/file/75ede613-77d5-40ca-bb76-81f1ee7c0978/download",
+                "mime_type": "image/png",
+                "created_at": "2021-12-29T07:24:47.000000Z",
+                "created_by": {
+                    "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                    "name": "khairil anuar"
+                },
+                "comments": "test"
+            }
+        ],
+        "approval": {
+            "guid": "972b40c2-98a9-490a-bf01-8d50b405a7ad",
+            "statuss": {
+                "guid": null,
+                "name": null
+            },
+            "approver": {
+                "guid": null,
+                "name": null
+            }
+        }
+    }
+}

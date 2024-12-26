@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "guid": "14479d63-9433-4504-a49c-17a0244322ae",
+            "name": "Approved",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "efe19fed-f68b-4927-a496-20fbf4dab2e9",
+            "name": "Approved (Not Claimable)",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "51b74e33-8e91-4107-a71d-aa6062841a21",
+            "name": "Pending Documents Upload",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "f6aeb58b-0128-47be-9a3f-845dc1f03d08",
+            "name": "Pending GR Done",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "8c7d3c81-fc29-4289-86e5-8b1a7b36609c",
+            "name": "Pending Invoice Upload",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "e797987b-f3ae-4756-ab78-e25b4a61e583",
+            "name": "Proposed to Reject and Close",
+            "created_at": "2021-09-15T07:44:00.000000Z",
+            "updated_at": "2021-09-15T07:44:00.000000Z"
+        },
+        {
+            "guid": "8585b264-b981-48a9-b8b7-6ae8710d58fb",
+            "name": "Ready for Approval",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "8e930e6a-01ca-46b6-af44-c7e189304bdc",
+            "name": "Ready for Review 1",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "6e01296f-f787-49fb-a98a-54f7a37c1631",
+            "name": "Ready for Review 2",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "c862e0e9-7be8-46b5-8971-483ff3937d39",
+            "name": "Rejected",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        },
+        {
+            "guid": "07e67286-2e94-4167-8cd6-ed8cd88b774a",
+            "name": "Rejected and Closed",
+            "created_at": "2021-09-15T07:44:00.000000Z",
+            "updated_at": "2021-09-15T07:44:00.000000Z"
+        },
+        {
+            "guid": "fe7ac714-a6c8-4ee7-86c2-f90455bac1cd",
+            "name": "Reverted for Revision",
+            "created_at": "2021-10-03T21:08:39.000000Z",
+            "updated_at": "2021-10-03T21:08:39.000000Z"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/status?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/status?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/status?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/status",
+        "per_page": 9999,
+        "to": 12,
+        "total": 12
+    }
+}

@@ -1,0 +1,18 @@
+describe('Test Cases', () => {
+  it('Expired Register', () => {
+    cy.visit('expired-register')
+    cy.get('div').should('have.class', 'flex-center')
+    cy.get('a')
+      .find('img')
+      .should('have.attr', 'src')
+      .should('include', '/media/logos/logo-assetdata.png')
+    cy.get('div').should('have.class', 'w-lg-500px')
+    cy.get('.section')
+      .find('.icon')
+      .find('img')
+      .should('have.attr', 'src')
+      .should('include', '/media/icons/duotone/Code/Warning-2.svg')
+    cy.get('a[href]').contains('here').should('exist')
+    // .click({force: true})
+  })
+})

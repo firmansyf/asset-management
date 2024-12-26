@@ -1,0 +1,66 @@
+{
+    "data":[
+       {
+          "guid":"be86d7db-8b2e-4782-8a29-f21e48ff8b2b",
+          "description":"Tes454",
+          "expired":"2021-12-22",
+          "asset_guid":"cdfc80e1-0e39-4409-a14f-2fefc47bd714",
+          "length":4,
+          "asset_id":"ABC00001",
+          "asset_name":"testing account asset v1",
+          "status":"Expired"
+       },
+       {
+          "guid":"07c4bc52-6066-4b9a-b2a3-951783e81de1",
+          "description":"tesd43",
+          "expired":"2021-12-31",
+          "asset_guid":"3fd24acc-fcca-4b62-b23b-5dafbef46d7f",
+          "length":2,
+          "asset_id":"ABC00002",
+          "asset_name":"testing account asset v2",
+          "status":"Expired"
+       },
+       {
+          "guid":"ea0ea34b-cb55-44d7-8345-ceb6f378c8b2",
+          "description":"description",
+          "expired":"2022-01-03",
+          "asset_guid":"c5c74106-54f9-4f9c-a735-10cad1270921",
+          "length":3,
+          "asset_id":"ABC00003",
+          "asset_name":"testing account asset v3",
+          "status":"Expiring"
+       }
+    ],
+    "links":{
+       "first":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/warranty?page=1",
+       "last":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/warranty?page=1",
+       "prev":null,
+       "next":null
+    },
+    "meta":{
+       "current_page":1,
+       "from":1,
+       "last_page":1,
+       "links":[
+          {
+             "url":null,
+             "label":"&laquo; Previous",
+             "active":false
+          },
+          {
+             "url":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/warranty?page=1",
+             "label":1,
+             "active":true
+          },
+          {
+             "url":null,
+             "label":"Next &raquo;",
+             "active":false
+          }
+       ],
+       "path":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/warranty",
+       "per_page":10,
+       "to":3,
+       "total":3
+    }
+ }

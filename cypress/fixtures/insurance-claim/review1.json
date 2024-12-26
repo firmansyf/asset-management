@@ -1,0 +1,151 @@
+{
+    "data": {
+        "guid": "062f9c0a-dbb1-4dfb-ac10-f3f5b8e1987a",
+        "case_id": "NA2",
+        "case_title": "UAT Testing 2 - blank RO",
+        "region": "yumio",
+        "sitename": "new location",
+        "tm": null,
+        "ro_number": "RO number 2",
+        "invoice_amount": "111.00",
+        "vendor": {
+            "guid": null,
+            "name": null
+        },
+        "brief_description": "testing",
+        "insurance_claim_peril": {
+            "guid": "c6d23a1d-006e-478b-80f3-25a507607afa",
+            "name": "Accident",
+            "deductible_amount": "0.00"
+        },
+        "insurance_claim_status": {
+            "guid": "8e930e6a-01ca-46b6-af44-c7e189304bdc",
+            "name": "Ready for Review 1"
+        },
+        "previous_status": {
+            "guid": null,
+            "name": null
+        },
+        "first_review_comment": null,
+        "is_claimable": 1,
+        "review_status": "Proposed to reject and close",
+        "number_of_incident_photo": 0,
+        "claim_time": "2021-08-29 23:14:00",
+        "created_at": "2021-11-06T04:17:58.000000Z",
+        "updated_at": "2021-12-06T16:08:16.000000Z",
+        "gr_status": "done",
+        "location_guid": "86c59a2c-6708-4cce-8174-f5ee477e86bb",
+        "location": {
+            "guid": null,
+            "name": null,
+            "region": null,
+            "site_id": null,
+            "tm": {
+                "guid": null,
+                "name": null,
+                "email": null
+            },
+            "re": {
+                "guid": null,
+                "name": null,
+                "email": null
+            },
+            "superior1": {
+                "tm": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                },
+                "re": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                }
+            },
+            "superior2": {
+                "tm": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                },
+                "re": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                }
+            }
+        },
+        "incident_timestamp": "2021-07-28 01:21:00",
+        "sitename_id": "AX433",
+        "police_report_no": "test124",
+        "action_taken": "action testing",
+        "claim_approver": "approver",
+        "damages": "Others",
+        "damages_details": "damages testing",
+        "suspicions": 1,
+        "suspicions_details": "test suspicions",
+        "tm_email": null,
+        "regional_engineer": null,
+        "regional_engineer_email": null,
+        "submit_comment": null,
+        "invoice_number": "123test",
+        "police_report_date": "2021-12-27 10:00:00",
+        "invoice_date": "2022-02-04",
+        "ro_data_infos": [
+            {
+                "ro_number": "RO number 2",
+                "invoice_amount": "123.45",
+                "invoice_date": "2022-02-05",
+                "vendor_name": "Test Vendor",
+                "invoice_number": "123test"
+            }
+        ],
+        "total_invoice": "123.45",
+        "invoice_total": "0.00",
+        "pic_name": "Nuraishah M Razi",
+        "pic_role": "Finance",
+        "incident_date": "2021-07-28",
+        "incident_time": "09:21:00",
+        "number_of_police_report": 0,
+        "number_of_repair_invoice": 1,
+        "number_of_other_report": 0,
+        "documents": [
+            {
+                "guid": "d199e38c-3d11-4dd1-894b-4c6b53565a94",
+                "name": "Image of Accident",
+                "files": []
+            },
+            {
+                "guid": "09455fdb-4b10-4cd5-87c7-cdd7f5029714",
+                "name": "Police Report",
+                "files": []
+            }
+        ],
+        "invoices": [
+            {
+                "guid": "2d04227f-bd19-443e-991f-c8d66bdcf910",
+                "title": "testing invoice.png",
+                "url": "https://petronasnew2.be.assetd.xyz/file/2d04227f-bd19-443e-991f-c8d66bdcf910/view",
+                "download_url": "https://petronasnew2.be.assetd.xyz/file/2d04227f-bd19-443e-991f-c8d66bdcf910/download",
+                "mime_type": "image/png",
+                "created_at": "2021-11-08T13:16:39.000000Z",
+                "created_by": {
+                    "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                    "name": "khairil anuar"
+                },
+                "comments": "N/A"
+            }
+        ],
+        "approval": {
+            "guid": "d1ccf0b6-376b-4b16-ad0c-9e73d6ba089a",
+            "statuss": {
+                "guid": null,
+                "name": null
+            },
+            "approver": {
+                "guid": null,
+                "name": null
+            }
+        }
+    }
+}

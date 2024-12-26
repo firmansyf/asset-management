@@ -1,0 +1,15 @@
+.image-preview {
+  cursor: pointer;
+}
+
+.thumbnails {
+  position: relative;
+  width: 120px;
+  margin: 0 auto;
+
+  .btn-icon {
+    position: absolute;
+    right: -16px;
+    bottom: 0;
+  }
+}

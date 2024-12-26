@@ -1,0 +1,141 @@
+{
+    "data": [
+      {
+        "guid": "7704e1e4-9587-4ebc-bde1-704348c0b72d",
+        "name": "Model 7",
+        "manufacturer": {
+          "guid": "ff190715-3fe9-4e86-b386-51c49e37f278",
+          "name": "Manufacture123"
+        },
+        "created_at": "2021-10-21T07:35:07.000000Z",
+        "update": "2021-10-21T07:35:07.000000Z"
+      },
+      {
+        "guid": "31b888b4-200a-422e-8ba4-ac7ef895de2c",
+        "name": "Model 11",
+        "manufacturer": {
+          "guid": "ff190715-3fe9-4e86-b386-51c49e37f278",
+          "name": "Manufacture123"
+        },
+        "created_at": "2021-10-21T07:35:07.000000Z",
+        "update": "2021-10-21T07:35:07.000000Z"
+      },
+      {
+        "guid": "68ffa4b1-3e06-4f1c-882e-efddba1525bf",
+        "name": "Model 8",
+        "manufacturer": {
+          "guid": "d815307f-f3be-4eeb-addc-56c8b3aa7876",
+          "name": "manufacture"
+        },
+        "created_at": "2021-10-21T06:40:24.000000Z",
+        "update": "2021-10-21T06:40:24.000000Z"
+      },
+      {
+        "guid": "eb240801-70ae-4003-801e-0c3b1a28b401",
+        "name": "Model 5",
+        "manufacturer": {
+          "guid": "d815307f-f3be-4eeb-addc-56c8b3aa7876",
+          "name": "manufacture"
+        },
+        "created_at": "2021-10-21T06:40:24.000000Z",
+        "update": "2021-10-21T06:40:24.000000Z"
+      },
+      {
+        "guid": "43bcce74-bd66-46bb-a178-bdfda0910aab",
+        "name": "model 1",
+        "manufacturer": {
+          "guid": "d815307f-f3be-4eeb-addc-56c8b3aa7876",
+          "name": "manufacture"
+        },
+        "created_at": "2021-10-21T06:40:24.000000Z",
+        "update": "2021-10-21T06:40:24.000000Z"
+      },
+      {
+        "guid": "a7954a8e-8318-4146-afe5-1bbb62cb5ff7",
+        "name": "Manufacturer Model 1",
+        "manufacturer": {
+          "guid": "d815307f-f3be-4eeb-addc-56c8b3aa7876",
+          "name": "manufacture"
+        },
+        "created_at": "2021-10-21T06:40:24.000000Z",
+        "update": "2021-10-21T06:40:24.000000Z"
+      },
+      {
+        "guid": "5450fc91-a86e-4761-8d9f-0033341013c3",
+        "name": "Model 3",
+        "manufacturer": {
+          "guid": "d815307f-f3be-4eeb-addc-56c8b3aa7876",
+          "name": "manufacture"
+        },
+        "created_at": "2021-10-21T06:40:24.000000Z",
+        "update": "2021-10-21T06:40:24.000000Z"
+      },
+      {
+        "guid": "4d9088e0-7b33-4d72-b818-884bdcd0f54e",
+        "name": "Model 4",
+        "manufacturer": {
+          "guid": "61a58990-2488-4492-b686-8263317221ee",
+          "name": "Cognex"
+        },
+        "created_at": "2021-10-22T03:37:10.000000Z",
+        "update": "2021-10-22T03:37:10.000000Z"
+      },
+      {
+        "guid": "ab518e52-7d16-4487-88bc-5e1aa8aeb2b1",
+        "name": "Model 10",
+        "manufacturer": {
+          "guid": "61a58990-2488-4492-b686-8263317221ee",
+          "name": "Cognex"
+        },
+        "created_at": "2021-10-22T03:37:10.000000Z",
+        "update": "2021-10-22T03:37:10.000000Z"
+      },
+      {
+        "guid": "266ee84a-1296-4eaa-8774-31f77db6f46e",
+        "name": "MOdel 2",
+        "manufacturer": {
+          "guid": "61a58990-2488-4492-b686-8263317221ee",
+          "name": "Cognex"
+        },
+        "created_at": "2021-10-22T03:37:10.000000Z",
+        "update": "2021-10-22T03:37:10.000000Z"
+      }
+    ],
+    "links": {
+      "first": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=1",
+      "last": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=2",
+      "prev": null,
+      "next": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=2"
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 2,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=2",
+          "label": 2,
+          "active": false
+        },
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=2",
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://idzzz.be.assetd.xyz/api/v1/setting/manufacturer/model/filter",
+      "per_page": 10,
+      "to": 10,
+      "total": 15
+    }
+  }

@@ -1,0 +1,306 @@
+{
+  "data": {
+    "fields": {
+      "actual_date_received": {
+        "label": "Actual Date Received",
+        "order_number": 9,
+        "is_hidden": 0
+      },
+      "category_name": {
+        "label": "Asset Category",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "asset_description": {
+        "label": "Asset Description",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "asset_id": {
+        "label": "Asset ID",
+        "order_number": 1,
+        "is_hidden": 0
+      },
+      "asset_name": {
+        "label": "Asset Name",
+        "order_number": 3,
+        "is_hidden": 0
+      },
+      "asset_part_number": {
+        "label": "Asset Part Number",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "status_name": {
+        "label": "Asset Status",
+        "order_number": 5,
+        "is_hidden": 0
+      },
+      "asset_type": {
+        "label": "Asset Type",
+        "order_number": 6,
+        "is_hidden": 0
+      },
+      "assigned_employee_name": {
+        "label": "Assigned Employee Name",
+        "order_number": 4,
+        "is_hidden": 0
+      },
+      "assigned_user_name": {
+        "label": "Assigned User",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "audit_location": {
+        "label": "Audit Location",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "audit_status": {
+        "label": "Audit Status",
+        "order_number": 16,
+        "is_hidden": 0
+      },
+      "audit_timestamp": {
+        "label": "Audit Timestamp",
+        "order_number": 10,
+        "is_hidden": 0
+      },
+      "audit_by": {
+        "label": "Auditor",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "brand_name": {
+        "label": "Brand",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_CF_1": {
+        "label": "CF 1",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_CF_2": {
+        "label": "CF 2",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "cheque_date": {
+        "label": "Cheque/Payment Reference Date",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "cheque_number": {
+        "label": "Cheque/Payment Reference#",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "company_asset_section": {
+        "label": "Company Asset Section",
+        "order_number": 18,
+        "is_hidden": 0
+      },
+      "unit_cost": {
+        "label": "Cost Per Unit",
+        "order_number": 7,
+        "is_hidden": 0
+      },
+      "gcf_Cusom_Field_1": {
+        "label": "Cusom Field 1",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_Cusom_Field_2": {
+        "label": "Cusom Field 2",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_Cusom_Field_3": {
+        "label": "Cusom Field 3",
+        "order_number": 19,
+        "is_hidden": 0
+      },
+      "gcf_Cusom_Field_4": {
+        "label": "Cusom Field 4",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_Cusom_Field_5": {
+        "label": "Cusom Field 5",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "asset_customer_asset_id": {
+        "label": "Customer Asset Id",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "delivery_order_number": {
+        "label": "Delivery Order#",
+        "order_number": 20,
+        "is_hidden": 0
+      },
+      "disposal_date": {
+        "label": "Disposal Date",
+        "order_number": 11,
+        "is_hidden": 0
+      },
+      "delivery_order_date": {
+        "label": "DO Date",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_ds": {
+        "label": "ds",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "invoice_date": {
+        "label": "Invoice Date",
+        "order_number": 21,
+        "is_hidden": 0
+      },
+      "invoice_number": {
+        "label": "Invoice#",
+        "order_number": 12,
+        "is_hidden": 0
+      },
+      "itemcode_id": {
+        "label": "Item Code ID",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "location_gps_coordinate": {
+        "label": "Location Coordinate",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "location_name": {
+        "label": "Location Name",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "location_region": {
+        "label": "Location Region",
+        "order_number": 13,
+        "is_hidden": 0
+      },
+      "location_site_id": {
+        "label": "Location Site ID",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "manufacturer_name": {
+        "label": "Manufacturer",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "model_name": {
+        "label": "Model",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_nnbv": {
+        "label": "nnbv",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "owner_company": {
+        "label": "Owner Company",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "owner_company_division": {
+        "label": "Owner Company Division",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "owner_company_industry": {
+        "label": "Owner Company Industry",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "owner_department": {
+        "label": "Owner Department",
+        "order_number": 17,
+        "is_hidden": 0
+      },
+      "part_number": {
+        "label": "Part Number",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_Petro_Checkbox_c": {
+        "label": "Petro Checkbox c",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "gcf_Petro_Dropdown_c": {
+        "label": "Petro Dropdown c",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "purchase_date": {
+        "label": "Purchase Date",
+        "order_number": 14,
+        "is_hidden": 0
+      },
+      "purchase_from": {
+        "label": "Purchase From",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "order_number": {
+        "label": "Purchase Order#",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "qr_code": {
+        "label": "QR Code",
+        "order_number": 2,
+        "is_hidden": 0
+      },
+      "serial_number": {
+        "label": "Serial Number",
+        "order_number": 15,
+        "is_hidden": 0
+      },
+      "status_comment": {
+        "label": "Status Comment",
+        "order_number": 23,
+        "is_hidden": 0
+      },
+      "location_sub_name": {
+        "label": "Sub Location",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "supplier_name": {
+        "label": "Supplier",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "total_cost": {
+        "label": "Total Cost",
+        "order_number": 8,
+        "is_hidden": 0
+      },
+      "total_quantity": {
+        "label": "Total Quantity",
+        "order_number": 22,
+        "is_hidden": 0
+      },
+      "voucher_date": {
+        "label": "Voucher Date",
+        "order_number": 0,
+        "is_hidden": 1
+      },
+      "voucher_number": {
+        "label": "Voucher#",
+        "order_number": 0,
+        "is_hidden": 1
+      }
+    }
+  }
+}

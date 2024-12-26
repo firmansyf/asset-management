@@ -1,0 +1,13 @@
+.select-custom {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.additional-select {
+  margin-bottom: -7px;
+}
+
+#react-select-11-listbox {
+  margin: -5px 0px 0px 0px;
+}

@@ -1,0 +1,218 @@
+{
+    "data": [
+        {
+            "guid": "ef669950-dc24-4c95-9bac-1bf01f52d1ff",
+            "name": "Super",
+            "manufacturer_model": {
+                "guid": "83995bd9-3cde-4969-b4e0-45b1f1f66e15",
+                "name": "Model 1.3"
+            },
+            "manufacturer": {
+                "guid": "b5c24c1d-12dd-48aa-b1cc-b10003860957",
+                "name": "Manufacturer 1"
+            },
+            "created_at": "2021-11-18T04:06:37.000000Z",
+            "update": "2021-11-18T04:06:37.000000Z"
+        },
+        {
+            "guid": "de6bc900-9a9a-4c11-96f8-89e7d7e2cc73",
+            "name": "Brand 2 From Model 1.1",
+            "manufacturer_model": {
+                "guid": "73943516-7831-4f58-b2e2-59a902b459ce",
+                "name": "Model 1.1"
+            },
+            "manufacturer": {
+                "guid": "b5c24c1d-12dd-48aa-b1cc-b10003860957",
+                "name": "Manufacturer 1"
+            },
+            "created_at": "2021-10-12T07:50:05.000000Z",
+            "update": "2021-10-12T07:50:05.000000Z"
+        },
+        {
+            "guid": "5e898ed0-769f-4150-aee8-b0dcd1a287e4",
+            "name": "Brand 1 From Model 1.3",
+            "manufacturer_model": {
+                "guid": "83995bd9-3cde-4969-b4e0-45b1f1f66e15",
+                "name": "Model 1.3"
+            },
+            "manufacturer": {
+                "guid": "b5c24c1d-12dd-48aa-b1cc-b10003860957",
+                "name": "Manufacturer 1"
+            },
+            "created_at": "2021-10-12T07:50:19.000000Z",
+            "update": "2021-10-12T07:50:19.000000Z"
+        },
+        {
+            "guid": "0601e116-9ffb-4236-beeb-dc64f7d817b6",
+            "name": "Brand 1 From Model 1.1",
+            "manufacturer_model": {
+                "guid": "73943516-7831-4f58-b2e2-59a902b459ce",
+                "name": "Model 1.1"
+            },
+            "manufacturer": {
+                "guid": "b5c24c1d-12dd-48aa-b1cc-b10003860957",
+                "name": "Manufacturer 1"
+            },
+            "created_at": "2021-10-12T07:49:52.000000Z",
+            "update": "2021-10-12T07:49:52.000000Z"
+        },
+        {
+            "guid": "dc0cc427-10ec-4c7c-a4a9-f7c34c7688c4",
+            "name": "Brand 1",
+            "manufacturer_model": {
+                "guid": "e95f21d6-23b0-4885-8088-6f83ebf8ded7",
+                "name": "BBB Module 3"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:59:39.000000Z",
+            "update": "2021-12-02T10:59:39.000000Z"
+        },
+        {
+            "guid": "897d9dfc-5079-4305-bd94-cfcef5229151",
+            "name": "BM 1",
+            "manufacturer_model": {
+                "guid": "e800774a-6ec5-4f5a-89ae-9c5802b344af",
+                "name": "MMM 1"
+            },
+            "manufacturer": {
+                "guid": "b4786bc4-18d6-4785-b43c-b4cc7b8565f7",
+                "name": "Bandar Kinrara"
+            },
+            "created_at": "2021-12-02T11:00:41.000000Z",
+            "update": "2021-12-02T11:00:41.000000Z"
+        },
+        {
+            "guid": "04e9598a-2f50-4cf0-9b24-ee51e549faa8",
+            "name": "BBB Brand 4",
+            "manufacturer_model": {
+                "guid": "62a995c3-85d9-4a69-9a34-6b02e146215c",
+                "name": "BBB Model 1"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:51:31.000000Z",
+            "update": "2021-12-02T10:51:31.000000Z"
+        },
+        {
+            "guid": "571866d2-952a-463f-8ba8-1cbfab28283f",
+            "name": "BBB Brand 3",
+            "manufacturer_model": {
+                "guid": "62a995c3-85d9-4a69-9a34-6b02e146215c",
+                "name": "BBB Model 1"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:50:33.000000Z",
+            "update": "2021-12-02T10:50:33.000000Z"
+        },
+        {
+            "guid": "0c419189-9d70-46bc-920d-19f12148d733",
+            "name": "BBB Brand 22",
+            "manufacturer_model": {
+                "guid": "e0ac6b0b-ca56-4662-8edf-02a9b62c9736",
+                "name": "BBB Module 2"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:54:51.000000Z",
+            "update": "2021-12-02T10:54:51.000000Z"
+        },
+        {
+            "guid": "a2319b8b-c109-4a6b-9ffb-1ec8941ec67d",
+            "name": "BBB Brand 2",
+            "manufacturer_model": {
+                "guid": "62a995c3-85d9-4a69-9a34-6b02e146215c",
+                "name": "BBB Model 1"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:46:53.000000Z",
+            "update": "2021-12-02T10:46:53.000000Z"
+        },
+        {
+            "guid": "7a51c113-56e7-42d6-9d0d-5673b1d98f0e",
+            "name": "BBB BRand 1 Testing Model v1",
+            "manufacturer_model": {
+                "guid": "e95f21d6-23b0-4885-8088-6f83ebf8ded7",
+                "name": "BBB Module 3"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-13T07:06:51.000000Z",
+            "update": "2021-12-13T07:06:51.000000Z"
+        },
+        {
+            "guid": "4c617849-45d5-4dcb-9603-a06aa3ddafca",
+            "name": "BBB Brand 1",
+            "manufacturer_model": {
+                "guid": "62a995c3-85d9-4a69-9a34-6b02e146215c",
+                "name": "BBB Model 1"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-12-02T10:47:52.000000Z",
+            "update": "2021-12-02T10:47:52.000000Z"
+        },
+        {
+            "guid": "93ee6fa5-44ab-4521-8985-dc569d4b6925",
+            "name": "BBB - Brand Model 1 Testing",
+            "manufacturer_model": {
+                "guid": "62a995c3-85d9-4a69-9a34-6b02e146215c",
+                "name": "BBB Model 1"
+            },
+            "manufacturer": {
+                "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+                "name": "BBB MANUFAC"
+            },
+            "created_at": "2021-11-30T14:24:56.000000Z",
+            "update": "2021-11-30T14:24:56.000000Z"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter",
+        "per_page": 15,
+        "to": 13,
+        "total": 13
+    }
+}

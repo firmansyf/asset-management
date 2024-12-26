@@ -1,0 +1,20 @@
+.tooltip-inner {
+  color: #fff !important;
+  padding: 0.5rem 1rem !important;
+  background-color: rgba(0,0,0,.75) !important;
+}
+.tooltip-inner div * {
+  color: #fff !important;
+}
+$placements: (
+'top': 'top',
+'bottom': 'bottom',
+'start': 'left',
+'end': 'right',
+);
+@each $key, $val in $placements {
+  .bs-tooltip-#{$key} .tooltip-arrow::before,
+  .bs-tooltip-auto[data-popper-placement^=#{$val}] .tooltip-arrow::before {
+    border-#{$val}-color: rgba(0,0,0,.75) !important;
+  }
+}

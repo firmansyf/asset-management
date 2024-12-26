@@ -1,0 +1,82 @@
+{
+   "data" : [
+       {
+        "created_at": "2021-11-04T20:36:33.000000Z",
+        "description": "Viewer group only has permissions to view",
+        "id": 10,
+        "is_permission_editable": 1,
+        "is_system": 1,
+        "label": "Viewer",
+        "name": "viewer",
+        "updated_at": "2021-11-04T20:36:35.000000Z",
+        "users_count": 0
+       },
+       {
+        "created_at": "2021-11-04T20:36:33.000000Z",
+        "description": "Manager group has access to manage data in account",
+        "id": 9,
+        "is_permission_editable": 1,
+        "is_system": 0,
+        "label": "Manager",
+        "name": "manager",
+        "updated_at": "2021-11-04T20:36:35.000000Z",
+        "users_count": 1
+       },
+       {
+        "created_at": "2021-11-04T20:36:33.000000Z",
+        "description": "Administrative group has access to all permissions except deleting account",
+        "id": 8,
+        "is_permission_editable": 1,
+        "is_system": 0,
+        "label": "Admin",
+        "name": "admin",
+        "updated_at": "2021-11-04T20:36:35.000000Z",
+        "users_count": 4
+       },
+       {
+        "created_at": "2021-11-04T20:36:32.000000Z",
+        "description": null,
+        "id": 7,
+        "is_permission_editable": 1,
+        "is_system": 0,
+        "label": "Account Owner",
+        "name": "owner",
+        "updated_at": "2021-11-04T20:36:34.000000Z",
+        "users_count": 1
+       }
+   ],
+
+   "links" : {
+    "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/role?page=1",
+    "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/role?page=1",
+    "next": null,
+    "prev": null
+   },
+
+   "meta" : {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links" : [
+        {
+        "active": false,
+        "label": "&laquo; Previous",
+        "url": null
+        },
+        {
+        "active": true,
+        "label": 1,
+        "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/role?page=1"
+        },
+        {
+        "active": false,
+        "label": "&laquo; Previous",
+        "url": null
+        }
+    ],
+    "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/role",
+    "per_page": 10,
+    "to": 4,
+    "total": 4
+   }
+}

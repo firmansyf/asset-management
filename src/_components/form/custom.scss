@@ -1,0 +1,170 @@
+@function isDarkSkin() {
+  @return false;
+}
+@import '@metronic/assets/sass/core/components/variables';
+
+.slider-tooltip {
+  position: relative;
+  background: $primary;
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 11px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  min-width: 25px;
+}
+
+.slider-tooltip[data-placement='top']:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-top-color: $primary;
+  transform: translate(-50%, 0);
+}
+
+.slider-tooltip[data-placement='bottom']:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-bottom-color: $primary;
+  transform: translate(-50%, 0);
+}
+
+// SUN EDITOR
+.sun-editor {
+  font-family: inherit !important;
+  border: unset !important;
+  background-color: transparent !important;
+  .se-loading-box {
+    z-index: 9 !important;
+  }
+  .se-wrapper {
+    .se-placeholder,
+    .se-wrapper-inner {
+      line-height: 1.2 !important;
+      padding-top: 10px !important;
+      padding-left: 10px !important;
+    }
+  }
+  .se-toolbar {
+    background-color: #fff !important;
+    outline: unset !important;
+    border-bottom: 1px solid $gray-300;
+    // border-bottom: none;
+  }
+  .se-btn-tray {
+    padding: 5px 2px 0px 2px !important;
+    // background-color: transparent !important;
+  }
+  .se-btn-module-border {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    background-color: #f7f7f7 !important;
+    border: none !important;
+  }
+  .se-btn {
+    line-height: 16px !important;
+    height: 26px !important;
+    &:not(.se-btn-select) {
+      width: 26px !important;
+    }
+    .se-btn-select {
+      width: auto !important;
+    }
+  }
+  .se-svg,
+  button > svg {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .se-list-inner .se-list-basic li button.active {
+    background-color: $primary !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    border: none !important;
+  }
+  .se-dialog-tabs {
+    height: 30px !important;
+    button {
+      transition: none !important;
+      font-weight: 500;
+      padding: 5px 15px !important;
+      &:not(.active) {
+        background-color: #fff !important;
+        color: $primary !important;
+      }
+      &.active {
+        background-color: $primary !important;
+        color: #fff !important;
+      }
+    }
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    box-shadow: none !important;
+    border: 1px solid $gray-300 !important;
+  }
+  .se-dialog .se-dialog-inner {
+    .se-dialog-content {
+      label {
+        font-weight: 500 !important;
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+      }
+      .se-btn-primary {
+        background-color: $primary !important;
+        color: #fff !important;
+        border: none !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        margin: 0 !important;
+      }
+    }
+    .se-dialog-form {
+      margin-top: 10px !important;
+      .se-dialog-form-files .se-dialog-files-edge-button {
+        margin-left: 10px !important;
+        width: 32px !important;
+        height: 32px !important;
+        border: none !important;
+      }
+      .se-input-form,
+      .se-input-control {
+        outline: none !important;
+        background-color: $gray-100;
+        border-color: $gray-300;
+        color: $dark;
+        font-size: 12px !important;
+        transition: color 0.2s ease, background-color 0.2s ease;
+        &::file-selector-button {
+          margin: 3px 10px 0px 0px;
+          border: none;
+          background: $primary;
+          padding: 5px 10px;
+          border-radius: 5px;
+          color: #fff;
+          font-size: 11px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+// .sun-editor-editable {
+//   border: 1px solid $gray-300;
+//   p {
+//     margin: inherit !important;
+//   }
+// }

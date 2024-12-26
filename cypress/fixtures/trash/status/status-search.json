@@ -1,0 +1,101 @@
+{
+   "data":[
+      {
+         "guid":"803e9321-df78-4de9-94c8-9da0d235dedf",
+         "name":"Asset Status 1",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:19.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"b856e794-4316-47bb-9b8d-5c64d252cff9",
+         "name":"Asset Status 10",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:17.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"e26ed492-4aeb-46c8-ad8a-2150407b4251",
+         "name":"Asset Status 11",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:22.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"5a2c9c0d-5a92-465b-8d7d-c09628d251e4",
+         "name":"Asset Status 12",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:28.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"ad61eadb-010a-48df-aa0d-b6740296ed9c",
+         "name":"Asset Status 13",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:36.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      }
+   ],
+   "links":{
+      "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+      "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+      "prev":null,
+      "next":null
+   },
+   "meta":{
+      "current_page":1,
+      "from":1,
+      "last_page":1,
+      "links":[
+         {
+            "url":null,
+            "label":"&laquo; Previous",
+            "active":false
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+            "label":1,
+            "active":true
+         },
+         {
+            "url":null,
+            "label":"Next &raquo;",
+            "active":false
+         }
+      ],
+      "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status",
+      "per_page":10,
+      "to":5,
+      "total":5
+   }
+}

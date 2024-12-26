@@ -1,0 +1,231 @@
+{
+   "data":[
+      {
+         "guid":"803e9321-df78-4de9-94c8-9da0d235dedf",
+         "name":"Asset Status 1",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:19.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"b856e794-4316-47bb-9b8d-5c64d252cff9",
+         "name":"Asset Status 10",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:17.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"e26ed492-4aeb-46c8-ad8a-2150407b4251",
+         "name":"Asset Status 11",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:22.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"5a2c9c0d-5a92-465b-8d7d-c09628d251e4",
+         "name":"Asset Status 12",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:28.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"ad61eadb-010a-48df-aa0d-b6740296ed9c",
+         "name":"Asset Status 13",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:36.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"45878173-112d-47c2-8b50-15129c2c3ca6",
+         "name":"Asset Status 2",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:27.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"49ab56e6-5aee-494f-9edb-1d5fdec61b76",
+         "name":"Asset Status 3",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:33.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"b514a1e3-91b1-4314-84c1-984f62bf3dd9",
+         "name":"Asset Status 4",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:39.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"0a812621-2d2f-4dcd-b9cf-a084e4c98882",
+         "name":"Asset Status 5",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:46.000000Z",
+         "updated_at":"2022-01-11T00:24:07.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"ad733059-d529-45ce-8aaa-ca8e34b16fdf",
+         "name":"Asset Status 6",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:51.000000Z",
+         "updated_at":"2022-01-11T00:24:14.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"c2b0c670-5936-4708-ab77-8030846e388e",
+         "name":"Asset Status 7",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:22:58.000000Z",
+         "updated_at":"2022-01-11T00:24:17.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"1a1bd2dd-47e9-4c1e-b655-04faebbacdf9",
+         "name":"Asset Status 8",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:03.000000Z",
+         "updated_at":"2022-01-11T00:24:20.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"0a03dc74-3921-4cae-9908-6c84d986c7e5",
+         "name":"Asset Status 9",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-11T00:23:11.000000Z",
+         "updated_at":"2022-01-11T00:24:23.000000Z",
+         "deleted_at":null,
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"9f82b25f-630b-4e35-884f-8fff0d27d4c9",
+         "name":"new status",
+         "description":null,
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-04T04:19:14.000000Z",
+         "updated_at":"2022-01-04T04:19:19.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      },
+      {
+         "guid":"4493c339-a450-4aa2-8ace-2ccfee802ce5",
+         "name":"yfghghgfh",
+         "description":"try",
+         "is_default":1,
+         "is_system":0,
+         "status":1,
+         "created_at":"2022-01-04T04:13:56.000000Z",
+         "updated_at":"2022-01-04T04:14:38.000000Z",
+         "deleted_at":null,
+         "deleted_by":null,
+         "delete_permanent_in":null
+      }
+   ],
+   "links":{
+      "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+      "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+      "prev":null,
+      "next":null
+   },
+   "meta":{
+      "current_page":1,
+      "from":1,
+      "last_page":1,
+      "links":[
+         {
+            "url":null,
+            "label":"&laquo; Previous",
+            "active":false
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status?page=1",
+            "label":1,
+            "active":true
+         },
+         {
+            "url":null,
+            "label":"Next &raquo;",
+            "active":false
+         }
+      ],
+      "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/status",
+      "per_page":25,
+      "to":15,
+      "total":15
+   }
+}

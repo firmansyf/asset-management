@@ -1,0 +1,56 @@
+{
+    "data": [
+      {
+        "guid": "0f541696-1226-41f0-9d4c-353975381ba1",
+        "name": "S-007PLD-WN",
+        "manufacturer": {
+          "guid": "f94d668a-a2c0-49d1-a70c-8211a753b40b",
+          "name": "IBM"
+        },
+        "created_at": "2021-12-28T00:44:51.000000Z",
+        "update": "2021-12-28T00:44:51.000000Z"
+      },
+      {
+        "guid": "4623a95f-88c7-420f-8b52-b1b696c53650",
+        "name": "S-008PLD-BN",
+        "manufacturer": {
+          "guid": "f94d668a-a2c0-49d1-a70c-8211a753b40b",
+          "name": "IBM"
+        },
+        "created_at": "2021-12-28T00:44:51.000000Z",
+        "update": "2021-12-28T00:44:51.000000Z"
+      }
+    ],
+    "links": {
+      "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=1",
+      "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/model/filter?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/model/filter",
+      "per_page": 20,
+      "to": 2,
+      "total": 2
+    }
+  }

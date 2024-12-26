@@ -1,0 +1,84 @@
+{
+    "data": [
+      {
+        "guid": "9f2cb0d8-191d-4f0d-b01f-3bcd9ee468b0",
+        "name": "BBB Model 21",
+        "model": {
+          "guid": "e0ac6b0b-ca56-4662-8edf-02a9b62c9736",
+          "name": "BBB Module 2"
+        },
+        "manufacturer": {
+          "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+          "name": "BBB MANUFAC"
+        },
+        "created_at": "2021-10-03T21:08:39.000000Z",
+        "update": "2021-10-03T21:08:39.000000Z",
+        "deleted_by": "khairil anuar",
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "9f2cb0d8-191d-4f0d-b01f-3bcd9ee468b0",
+        "name": "BBB Model 21",
+        "model": {
+          "guid": "e0ac6b0b-ca56-4662-8edf-02a9b62c9736",
+          "name": "BBB Module 2"
+        },
+        "manufacturer": {
+          "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+          "name": "BBB MANUFAC"
+        },
+        "created_at": "2021-10-03T21:08:39.000000Z",
+        "update": "2021-10-03T21:08:39.000000Z",
+        "deleted_by": "khairil anuar",
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "9f2cb0d8-191d-4f0d-b01f-3bcd9ee468b0",
+        "name": "BBB Model 21",
+        "model": {
+          "guid": "e0ac6b0b-ca56-4662-8edf-02a9b62c9736",
+          "name": "BBB Module 2"
+        },
+        "manufacturer": {
+          "guid": "28c2af88-7098-4d31-8414-db515eb2b7f5",
+          "name": "BBB MANUFAC"
+        },
+        "created_at": "2021-10-03T21:08:39.000000Z",
+        "update": "2021-10-03T21:08:39.000000Z",
+        "deleted_by": "khairil anuar",
+        "delete_permanent_in": null
+      }
+    ],
+    "links": {
+      "first": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-brand?page=1",
+      "last": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-brand?page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-brand?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://testingaccount.be.assetd.xyz/api/v1/trash/manufacturer-brand",
+      "per_page": 1000000,
+      "to": 3,
+      "total": 3
+    }
+  }

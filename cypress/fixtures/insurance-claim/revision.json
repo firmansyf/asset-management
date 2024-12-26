@@ -1,0 +1,205 @@
+{
+    "data": {
+        "guid": "9a927308-f1d2-40a9-b53a-708a8560aab8",
+        "case_id": "BBB03",
+        "case_title": "BBB03- Tali Pam Minyak Putus",
+        "region": "YumiO",
+        "sitename": "BANDAR BARU BANGI",
+        "tm": null,
+        "ro_number": null,
+        "invoice_amount": "789.00",
+        "vendor": {
+            "guid": null,
+            "name": null
+        },
+        "brief_description": "BBB03- Tali Pam Minyak Putus",
+        "insurance_claim_peril": {
+            "guid": "0056d0da-5b4b-42cf-a156-95ccce2494d3",
+            "name": "Fire",
+            "deductible_amount": "0.00"
+        },
+        "insurance_claim_status": {
+            "guid": "fe7ac714-a6c8-4ee7-86c2-f90455bac1cd",
+            "name": "Reverted for Revision"
+        },
+        "previous_status": {
+            "guid": "8e930e6a-01ca-46b6-af44-c7e189304bdc",
+            "name": "Ready for Review 1"
+        },
+        "first_review_comment": null,
+        "is_claimable": 1,
+        "review_status": "Proposed to reject and close",
+        "number_of_incident_photo": 0,
+        "claim_time": "1970-01-01 07:00:00",
+        "created_at": "2021-11-17T07:08:41.000000Z",
+        "updated_at": "2021-12-27T06:10:39.000000Z",
+        "gr_status": "done",
+        "location_guid": "601bc3d8-ab2a-4306-bf44-ce2d7903b9ed",
+        "location": {
+            "guid": "601bc3d8-ab2a-4306-bf44-ce2d7903b9ed",
+            "name": "BANDAR BARU BANGI",
+            "region": "YumiO",
+            "site_id": "BB0001",
+            "tm": {
+                "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                "name": "testing 002",
+                "email": "tqah.testing002@gmail.com"
+            },
+            "re": {
+                "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                "name": "testing 003",
+                "email": "tqah.testing003@gmail.com"
+            },
+            "superior1": {
+                "tm": {
+                    "guid": "77650ec6-f1aa-47b7-9a50-30a848a1e09b",
+                    "name": "azi anuar",
+                    "email": "hazirah@assetdata.io"
+                },
+                "re": {
+                    "guid": "a2035d16-07c9-4b9f-b6dc-8c3a336d7277",
+                    "name": "testing 004",
+                    "email": "tqah.testing004@gmail.com"
+                }
+            },
+            "superior2": {
+                "tm": {
+                    "guid": "1a74acaa-0e6a-4a3e-993d-75e23b7160bb",
+                    "name": "testing 005",
+                    "email": "tqah.testing005@gmail.com"
+                },
+                "re": {
+                    "guid": "1b65ac7d-8bf7-4a83-bf00-30e4d3775507",
+                    "name": "testing 006",
+                    "email": "tqah.testing006@gmail.com"
+                }
+            }
+        },
+        "incident_timestamp": "1970-01-01 07:00:00",
+        "sitename_id": "BB0001",
+        "police_report_no": "BBtest125",
+        "action_taken": "action testing",
+        "claim_approver": "approver",
+        "damages": "Others",
+        "damages_details": "damages testing",
+        "suspicions": 0,
+        "suspicions_details": "test suspicions",
+        "tm_email": null,
+        "regional_engineer": null,
+        "regional_engineer_email": null,
+        "submit_comment": null,
+        "invoice_number": "BB789T",
+        "police_report_date": "2021-10-04 11:21:13",
+        "invoice_date": "1970-01-01",
+        "ro_data_infos": [
+            {
+                "ro_number": "TS123",
+                "invoice_amount": "50",
+                "invoice_date": "2021-10-11",
+                "vendor_name": "2122",
+                "invoice_number": "21233"
+            }
+        ],
+        "total_invoice": "50.00",
+        "invoice_total": "0.00",
+        "pic_name": "Nuraishah M Razi",
+        "pic_role": "Finance",
+        "incident_date": "N/A",
+        "incident_time": "18:43:25",
+        "number_of_police_report": 1,
+        "number_of_repair_invoice": 1,
+        "number_of_other_report": 4,
+        "documents": [
+            {
+                "guid": "5c4d49b1-e7e9-475f-87bd-301bb98bfd63",
+                "name": "00test",
+                "files": [
+                    {
+                        "guid": "1953187b-9b0a-4a6a-a9f8-c08e6f451c5f",
+                        "title": "testing - gambar 1.jpg",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/fa3c0625-5fcc-43b6-86b3-6f262722965c/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/fa3c0625-5fcc-43b6-86b3-6f262722965c/download",
+                        "mime_type": "image/png",
+                        "uploaded_date": "2021-11-30T03:55:38.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "N/A"
+                    },
+                    {
+                        "guid": "2b818184-be12-4f3b-90ce-36947876f6ea",
+                        "title": "testing - gambar 1.jpg",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/68cacc81-791c-4436-b613-d712bc1178b4/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/68cacc81-791c-4436-b613-d712bc1178b4/download",
+                        "mime_type": "image/png",
+                        "uploaded_date": "2021-11-24T03:28:20.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "N/A"
+                    }
+                ]
+            },
+            {
+                "guid": "3c63f663-b275-4489-863c-1201890b3df0",
+                "name": "01test",
+                "files": [
+                    {
+                        "guid": "79ce0d92-5d62-4209-ace3-7678e537b643",
+                        "title": "view (3).msg",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/90a41182-9734-4676-a8a4-1faa4211ebbe/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/90a41182-9734-4676-a8a4-1faa4211ebbe/download",
+                        "mime_type": "application/octet-stream",
+                        "uploaded_date": "2021-12-09T12:50:39.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "outlook email"
+                    },
+                    {
+                        "guid": "c93a7a18-2272-44b0-8809-ca5ce147e902",
+                        "title": "Police.pdf",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/f68596f0-b58d-426e-a606-cc53dd2875a4/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/f68596f0-b58d-426e-a606-cc53dd2875a4/download",
+                        "mime_type": "application/pdf",
+                        "uploaded_date": "2021-12-09T12:51:01.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "N/A"
+                    }
+                ]
+            }
+        ],
+        "invoices": [
+            {
+                "guid": "baa6e587-c8c6-409c-b29f-fa09f652c9df",
+                "title": "Invoice CAS-3320195-J8T2M3.pdf",
+                "url": "https://petronasnew2.be.assetd.xyz/file/baa6e587-c8c6-409c-b29f-fa09f652c9df/view",
+                "download_url": "https://petronasnew2.be.assetd.xyz/file/baa6e587-c8c6-409c-b29f-fa09f652c9df/download",
+                "mime_type": "application/pdf",
+                "created_at": "2021-11-30T04:07:51.000000Z",
+                "created_by": {
+                    "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                    "name": "khairil anuar"
+                },
+                "comments": "N/A"
+            }
+        ],
+        "approval": {
+            "guid": "aebad55b-6c45-4972-8382-55f0df3eb036",
+            "statuss": {
+                "guid": null,
+                "name": null
+            },
+            "approver": {
+                "guid": null,
+                "name": null
+            }
+        }
+    }
+}

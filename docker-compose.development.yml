@@ -1,0 +1,21 @@
+# docker-compose -f docker-compose.development.yml up -d (start container)
+# docker-compose -f docker-compose.development.yml restart (restart container)
+# docker-compose -f docker-compose.development.yml down (stop container)
+
+version: '1'
+services:
+  assetdata-dev:
+    container_name: assetdata-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.development
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    environment:
+      NODE_ENV: development
+volumes:
+  node_modules:
+    external: false

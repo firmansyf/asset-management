@@ -1,0 +1,79 @@
+[
+  {
+    "guid": "03594f9e-33e5-46c5-99d3-cfa7adce8782",
+    "unique_name": "maintenance",
+    "name": "Maintenance",
+    "description": "To enable/disable the menu for Maintenance.",
+    "value": 1
+  },
+  {
+    "guid": "2e233b94-8d48-453a-a2ea-17bf9f7a2062",
+    "unique_name": "my_asset",
+    "name": "My Asset",
+    "description": "To enable/disable my asset page in the account",
+    "value": 1
+  },
+  {
+    "guid": "3a73dbd3-cd0a-4849-8c37-d40c5f478266",
+    "unique_name": "approval",
+    "name": "Approval",
+    "description": "To enable/disable all features for Approval.",
+    "value": 1
+  },
+  {
+    "guid": "489a8d32-f696-446b-a4ac-a298be75a965",
+    "unique_name": "item_code",
+    "name": "Item Code",
+    "description": "To enable/disable all related fields add features for item code.",
+    "value": 1
+  },
+  {
+    "guid": "664c489c-d4c3-40d7-9658-1ff5e9c16493",
+    "unique_name": "help_desk",
+    "name": "Help Desk",
+    "description": "To enable/disable all features for Help Desk.",
+    "value": 1
+  },
+  {
+    "guid": "771248d6-5734-4da4-b3c6-2fe067ebdb85",
+    "unique_name": "insurance",
+    "name": "Insurance Policy",
+    "description": "To enable/disable the menu for Insurance.",
+    "value": 1
+  },
+  {
+    "guid": "32108e3d-65e8-4671-a76b-bfa9aaf35779",
+    "unique_name": "insurance_claim",
+    "name": "Insurance Claim",
+    "description": "To enable/disable the menu for Insurance Claim",
+    "value": 1
+  },
+  {
+    "guid": "ce63b31a-bc22-4cc9-a312-4fce866373df",
+    "unique_name": "computer_management",
+    "name": "Computer Management",
+    "description": "To enable/disable all features for Computer Management.",
+    "value": 1
+  },
+  {
+    "guid": "d5809dc2-f44a-4a8e-9e26-e847c5c91e23",
+    "unique_name": "warranty",
+    "name": "Warranty",
+    "description": "To enable/disable the warranty page in the account.",
+    "value": 1
+  },
+  {
+    "guid": "f461c92c-e981-442f-b02d-f7ee2dda42b5",
+    "unique_name": "certification",
+    "name": "Certification",
+    "description": "To enable/disable the menu for Certification.",
+    "value": 1
+  },
+  {
+    "guid": "f5ee77b2-122a-4019-8ad8-645679976eee",
+    "unique_name": "inventory",
+    "name": "Inventory",
+    "description": "To enable/disable all features for Inventory.",
+    "value": 1
+  }
+]

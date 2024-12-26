@@ -1,0 +1,112 @@
+{
+    "data": [
+        {
+            "guid": "126d4ec0-399f-40cf-9278-40a2e182daee",
+            "name": "Charge",
+            "status": 1,
+            "category": {
+                "guid": "7d119ee7-7c79-4e51-92e8-f98b4a198d15",
+                "name": "Phone and Charger"
+            },
+            "subs": [],
+            "created_at": "2021-12-01T02:37:35.000000Z",
+            "updated_at": "2021-12-01T02:37:35.000000Z",
+            "deleted_at": null,
+            "deleted_by": " ",
+            "delete_permanent_in": null,
+            "iso_type": {
+                "guid": null,
+                "name": null
+            }
+        },
+        {
+            "guid": "4dfb79d8-f2a4-4abf-abdb-8da4cf36c0ee",
+            "name": "test",
+            "status": 1,
+            "category": {
+                "guid": "f14d2f2d-3125-46f3-8d0d-7f2f15b4920e",
+                "name": "Category 1"
+            },
+            "subs": [],
+            "created_at": "2021-12-24T11:17:40.000000Z",
+            "updated_at": "2021-12-24T11:17:40.000000Z",
+            "deleted_at": null,
+            "deleted_by": " ",
+            "delete_permanent_in": null,
+            "iso_type": {
+                "guid": null,
+                "name": null
+            }
+        },
+        {
+            "guid": "55c66315-1114-4caf-98a6-cee6faa2c9ad",
+            "name": "type2",
+            "status": 1,
+            "category": {
+                "guid": "7ad8cff6-0d6a-4e55-a450-a291f33a02c3",
+                "name": "category-type1"
+            },
+            "subs": [],
+            "created_at": "2021-11-19T01:42:13.000000Z",
+            "updated_at": "2021-11-19T01:42:13.000000Z",
+            "deleted_at": null,
+            "deleted_by": " ",
+            "delete_permanent_in": null,
+            "iso_type": {
+                "guid": null,
+                "name": null
+            }
+        },
+        {
+            "guid": "5830d380-2112-453c-bff2-301e5f46500f",
+            "name": "type1",
+            "status": 1,
+            "category": {
+                "guid": "7ad8cff6-0d6a-4e55-a450-a291f33a02c3",
+                "name": "category-type1"
+            },
+            "subs": [],
+            "created_at": "2021-11-19T01:42:06.000000Z",
+            "updated_at": "2021-11-19T01:42:06.000000Z",
+            "deleted_at": null,
+            "deleted_by": " ",
+            "delete_permanent_in": null,
+            "iso_type": {
+                "guid": null,
+                "name": null
+            }
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/type?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/type?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/type?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/type",
+        "per_page": 1000000,
+        "to": 4,
+        "total": 4
+    }
+}

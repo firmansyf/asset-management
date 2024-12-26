@@ -1,0 +1,119 @@
+.editor-class-custom {
+  border: 1px solid #e6e6e6;
+  padding: 0px 10px;
+  margin-top: -5px;
+  min-height: 300px;
+  max-height: 450px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.toolbar-class-custom {
+  background: #f5f8fa !important;
+  padding: 7px 5px 1px 5px !important;
+  border: 1px solid #e6e6e6 !important;
+  border-radius: 1px !important;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+.toolbar-class-message {
+  background: #f5f8fa !important;
+  padding: 7px 5px 1px 5px !important;
+  border: none !important;
+  border-bottom: 1px solid #e6e6e6 !important;
+  border-radius: 1px !important;
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+
+.rdw-option-active {
+  box-shadow: none !important;
+}
+
+.inline-button {
+  background: #f5f8fa !important;
+  border: 1px solid #f5f8fa !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+  padding: 2px 7px !important;
+  margin: 0px 1px !important;
+  font-size: 13px;
+
+  &:hover {
+    border: 1px solid #d9e4ec !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+    background: #d9e4ec !important;
+    box-shadow: none !important;
+  }
+}
+
+.block-type-button {
+  background: #f5f8fa !important;
+  border: 1px solid #f5f8fa !important;
+  border-right: 1px solid #d9e4ec !important;
+  height: 30px !important;
+  border-radius: 5px !important;
+  padding: 2px 7px !important;
+  margin: 0px 1px !important;
+  font-size: 13px;
+
+  &:hover {
+    border: 1px solid #d9e4ec !important;
+    height: 30px !important;
+    border-radius: 5px !important;
+    background: #d9e4ec !important;
+    box-shadow: none !important;
+  }
+}
+
+.rdw-emoji-modal {
+  top: 38px !important;
+  left: -80px !important;
+  border: 1px solid #e6e6e6 !important;
+  box-shadow: 0px 0px 0px #bfbdbd !important;
+}
+
+.rdw-image-modal {
+  top: 38px !important;
+  left: -115px !important;
+  border: 1px solid #e6e6e6 !important;
+  box-shadow: 0px 0px 0px #bfbdbd !important;
+}
+
+.rdw-dropdown-optionwrapper {
+  border: 1px solid #e6e6e6 !important;
+  width: 130% !important;
+  top: 12px !important;
+  box-shadow: 0px 0px 0px #bfbdbd !important;
+}
+
+.rdw-link-modal {
+  top: 38px !important;
+  left: -28px !important;
+  border: 1px solid #e6e6e6 !important;
+  box-shadow: 0px 0px 0px #bfbdbd !important;
+  font-size: 13px;
+}
+
+.rdw-custom-svg {
+  width: 33px !important;
+}
+
+.rdw-text-align-dropdown {
+  width: 50px !important;
+  z-index: unset !important;
+}
+
+.rdw-list-dropdown {
+  width: 50px !important;
+  z-index: unset !important;
+}
+
+.DraftEditor-editorContainer {
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-left: 0.1px solid transparent !important;
+  position: relative !important;
+  z-index: unset;
+}

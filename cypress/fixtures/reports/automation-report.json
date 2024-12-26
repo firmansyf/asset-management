@@ -1,0 +1,63 @@
+{
+    "data" : [
+        {
+           "columns" : [
+               "asset_id",
+               "asset_name",
+               "status_name",
+               "owner_company_name",
+               "owner_department_name"
+           ],
+            "created_at": "2021-12-31T10:26:13.000000Z",
+            "file_type": "pdf",
+            "frequency": "daily", 
+            "frequency_value" : [
+                "sunday",
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thurday",
+                "friday",
+                "saturday"
+            ],
+            "guid" : "d24cbf3b-e2aa-4aa9-972c-358b009897mbb",
+            "last_alert_at": null,
+            "name" : "Yusuf testing",
+            "team": {
+                "guid": "5c2b7c54-66de-4fc6-9d1b-b7c220927235",
+                "members": [
+                    {
+                        "guid": "b75afc34-f48f-4f9e-add6-414e832120ae"
+                    }
+                ],
+
+                "name": "yusuf"
+            },
+            "time": "17:26:00",
+            "timezone": "Asia/Jakarta",
+            "type": "asset",
+            "updated_at": "2021-12-31T10:26:13.000000Z"
+        }
+    ],
+    "links" : {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/automation-report?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/automation-report?page=1",
+        "next": null,
+        "prev": null
+    },
+
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+             {"url": null, "label": "&laquo; Previous", "active": false},
+             {"url": "https://testingaccount.be.assetd.xyz/api/v1/automation-report?page=1", "label": 1, "active": true},
+             {"url": null, "label": "Next &raquo;", "active": false}
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/automation-report?page=1",
+        "per_page": "10",
+        "to": 3,
+        "total": 3
+    }
+}

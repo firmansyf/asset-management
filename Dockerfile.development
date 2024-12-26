@@ -1,0 +1,18 @@
+# docker build -f Dockerfile -t assetdata .
+# docker run -d --name assetdata-dev -it -p 3000:3000 assetdata
+
+# docker ps (list active container)
+# docker ps -a (list all container)
+
+# docker build -t assetdata-dev -f Dockerfile.development .
+# docker restart assetdata-dev
+# docker stop assetdata-dev
+# docker start assetdata-dev
+
+FROM node:18.16.1-alpine as app
+WORKDIR /app
+COPY package.json /app/package.json
+COPY yarn.lock /app/yarn.lock
+ENV PATH /app/node_modules/.bin:$PATH
+RUN yarn install
+CMD ["yarn", "start"]

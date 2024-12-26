@@ -1,0 +1,11 @@
+{
+    "message":"3 companies was successfully deleted",
+    "data":{
+        "guids":[
+            "a38de9b3-def6-4d7d-9de7-dee09dfc4fe4",
+            "ebde0ebc-9823-4d1a-bbde-7d0786d8d19e",
+            "1000c860-c0c9-4102-af9c-0cb6d05868b4"
+        ]
+    }
+}
+

@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "guid": "34b1212d-3bd8-4f82-88f0-a93fb142fcdd",
+      "name": "Bandung",
+      "address": null,
+      "location": {
+        "guid": "7aa1f876-1593-4a06-986f-f07ead405cb6",
+        "name": "Indonesia",
+        "address": null
+      },
+      "country_name": null,
+      "created_at": "2022-01-18T02:34:35.000000Z",
+      "updated_at": "2022-01-18T02:34:35.000000Z",
+      "location_sub_sub": []
+    },
+    {
+      "guid": "5813b3b9-69fc-4ea3-b21c-9a439fe6f3f1",
+      "name": "Jakarta",
+      "address": null,
+      "location": {
+        "guid": "7aa1f876-1593-4a06-986f-f07ead405cb6",
+        "name": "Indonesia",
+        "address": null
+      },
+      "country_name": null,
+      "created_at": "2022-01-18T02:34:26.000000Z",
+      "updated_at": "2022-01-18T02:34:26.000000Z",
+      "location_sub_sub": []
+    },
+    {
+      "guid": "d82f0ffb-64e4-4533-8c73-e96472ce93d5",
+      "name": "Kuala Lumpur",
+      "address": null,
+      "location": {
+        "guid": "8b89991c-4e74-4346-a1db-1462d9ea6845",
+        "name": "Malaysia",
+        "address": null
+      },
+      "country_name": null,
+      "created_at": "2022-01-18T02:34:50.000000Z",
+      "updated_at": "2022-01-18T02:34:50.000000Z",
+      "location_sub_sub": []
+    },
+    {
+      "guid": "32b484fa-6c87-4040-bf8d-d3d50603c803",
+      "name": "Malaka",
+      "address": null,
+      "location": {
+        "guid": "8b89991c-4e74-4346-a1db-1462d9ea6845",
+        "name": "Malaysia",
+        "address": null
+      },
+      "country_name": null,
+      "created_at": "2022-01-18T02:35:33.000000Z",
+      "updated_at": "2022-01-18T02:35:33.000000Z",
+      "location_sub_sub": []
+    }
+  ],
+  "links": {
+    "first": "https://expcomp.be.assetd.xyz/api/v1/location-sub/filter?page=1",
+    "last": "https://expcomp.be.assetd.xyz/api/v1/location-sub/filter?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "https://expcomp.be.assetd.xyz/api/v1/location-sub/filter?page=1",
+        "label": 1,
+        "active": true
+      },
+      {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "path": "https://expcomp.be.assetd.xyz/api/v1/location-sub/filter",
+    "per_page": 10,
+    "to": 4,
+    "total": 4
+  }
+}

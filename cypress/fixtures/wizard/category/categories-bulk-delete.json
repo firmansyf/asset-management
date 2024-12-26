@@ -1,0 +1,10 @@
+{
+   "message": "3 categories was successfully deleted",
+   "data": {
+     "guids": [
+      "76e1b3c6-578b-427b-b35f-4e7fa02a48c5",
+      "1d87a088-acc7-43cf-9d64-c5be9635ca40",
+      "bafdd0e0-0a13-4946-9081-a9d3aad7b9ac"
+     ]
+   }
+}

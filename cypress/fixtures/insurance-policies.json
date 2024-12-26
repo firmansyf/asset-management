@@ -1,0 +1,135 @@
+{
+    "data": [
+        {
+            "guid": "3696c51e-8003-4836-a730-8a2f74155ee3",
+            "name": "test insurance policy v2",
+            "description": "test insurance policy v2",
+            "insurer": "-",
+            "contact_person": "-",
+            "phone_number": "-",
+            "policy_no": "-",
+            "coverage": "-",
+            "email": "-",
+            "currency_limit": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "limit": "11",
+            "start_date": "2021-12-23 00:00:00",
+            "end_date": "2021-12-24 00:00:00",
+            "currency_deductible": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "deductible": "111.00",
+            "currency_premium": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "premium": "11.00",
+            "is_active": 1,
+            "is_active_value": "Active",
+            "status": "expiring",
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "guid": "2c5cb197-8882-4716-94bd-1389393c2466",
+            "name": "test insurance policy v3",
+            "description": "test insurance policy v3",
+            "insurer": "-",
+            "contact_person": "-",
+            "phone_number": "-",
+            "policy_no": "-",
+            "coverage": "-",
+            "email": "-",
+            "currency_limit": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "limit": "11",
+            "start_date": "2021-12-14 00:00:00",
+            "end_date": "2021-12-22 00:00:00",
+            "currency_deductible": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "deductible": "11.00",
+            "currency_premium": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "premium": "11.00",
+            "is_active": 1,
+            "is_active_value": "Active",
+            "status": "expired",
+            "created_at": null,
+            "updated_at": null
+        },
+        {
+            "guid": "c12bb255-3e60-42d9-bb9d-4ae42274c427",
+            "name": "Testing Insurance Policy v1",
+            "description": "Testing Insurance Policy v1",
+            "insurer": "-",
+            "contact_person": "-",
+            "phone_number": "-",
+            "policy_no": "-",
+            "coverage": "-",
+            "email": "-",
+            "currency_limit": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "limit": "111",
+            "start_date": "2021-12-09 00:00:00",
+            "end_date": "2021-12-23 00:00:00",
+            "currency_deductible": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "deductible": "111.00",
+            "currency_premium": {
+                "iso_code": "ID",
+                "currency": "IDR"
+            },
+            "premium": "1111.00",
+            "is_active": 1,
+            "is_active_value": "Active",
+            "status": "expiring",
+            "created_at": null,
+            "updated_at": null
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance/filter?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance/filter?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance/filter?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance/filter",
+        "per_page": 10,
+        "to": 3,
+        "total": 3
+    }
+}

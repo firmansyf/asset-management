@@ -1,0 +1,34 @@
+#seconddiv.coolclass {
+  background: white;
+  display: block !important;
+  border: 1px solid #e4e6ef !important;
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  top: 205px;
+  min-height: 85%;
+  width: 28%;
+  z-index: 10;
+}
+
+#seconddiv {
+  max-height: 0%;
+  transition: 0.5s;
+  overflow: hidden;
+  display: none;
+}
+
+.App {
+  height: 100%;
+}
+
+#root {
+  height: 1200px;
+}
+
+@media screen and (max-width: 420px) {
+  #seconddiv {
+    top: 120px !important;
+    width: 75% !important;
+  }
+}

@@ -1,0 +1,37 @@
+.table-aging {
+  width: 100%;
+}
+
+.table-aging,
+.td-aging {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.thead-aging {
+  display: table;
+  width: calc(100%);
+}
+
+.tbody-aging {
+  display: block;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.th-aging,
+.td-aging {
+  word-break: break-all;
+}
+
+.tr-aging {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.td-aging {
+  text-align: center;
+  border-bottom: none;
+  border-left: none;
+}

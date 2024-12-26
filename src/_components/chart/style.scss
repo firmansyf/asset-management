@@ -1,0 +1,18 @@
+.apexcharts-legend {
+  // flex-direction: row !important;
+  max-height: 37.5px !important;
+}
+// .apexcharts-legend.apx-legend-position-bottom .apexcharts-legend-series,
+// .apexcharts-legend.apx-legend-position-top .apexcharts-legend-series {
+//   flex: 1 0 calc(50% - 10px) !important;
+//   align-items: flex-start !important;
+// }
+.apexcharts-legend-series {
+  line-height: 1.2 !important;
+}
+.apexcharts-legend-marker {
+  margin-top: 1px !important;
+}
+.apexcharts-tooltip-y-group {
+  padding: 0;
+}

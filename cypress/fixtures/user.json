@@ -1,0 +1,45 @@
+{
+    "guid": "70d676c7-6308-4ee8-8a7e-c788bae896db",
+    "first_name": "testing",
+    "last_name": "account",
+    "email": "testingaccount@mailinator.com",
+    "employee_number": null,
+    "phone_number": null,
+    "job_title": null,
+    "last_login": "2021-12-23T06:24:53.000000Z",
+    "email_verified_at": "2021-11-04T20:37:11.000000Z",
+    "status": 1,
+    "role_name": "owner",
+    "user_status": "owner",
+    "user_timezone": null,
+    "user_date": null,
+    "user_time": null,
+    "registration_wizard_status": 0,
+    "roles": [
+        {
+            "id": 7,
+            "name": "owner",
+            "label": "Account Owner"
+        }
+    ],
+    "permissions": [],
+    "company": {
+        "guid": "44821532-27e5-4fda-b271-718d672bb216",
+        "name": "Company Example",
+        "is_default": null
+    },
+    "company_department": null,
+    "photos": [],
+    "preference": {
+        "key_timezone": "Asia/Jakarta",
+        "key_date_format": "d-m-Y",
+        "key_time_format": "H:i:s",
+        "timezone": "Indonesia: Jakarta (UTC+07:00)",
+        "date_format": "dd-mm-yyyy",
+        "time_format": "hh:mm:ss (24-hour)"
+    },
+    "assets": {
+        "data": []
+    },
+    "pic_vendor": null
+}

@@ -1,0 +1,50 @@
+{
+    "data": [
+    {
+        "guid": "ab323a3a-5a7e-437e-bb54-4e7465495504",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john@test.co",
+        "employee_number": null,
+        "phone_number": "971 312131213445",
+        "job_title": "Software Engineer",
+        "last_login": null,
+        "email_verified_at": null,
+        "status": 0,
+        "role_name": "admin",
+        "user_status": "unverified",
+        "user_timezone": "Asia/Jakarta",
+        "user_date": "d-m-Y",
+        "user_time": "H:i:s",
+        "registration_wizard_status": null,
+        "roles": [
+            {
+                "id": 8,
+                "name": "admin",
+                "label": "Admin"
+            }
+        ],
+        "permissions":[],
+        "company": {
+            "guid": "44821532-27e5-4fda-b271-718d672bb216",
+            "name": "Company Example",
+            "is_default": null
+        },
+        "company_department": {
+            "guid": "c6120f5a-9821-4951-b1b0-18dce25904a2",
+            "name": "Department Example"
+        },
+        "photos": [],
+        "preference": {
+            "key_timezone": "Asia/Jakarta",
+            "key_date_format": "d-m-Y",
+            "key_time_format": "H:i:s",
+            "timezone": "Indonesia: Jakarta (UTC+07:00)",
+            "date_format": "dd-mm-yyyy",
+            "time_format": "hh:mm:ss (24-hour)"
+        },
+        "assets": {
+            "data": []
+        }
+    }]
+}

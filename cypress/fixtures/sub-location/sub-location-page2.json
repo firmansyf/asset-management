@@ -1,0 +1,137 @@
+{
+    "data":[
+       {
+          "guid":"77d02949-a5ae-49a1-89a6-f712f6ff1f8b",
+          "name":"Kadu Ngora",
+          "address":null,
+          "location":{
+             "guid":"a58bbeea-92dd-483f-ae7a-d690a74dd64f",
+             "name":"Garut",
+             "address":null
+          },
+          "country_name":null,
+          "created_at":"2022-01-05T14:03:28.000000Z",
+          "updated_at":"2022-01-05T14:03:28.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"afd01e77-6b80-490b-ad08-b0f87999f17f",
+          "name":"Leles",
+          "address":null,
+          "location":{
+             "guid":"a58bbeea-92dd-483f-ae7a-d690a74dd64f",
+             "name":"Garut",
+             "address":null
+          },
+          "country_name":null,
+          "created_at":"2022-01-05T14:03:18.000000Z",
+          "updated_at":"2022-01-05T14:03:18.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"510b3afd-aeb0-41d6-8197-9f80dfed212a",
+          "name":"Lengkong",
+          "address":null,
+          "location":{
+             "guid":"8aba8fd4-2b7a-4337-91b2-b16fe08719cf",
+             "name":"Kota bandung",
+             "address":null
+          },
+          "country_name":"Indonesia",
+          "created_at":"2022-01-05T14:00:48.000000Z",
+          "updated_at":"2022-01-05T14:00:48.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"a33d52c6-d5b9-4de1-bdc5-d70b71423903",
+          "name":"Sumur Bandung",
+          "address":null,
+          "location":{
+             "guid":"8aba8fd4-2b7a-4337-91b2-b16fe08719cf",
+             "name":"Kota bandung",
+             "address":null
+          },
+          "country_name":"Indonesia",
+          "created_at":"2022-01-05T14:00:58.000000Z",
+          "updated_at":"2022-01-05T14:00:58.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"7b6f7df2-8a07-4dd6-92a0-3e1442c10dfc",
+          "name":"Tarogong",
+          "address":null,
+          "location":{
+             "guid":"a58bbeea-92dd-483f-ae7a-d690a74dd64f",
+             "name":"Garut",
+             "address":null
+          },
+          "country_name":null,
+          "created_at":"2022-01-05T14:03:37.000000Z",
+          "updated_at":"2022-01-05T14:03:37.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"7108a41b-da60-4504-9df6-68637af68555",
+          "name":"Ujung Berung",
+          "address":null,
+          "location":{
+             "guid":"8aba8fd4-2b7a-4337-91b2-b16fe08719cf",
+             "name":"Kota bandung",
+             "address":null
+          },
+          "country_name":"Indonesia",
+          "created_at":"2022-01-05T14:01:07.000000Z",
+          "updated_at":"2022-01-05T14:01:07.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       }
+    ],
+    "links":{
+       "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+       "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=2",
+       "prev":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+       "next":null
+    },
+    "meta":{
+       "current_page":2,
+       "from":11,
+       "last_page":2,
+       "links":[
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+             "label":"&laquo; Previous",
+             "active":false
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+             "label":1,
+             "active":false
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=2",
+             "label":2,
+             "active":true
+          },
+          {
+             "url":null,
+             "label":"Next &raquo;",
+             "active":false
+          }
+       ],
+       "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter",
+       "per_page":10,
+       "to":16,
+       "total":16
+    }
+ }

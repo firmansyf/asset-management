@@ -1,0 +1,59 @@
+{
+    "data" : [
+        {
+            "created_at" : "2021-11-04T20:36:34.000000Z",
+            "delete_permanent_in": null,
+            "deleted_at": null,
+            "deleted_by": null,
+            "description": null,
+            "guid": "0e0d66e0-2e22-405a-a775-edd209c560900-b",
+            "is_default": 0,
+            "is_system": 1,
+            "name": "Dino",
+            "status": 1,
+            "updated_at": "2021-11-04T20:36:34.000000Z"
+        }
+    ],
+
+    "links" : {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=2",
+        "next": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=2",
+        "prev": null
+    },
+
+    "meta" : {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 2,
+        "links" : [
+            {
+                "active": false,
+                "label": "&laquo; Previous",
+                "url": null
+            },
+            {
+                "active": true,
+                "label": 1,
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=1"
+            },
+            {
+                "active": false,
+                "label": 2,
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=2"
+            },
+            {
+                "active": false,
+                "label": "Next &raquo;",
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter?page=2"
+            }
+        ],
+
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/status/filter",
+        "per_page": 10,
+        "to": 10,
+        "total": 16
+    }
+
+
+}

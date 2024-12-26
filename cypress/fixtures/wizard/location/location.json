@@ -1,0 +1,131 @@
+{
+    "data": [
+      {
+        "guid": "7aa1f876-1593-4a06-986f-f07ead405cb6",
+        "name": "Indonesia",
+        "address": null,
+        "address_alternate": null,
+        "street": null,
+        "city": null,
+        "state": null,
+        "postcode": null,
+        "region": null,
+        "site_id": null,
+        "country_code": null,
+        "country_name": null,
+        "lat": null,
+        "long": null,
+        "location_subs": [
+          {
+            "guid": "cbad9eee-8de3-4451-80f9-febfbe5a1f91",
+            "name": "Test",
+            "address": null,
+            "created_at": "2021-12-30T16:20:18.000000Z",
+            "updated_at": "2021-12-30T16:20:18.000000Z",
+            "location": {
+              "guid": "7aa1f876-1593-4a06-986f-f07ead405cb6",
+              "name": "Indonesia",
+              "address": null
+            },
+            "location_sub_sub": []
+          }
+        ],
+        "photos": [],
+        "availability": {
+          "guid": "a2b13bf6-0849-497f-815b-1d75237a4b56",
+          "name": "Available",
+          "unique_id": "available"
+        },
+        "total_asset": 0,
+        "description": null,
+        "created_at": "2021-12-30T12:36:46.000000Z",
+        "updated_at": "2021-12-30T15:44:56.000000Z"
+      },
+      {
+        "guid": "8b89991c-4e74-4346-a1db-1462d9ea6845",
+        "name": "Malaysia",
+        "address": null,
+        "address_alternate": null,
+        "street": null,
+        "city": null,
+        "state": null,
+        "postcode": null,
+        "region": null,
+        "site_id": null,
+        "country_code": null,
+        "country_name": null,
+        "lat": null,
+        "long": null,
+        "location_subs": [],
+        "photos": [],
+        "availability": {
+          "guid": "a2b13bf6-0849-497f-815b-1d75237a4b56",
+          "name": "Available",
+          "unique_id": "available"
+        },
+        "total_asset": 0,
+        "description": null,
+        "created_at": "2021-12-30T15:45:04.000000Z",
+        "updated_at": "2021-12-30T15:45:04.000000Z"
+      },
+      {
+        "guid": "9b3d4b51-8d70-44cf-b7a8-2df4faf88412",
+        "name": "Singapura",
+        "address": null,
+        "address_alternate": null,
+        "street": null,
+        "city": null,
+        "state": null,
+        "postcode": null,
+        "region": null,
+        "site_id": null,
+        "country_code": null,
+        "country_name": null,
+        "lat": null,
+        "long": null,
+        "location_subs": [],
+        "photos": [],
+        "availability": {
+          "guid": "a2b13bf6-0849-497f-815b-1d75237a4b56",
+          "name": "Available",
+          "unique_id": "available"
+        },
+        "total_asset": 0,
+        "description": null,
+        "created_at": "2021-12-30T15:45:13.000000Z",
+        "updated_at": "2021-12-30T15:45:13.000000Z"
+      }
+    ],
+    "links": {
+      "first": "https://expcomp.be.assetd.xyz/api/v1/location/filter?page=1",
+      "last": "https://expcomp.be.assetd.xyz/api/v1/location/filter?page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://expcomp.be.assetd.xyz/api/v1/location/filter?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://expcomp.be.assetd.xyz/api/v1/location/filter",
+      "per_page": 10,
+      "to": 3,
+      "total": 3
+    }
+  }

@@ -1,0 +1,9 @@
+{
+    "message":"2 department was successfully deleted",
+    "data":{
+        "guids":[
+            "ff6df846-addf-4ab3-b316-1800c8a998a7",
+            "9e3791d1-198b-481a-8a89-f17044d06c42"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "message": "1 asset status was successfully deleted",
+    "data": {
+        "guids": [
+            "d0272cd8-f9cf-44cc-9f08-470f81387f33"
+        ]
+    }
+}

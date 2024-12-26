@@ -1,0 +1,321 @@
+{
+  "data": [
+    {
+      "guid": "93abc782-fe80-4922-8df7-f48a2c8144ad",
+      "name": "Aloha",
+      "address": null,
+      "address_alternative": null,
+      "country": {
+        "code": null,
+        "name": null
+      },
+      "state": null,
+      "city": null,
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-29T03:28:26.000000Z",
+      "updated_at": "2021-11-29T03:28:26.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": null,
+        "date_format": null
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "24bd7e5c-2873-4b54-8ba5-b42a076a36f3",
+      "name": "AlphaBeta",
+      "address": null,
+      "address_alternative": null,
+      "country": {
+        "code": null,
+        "name": null
+      },
+      "state": null,
+      "city": null,
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-29T03:28:26.000000Z",
+      "updated_at": "2021-11-29T03:28:26.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": null,
+        "date_format": null
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "086f7fc9-5c09-470b-98c8-234eb7994cbb",
+      "name": "BBB SDN BHD",
+      "address": "BANDAR BARU BANGI",
+      "address_alternative": null,
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "state": "SELANGOR",
+      "city": "BANGI",
+      "street": "123",
+      "postcode": "32432",
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-18T07:44:52.000000Z",
+      "updated_at": "2021-11-18T07:44:52.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "71aea380-7d35-4d8c-b946-3e6a8791e7ac",
+      "name": "Butterseller",
+      "address": "Kebon sirih timur gang 2 no 162",
+      "address_alternative": null,
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "state": "DKI Jakarta",
+      "city": "jakarta pusat",
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-29T08:49:29.000000Z",
+      "updated_at": "2021-11-29T08:49:29.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "d56bfecc-6856-40aa-9259-4f902718c068",
+      "name": "LalaCorp",
+      "address": "Kebon sirih timur gang 2 no 162",
+      "address_alternative": null,
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "state": "DKI Jakarta",
+      "city": "jakarta pusat",
+      "street": "tower 2",
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-11T11:03:24.000000Z",
+      "updated_at": "2021-11-30T00:20:30.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "11-01",
+        "date_format": "November 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "fca936f3-1818-42a8-9774-af443b5874aa",
+      "name": "MangSite",
+      "address": "mampang street",
+      "address_alternative": null,
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "state": "DKI Jakarta",
+      "city": "jakarta pusat",
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-29T08:49:50.000000Z",
+      "updated_at": "2021-11-29T08:49:50.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "cfa6268d-cf40-4af2-8a4b-7b8fbb20cdfb",
+      "name": "Petronastest",
+      "address": "sukajadi street",
+      "address_alternative": null,
+      "country": {
+        "code": "ID",
+        "name": "Indonesia"
+      },
+      "state": "jawa barat",
+      "city": "Bandung",
+      "street": "test",
+      "postcode": "test",
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-08T20:48:15.000000Z",
+      "updated_at": "2021-11-29T08:37:10.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "6257a2d5-0330-4005-9405-3c2ee05aa5e6",
+      "name": "Planter",
+      "address": "j-street",
+      "address_alternative": null,
+      "country": {
+        "code": null,
+        "name": null
+      },
+      "state": null,
+      "city": null,
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-12-09T13:37:57.000000Z",
+      "updated_at": "2021-12-09T13:38:57.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "9e8a5faf-f3ec-44f4-a4fb-3a4cab90107d",
+      "name": "PlanterSite",
+      "address": null,
+      "address_alternative": null,
+      "country": {
+        "code": null,
+        "name": null
+      },
+      "state": null,
+      "city": null,
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-11-29T03:28:26.000000Z",
+      "updated_at": "2021-11-29T03:28:26.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": null,
+        "date_format": null
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    },
+    {
+      "guid": "0b393e13-3536-4aa1-8a3a-0f755a14e9a1",
+      "name": "Test Company-ID",
+      "address": "Jakarta",
+      "address_alternative": null,
+      "country": {
+        "code": null,
+        "name": null
+      },
+      "state": null,
+      "city": null,
+      "street": null,
+      "postcode": null,
+      "registration_number": null,
+      "tax_number": null,
+      "status": 1,
+      "created_at": "2021-12-10T02:03:03.000000Z",
+      "updated_at": "2021-12-10T02:03:03.000000Z",
+      "is_default": null,
+      "photo": null,
+      "financial_year_begin": {
+        "date": "01-01",
+        "date_format": "January 01"
+      },
+      "industry": null,
+      "division": null,
+      "section": null
+    }
+  ],
+  "links": {
+    "first": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=1",
+    "last": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=2",
+    "prev": null,
+    "next": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 2,
+    "links": [
+      {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+      },
+      {
+        "url": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=1",
+        "label": 1,
+        "active": true
+      },
+      {
+        "url": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=2",
+        "label": 2,
+        "active": false
+      },
+      {
+        "url": "https://petronastest.be.assetd.zone/api/v1/setting/company?page=2",
+        "label": "Next &raquo;",
+        "active": false
+      }
+    ],
+    "path": "https://petronastest.be.assetd.zone/api/v1/setting/company",
+    "per_page": 10,
+    "to": 10,
+    "total": 15
+  }
+}

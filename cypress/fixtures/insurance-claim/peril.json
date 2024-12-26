@@ -1,0 +1,201 @@
+{
+    "data": [
+        {
+            "guid": "0056d0da-5b4b-42cf-a156-95ccce2494d3",
+            "name": "Fire",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-06T04:17:58.000000Z",
+            "updated_at": "2021-11-06T04:17:58.000000Z"
+        },
+        {
+            "guid": "0072e0ba-c9ab-47d1-9cbf-8eb8383dbdde",
+            "name": "testperilmas",
+            "deductible_amount": "0.00",
+            "description": "tesperil mas ridwan",
+            "created_at": "2021-11-11T08:36:55.000000Z",
+            "updated_at": "2021-11-11T08:36:55.000000Z"
+        },
+        {
+            "guid": "078f5300-ebb0-4eac-88eb-cbce6ba3fbfb",
+            "name": "TestBB01",
+            "deductible_amount": "123.00",
+            "description": "Test",
+            "created_at": "2021-11-17T06:43:15.000000Z",
+            "updated_at": "2021-11-17T06:43:15.000000Z"
+        },
+        {
+            "guid": "3e77284d-f7ef-4e54-8520-bd87da958c12",
+            "name": "test deductible_amount",
+            "deductible_amount": "5,000.00",
+            "description": "desc",
+            "created_at": "2021-11-16T08:09:05.000000Z",
+            "updated_at": "2021-11-16T08:09:05.000000Z"
+        },
+        {
+            "guid": "42dd54fb-45df-49fb-acc8-64e4d97833be",
+            "name": "testlagi",
+            "deductible_amount": "0.00",
+            "description": "tesperil mas ridwan",
+            "created_at": "2021-11-11T08:40:21.000000Z",
+            "updated_at": "2021-11-11T08:40:21.000000Z"
+        },
+        {
+            "guid": "4e85b6db-fb1e-4857-aa11-0ce98164118f",
+            "name": "test123",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-10-07T15:06:15.000000Z",
+            "updated_at": "2021-10-07T15:06:15.000000Z"
+        },
+        {
+            "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+            "name": "Impact Damage",
+            "deductible_amount": "989.78",
+            "description": null,
+            "created_at": "2021-11-06T04:17:57.000000Z",
+            "updated_at": "2021-11-18T04:49:43.000000Z"
+        },
+        {
+            "guid": "6971feda-913a-46cd-9e09-74b1b004543c",
+            "name": "Burglary",
+            "deductible_amount": "233.00",
+            "description": "Burglary Description test update",
+            "created_at": "2021-11-11T08:32:33.000000Z",
+            "updated_at": "2021-11-16T07:48:14.000000Z"
+        },
+        {
+            "guid": "6d4c8095-fff2-4b52-a395-a5bb188c6421",
+            "name": "testperil2",
+            "deductible_amount": "0.00",
+            "description": "desc",
+            "created_at": "2021-11-11T08:18:34.000000Z",
+            "updated_at": "2021-11-11T08:18:34.000000Z"
+        },
+        {
+            "guid": "6fdff54e-09a1-440e-aee5-03d435ff4406",
+            "name": "0new",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-18T04:49:55.000000Z",
+            "updated_at": "2021-11-18T04:49:55.000000Z"
+        },
+        {
+            "guid": "796eb1ae-1a40-43d8-a8e0-78ffb7eb57a9",
+            "name": "testperil11",
+            "deductible_amount": "5,000.00",
+            "description": "desc11",
+            "created_at": "2021-11-11T11:31:28.000000Z",
+            "updated_at": "2021-11-11T11:31:28.000000Z"
+        },
+        {
+            "guid": "856e7a71-51e9-4755-b902-f05a4150b2db",
+            "name": "Test Update",
+            "deductible_amount": "222.50",
+            "description": "Burglary Description test update",
+            "created_at": "2021-11-16T08:12:35.000000Z",
+            "updated_at": "2021-11-16T08:16:57.000000Z"
+        },
+        {
+            "guid": "883f4cc5-7767-4eea-857b-a54cc8f70afc",
+            "name": "test124",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-23T07:04:28.000000Z",
+            "updated_at": "2021-11-23T07:04:28.000000Z"
+        },
+        {
+            "guid": "8fb548c8-7cde-41a1-970b-04f44d922945",
+            "name": "Impact Damage 2",
+            "deductible_amount": "11.00",
+            "description": "11",
+            "created_at": "2021-11-23T10:55:14.000000Z",
+            "updated_at": "2021-11-23T10:55:14.000000Z"
+        },
+        {
+            "guid": "981c7635-cfef-425c-8c15-a3ea138be761",
+            "name": "00test1",
+            "deductible_amount": "111.00",
+            "description": null,
+            "created_at": "2021-11-16T07:49:06.000000Z",
+            "updated_at": "2021-11-16T07:49:16.000000Z"
+        },
+        {
+            "guid": "bae32135-3d65-4e37-abd1-38985db96156",
+            "name": "testperil23",
+            "deductible_amount": "0.00",
+            "description": "desc",
+            "created_at": "2021-11-11T08:19:09.000000Z",
+            "updated_at": "2021-11-11T08:19:09.000000Z"
+        },
+        {
+            "guid": "c6d23a1d-006e-478b-80f3-25a507607afa",
+            "name": "Accident",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-06T04:17:58.000000Z",
+            "updated_at": "2021-11-06T04:17:58.000000Z"
+        },
+        {
+            "guid": "c945a438-8812-4a2d-b9c7-feadcfd31413",
+            "name": "test126",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-23T07:04:28.000000Z",
+            "updated_at": "2021-11-23T07:04:28.000000Z"
+        },
+        {
+            "guid": "db6e3c0a-3295-400f-b499-c9b2f3dbf00c",
+            "name": "umikk",
+            "deductible_amount": "0.00",
+            "description": "uimiikiiiiiiii88",
+            "created_at": "2021-10-09T22:14:19.000000Z",
+            "updated_at": "2021-10-09T22:20:03.000000Z"
+        },
+        {
+            "guid": "db76e18d-4041-41a9-8cf8-188d6cfe0f25",
+            "name": "test127",
+            "deductible_amount": "0.00",
+            "description": null,
+            "created_at": "2021-11-23T07:04:29.000000Z",
+            "updated_at": "2021-11-23T07:04:29.000000Z"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=2",
+        "prev": null,
+        "next": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 2,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=2",
+                "label": 2,
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/peril",
+        "per_page": 20,
+        "to": 20,
+        "total": 24
+    }
+}

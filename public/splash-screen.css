@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.splash-screen {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0e0093;
+  font-family: Poppins, Helvetica, 'sans-serif';
+}
+
+.splash-screen img {
+  margin-left: calc(100vw - 100%);
+  margin-bottom: 30px;
+}
+
+@keyframes fluffy {
+  0% {
+    top: 50%;
+  }
+  50% {
+    top: 44%;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+.cloud-page-loader {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.cloud-page-loader svg {
+  filter: drop-shadow(2px 2px 3px #0002);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all;
+  animation-name: fluffy;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.cloud-page-loader svg:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  transform: translate(-60%, -50%);
+}
+.cloud-page-loader svg:nth-of-type(2) {
+  width: 75%;
+  height: 75%;
+  animation-delay: -0.2s;
+  transform: translate(-30%, -30%);
+}
+.cloud-page-loader svg:nth-of-type(3) {
+  width: 60%;
+  height: 60%;
+  animation-delay: -0.4s;
+  transform: translate(-100%, -20%);
+}
+
+.splash-loader {
+  width: 50px;
+  height: 24px;
+  background:
+    radial-gradient(circle closest-side, #fff 90%, #eee) 0% 50%,
+    radial-gradient(circle closest-side, #fff 90%, #eee) 50% 50%,
+    radial-gradient(circle closest-side, #fff 90%, #eee) 100% 50%;
+  background-size: calc(100% / 5) 10px;
+  background-repeat: no-repeat;
+  animation: cl11 1s infinite linear;
+}
+@keyframes cl11 {
+  20% {
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 50%;
+  }
+  40% {
+    background-position:
+      0% 100%,
+      50% 0%,
+      100% 50%;
+  }
+  60% {
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 0%;
+  }
+  80% {
+    background-position:
+      0% 50%,
+      50% 50%,
+      100% 100%;
+  }
+}

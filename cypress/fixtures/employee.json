@@ -1,0 +1,21 @@
+{
+    "data" : {
+        "company_department_guid": null,
+        "company_department_name": null,
+        "company_guid": "000435889-osi0",
+        "company_name": "Company Example",
+        "created_at": "2021-12-23T10:20:19.000000Z",
+        "email": "suff@gmail.com",
+        "employee_id": "11werty09",
+        "full_name": "Yusuf Cypress",
+        "guid": "999e6a92-99ec-43c1-ab49-8e9d57a25e45",
+        "job_title": "cypress",
+        "location_address": null,
+        "location_guid": null,
+        "location_name": null,
+        "location_sub_guid": null,
+        "location_sub_name": null,
+        "phone": null,
+        "updated_at": "2021-12-23T10:20:19.000000Z",
+    }
+}

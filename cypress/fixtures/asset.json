@@ -1,0 +1,179 @@
+{
+    "data": {
+        "guid": "cdfc80e1-0e39-4409-a14f-2fefc47bd714",
+        "unique_id": "ABC00001",
+        "name": "testing account asset v1",
+        "description": "testing account asset v1",
+        "asset_type": null,
+        "expiry_date": null,
+        "customer_asset_id": null,
+        "itemcode": null,
+        "category": {
+            "guid": "ee73165e-d1c7-4e6b-93bf-d5bf3ad5687c",
+            "name": "Computer"
+        },
+        "type": {
+            "guid": null,
+            "name": null
+        },
+        "qr_code": null,
+        "location": {
+            "guid": null,
+            "address": null,
+            "name": null
+        },
+        "location_sub": {
+            "guid": null,
+            "name": null
+        },
+        "status": {
+            "guid": "6bd2a77a-6d2e-4244-bdf7-473d6ddb70c7",
+            "name": "Unassigned"
+        },
+        "owner_company": {
+            "guid": "44821532-27e5-4fda-b271-718d672bb216",
+            "name": "Company Example"
+        },
+        "owner_company_department": {
+            "guid": null,
+            "name": null
+        },
+        "assigned_user": {
+            "guid": null,
+            "name": null,
+            "email": null
+        },
+        "assigned_employee": {
+            "guid": null,
+            "name": null,
+            "email": null
+        },
+        "manufacturer": {
+            "guid": null,
+            "name": null
+        },
+        "manufacturer_model": {
+            "guid": null,
+            "name": null
+        },
+        "manufacturer_brand": {
+            "guid": null,
+            "name": null
+        },
+        "serial_number": null,
+        "part_number": null,
+        "disposal_date": "2021-12-21 00:00:00",
+        "status_comment": null,
+        "assigned_user_comment": null,
+        "assign_asset": {
+            "guid": "",
+            "name": ""
+        },
+        "supplier": {
+            "guid": null,
+            "name": null
+        },
+        "linked_assets": [],
+        "parent_asset": null,
+        "created_at": "2021-12-21 11:51:16",
+        "updated_at": "2021-12-23 08:41:49",
+        "files": {
+            "photos": null,
+            "serial_numbers": null,
+            "qr_codes": null,
+            "invoices": null,
+            "locations": null,
+            "others": null
+        },
+        "custom_fields": [
+            {
+                "guid": "bff5df37-8cf7-4d84-a9f8-a06a68268437",
+                "name": "Teknologi",
+                "section_type": "assets",
+                "section_type_sub": "additional_information",
+                "element_type": "checkbox",
+                "element_type_label": null,
+                "is_required": 0,
+                "status": 1,
+                "created_at": "2021-11-05T03:42:24.000000Z",
+                "updated_at": "2021-12-25T09:27:21.000000Z",
+                "rules": [
+                    {
+                        "key": "min",
+                        "value": "0",
+                        "value_string": "0"
+                    },
+                    {
+                        "key": "required",
+                        "value": "nullable",
+                        "value_string": "nullable"
+                    }
+                ],
+                "option": [
+                    {
+                        "key": "0",
+                        "value": "dfgdgfdtg"
+                    }
+                ],
+                "options": [
+                    {
+                        "key": "0",
+                        "value": "dfgdgfdtg"
+                    }
+                ],
+                "value": null,
+                "value_string": true,
+                "value_array": [],
+                "value_object": {}
+            }
+        ],
+        "local_custom_fields": [],
+        "global_custom_fields": {
+            "Teknologi": null
+        },
+        "checkin_status": "available",
+        "preventative_maintenance": {
+            "frequency_number": null,
+            "frequency_unit": null
+        },
+        "warranty": null,
+        "insurance": {
+            "guid": "c12bb255-3e60-42d9-bb9d-4ae42274c427",
+            "description": "Testing Insurance Policy v1",
+            "start_date": "2021-12-09 00:00:00",
+            "end_date": "2021-12-23 00:00:00"
+        },
+        "audits": [],
+        "last_audit": {
+            "data": "Not Audited",
+            "color": "red",
+            "last_date": null
+        },
+        "assigned_audits": [],
+        "last_assigned_audit": {
+            "data": null,
+            "last_date": null
+        },
+        "financial_info": {
+            "guid": "0c262fbd-a98c-4092-8d49-39e3816fbd0b",
+            "purchase_order_number": null,
+            "purchase_date": null,
+            "unit_cost": null,
+            "total_quantity": null,
+            "purchase_price_currency": "IDR",
+            "total_cost": null,
+            "delivery_order_number": null,
+            "delivery_order_date": null,
+            "invoice_date": null,
+            "invoice_number": null,
+            "actual_date_received": null,
+            "cheque_number": null,
+            "cheque_date": null,
+            "voucher_number": null,
+            "voucher_date": null,
+            "purchase_from": null
+        },
+        "videos": null,
+        "asset_checkout": null
+    }
+}

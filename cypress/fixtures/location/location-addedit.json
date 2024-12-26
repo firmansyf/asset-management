@@ -1,0 +1,23 @@
+{
+    "address": "address",
+    "street": "street",
+    "description": "Description",
+    "city": "city",
+    "country_code": "HK",
+    "location_availability_guid": "52801d35-1dd9-4df1-aa3c-bd1c0f7306e2",
+    "name": "Bandung",
+    "postcode": "43545",
+    "state": "state",
+    "lat": 12.8168363,
+    "long": 107.7390043,
+    "photos": [],
+    "global_custom_fields": [],
+    "region": "",
+    "site_id": "",
+    "tm": "",
+    "tm_super1": "",
+    "tm_super2": "",
+    "re": "",
+    "re_super1": "",
+    "re_super2": ""
+  }

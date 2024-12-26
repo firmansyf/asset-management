@@ -1,0 +1,131 @@
+{
+    "data": [
+      {
+        "guid": "4e59e9f2-5cc4-4a0d-8818-c2cfe18cc74a",
+        "name": "dep 3",
+        "company": {
+          "guid": "3ad390da-20ed-4aac-acec-963b62178f55",
+          "name": "New Compan",
+          "is_default": null
+        },
+        "contact_person": null,
+        "contact_number": null,
+        "contact_number_alternate": null,
+        "email": null,
+        "status": 1,
+        "created_at": "2022-01-04T04:23:16.000000Z",
+        "updated_at": "2022-01-11T01:59:22.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "9cecb8d4-56b4-4735-b3ce-282fc8abaf83",
+        "name": "departement 2",
+        "company": {
+          "guid": "3ad390da-20ed-4aac-acec-963b62178f55",
+          "name": "New Compan",
+          "is_default": null
+        },
+        "contact_person": null,
+        "contact_number": null,
+        "contact_number_alternate": null,
+        "email": null,
+        "status": 1,
+        "created_at": "2022-01-04T00:27:13.000000Z",
+        "updated_at": "2022-01-11T01:58:57.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "713dcf6b-e051-4046-9cdd-11732703580b",
+        "name": "departement 111",
+        "company": {
+          "guid": "3ad390da-20ed-4aac-acec-963b62178f55",
+          "name": "New Compan",
+          "is_default": null
+        },
+        "contact_person": null,
+        "contact_number": null,
+        "contact_number_alternate": null,
+        "email": null,
+        "status": 1,
+        "created_at": "2022-01-04T04:43:36.000000Z",
+        "updated_at": "2022-01-11T01:59:01.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "9f98e8e6-3a38-4dd9-8114-7368fae775d1",
+        "name": "departement 1",
+        "company": {
+          "guid": "3ad390da-20ed-4aac-acec-963b62178f55",
+          "name": "New Compan",
+          "is_default": null
+        },
+        "contact_person": null,
+        "contact_number": null,
+        "contact_number_alternate": null,
+        "email": null,
+        "status": 1,
+        "created_at": "2022-01-04T00:27:02.000000Z",
+        "updated_at": "2022-01-11T01:59:08.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+      },
+      {
+        "guid": "ff6df846-addf-4ab3-b316-1800c8a998a7",
+        "name": "Dep New Compan 1",
+        "company": {
+          "guid": "3ad390da-20ed-4aac-acec-963b62178f55",
+          "name": "New Compan",
+          "is_default": null
+        },
+        "contact_person": null,
+        "contact_number": null,
+        "contact_number_alternate": null,
+        "email": null,
+        "status": 1,
+        "created_at": "2021-11-26T13:49:15.000000Z",
+        "updated_at": "2021-11-26T13:49:15.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+      }
+    ],
+    "links": {
+      "first": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=1",
+      "last": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=2",
+      "prev": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=1",
+      "next": null
+    },
+    "meta": {
+      "current_page": 2,
+      "from": 11,
+      "last_page": 2,
+      "links": [
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=1",
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=1",
+          "label": 1,
+          "active": false
+        },
+        {
+          "url": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter?page=2",
+          "label": 2,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://idzzz.be.assetd.xyz/api/v1/setting/department/filter",
+      "per_page": 10,
+      "to": 15,
+      "total": 15
+    }
+  }

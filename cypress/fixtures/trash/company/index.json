@@ -1,0 +1,111 @@
+{
+   "data":[
+      {
+         "name":"Compan",
+         "guid":"3afc9df7-97d8-4ffd-a798-1722e00da731",
+         "deleted_at":"2022-01-10T01:45:12.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"compan 123",
+         "guid":"d4053af3-0e64-4ee3-9ca6-28498547afb2",
+         "deleted_at":"2022-01-10T01:45:09.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 1",
+         "guid":"a38de9b3-def6-4d7d-9de7-dee09dfc4fe4",
+         "deleted_at":"2022-01-10T01:43:20.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 2",
+         "guid":"ebde0ebc-9823-4d1a-bbde-7d0786d8d19e",
+         "deleted_at":"2022-01-10T01:43:24.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 3",
+         "guid":"1000c860-c0c9-4102-af9c-0cb6d05868b4",
+         "deleted_at":"2022-01-10T01:43:26.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 4",
+         "guid":"013eddd5-aa28-46a6-a752-07c75a74b697",
+         "deleted_at":"2022-01-10T01:43:28.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 5",
+         "guid":"95347050-c9c4-48f6-8a85-67097a4bb85f",
+         "deleted_at":"2022-01-10T01:43:31.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 6",
+         "guid":"4c166811-90af-4298-88f9-5ace3cc9dde7",
+         "deleted_at":"2022-01-10T01:43:39.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 7",
+         "guid":"b6bd8a93-ba54-41dd-9c3f-e60121344150",
+         "deleted_at":"2022-01-10T01:43:41.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      },
+      {
+         "name":"company 8",
+         "guid":"b8a25e4a-2d8d-4b4b-9ba5-8736a2e64762",
+         "deleted_at":"2022-01-10T01:43:44.000000Z",
+         "deleted_by":"Itep Dz567",
+         "delete_permanent_in":14
+      }
+   ],
+   "links":{
+      "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=1",
+      "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=2",
+      "prev":null,
+      "next":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=2"
+   },
+   "meta":{
+      "current_page":1,
+      "from":1,
+      "last_page":2,
+      "links":[
+         {
+            "url":null,
+            "label":"&laquo; Previous",
+            "active":false
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=1",
+            "label":1,
+            "active":true
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=2",
+            "label":2,
+            "active":false
+         },
+         {
+            "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company?page=2",
+            "label":"Next &raquo;",
+            "active":false
+         }
+      ],
+      "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/trash\/company",
+      "per_page":10,
+      "to":10,
+      "total":12
+   }
+}

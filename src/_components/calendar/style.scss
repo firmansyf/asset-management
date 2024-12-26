@@ -1,0 +1,221 @@
+@function isDarkSkin() {
+  @return false;
+}
+@import '@metronic/assets/sass/core/components/variables';
+$fc-border: 2px solid $gray-200;
+.fc .fc-toolbar.fc-header-toolbar {
+  padding: 0.5rem;
+  margin-bottom: 0.25rem !important;
+  // background: $primary-light;
+  border-radius: 10px;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.fc .fc-button-primary {
+  height: 25px !important;
+  line-height: 1 !important;
+  padding: 0.1em 0.5em !important;
+  font-weight: 600 !important;
+  &:focus {
+    box-shadow: unset !important;
+  }
+  background-color: $primary !important;
+  border-color: $primary !important;
+  &:hover,
+  &:focus {
+    background-color: $primary-light !important;
+    border-color: $primary-light !important;
+    color: $primary !important;
+    filter: unset !important;
+  }
+}
+.fc .fc-toolbar-title {
+  color: $primary;
+  text-transform: uppercase;
+  font-size: initial !important;
+}
+.fc .fc-toolbar-chunk {
+  flex: 0 0 auto !important;
+  margin-bottom: 5px;
+}
+.fc .fc-col-header-cell-cushion {
+  text-transform: uppercase;
+}
+.fc-direction-ltr .fc-button-group > .fc-button {
+  &:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+.fc .fc-non-business {
+  background: $gray-100;
+  border-radius: 5px;
+}
+.fc-theme-standard th .fc-scrollgrid-sync-inner {
+  padding: 5px 0;
+  margin: 5px !important;
+  background: #eee;
+  border-radius: 5px;
+  border: none;
+  // border: 1px dashed $primary;
+}
+.fc-theme-standard {
+  th:not(:last-child),
+  td:not(:last-child) {
+    border: $fc-border;
+  }
+  td:last-child {
+    border-right: unset;
+    border-bottom: unset;
+    // border-bottom: $fc-border;
+  }
+  th {
+    border-left: unset !important;
+    border-right: unset !important;
+  }
+}
+.fc-dayGridMonth-view {
+  overflow: auto;
+}
+.fc-scrollgrid {
+  border: unset !important;
+  // border-radius: 15px !important;
+  overflow: hidden;
+  // min-width: 350px;
+}
+.fc > * {
+  border-radius: 0;
+}
+.fc > *:not(.fc-header-toolbar) {
+  border: $fc-border;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fc {
+  border-radius: 15px !important;
+}
+.fc .fc-daygrid-day-frame {
+  position: relative;
+  margin: 5px !important;
+  min-height: 70px;
+  max-height: 170px;
+  height: calc(100% - 0.75rem);
+}
+.fc .fc-daygrid-day-frame {
+  background: #fafafa;
+  border-radius: 5px;
+}
+.fc .fc-daygrid-day.fc-day-today {
+  background: unset;
+  .fc-daygrid-day-frame {
+    background: $primary-light;
+  }
+}
+@mixin date-number {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-weight: 600;
+}
+@mixin inactive-number {
+  background-color: $gray-300;
+  // border: 1px dashed $primary;
+}
+@mixin active-number {
+  background-color: $primary;
+  border: 1px solid $primary;
+  color: $white;
+}
+.fc .fc-day {
+  .fc-daygrid-day-number {
+    @include date-number;
+  }
+  &.fc-day-today .fc-daygrid-day-number {
+    @include active-number;
+  }
+  &:not(.fc-day-today) .fc-daygrid-day-number {
+    @include inactive-number;
+  }
+}
+.fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+  margin: 0.25em 0;
+}
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  min-height: 0;
+}
+.fc .fc-daygrid-day-top {
+  // position: absolute;
+  // z-index: 9;
+  // right: -3%;
+  // top: -5%;
+}
+// .fc-daygrid-event-harness:before {
+//   background: $warning-light !important;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   top: 0;
+//   bottom: 0;
+// }
+.fc .fc-bg-event,
+.fc .fc-non-business,
+.fc .fc-highlight {
+  position: relative !important;
+}
+
+.tooltip {
+  z-index: 10000 !important;
+}
+
+.fc-daygrid-day-bottom {
+  margin: 5px 10px 0 5px;
+}
+
+.fc .fc-daygrid-more-link {
+  position: relative;
+  z-index: 4;
+  cursor: pointer;
+  background: #17198e;
+  padding: 2px 5px 2px 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.fc-compact {
+  .fc .fc-daygrid-day-frame {
+    position: relative;
+    margin: 0 !important;
+    padding: 2px !important;
+    min-height: 10px;
+    max-height: unset;
+    height: 35px;
+    overflow: hidden;
+  }
+  .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+    min-height: 10px;
+  }
+  .fc .fc-day .fc-daygrid-day-number {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+  }
+  .fc-theme-standard th .fc-scrollgrid-sync-inner {
+    padding: 0;
+  }
+}
+
+@for $i from 0 through 10 {
+  .scale-#{$i} {
+    transform: scale(calc($i/10));
+  }
+}

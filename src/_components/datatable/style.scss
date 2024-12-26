@@ -1,0 +1,64 @@
+@function isDarkSkin() {
+  @return false;
+}
+
+@import '@metronic/assets/sass/core/components/variables';
+
+.sticky-cus {
+  position: sticky;
+  z-index: 2;
+  min-width: 23px;
+  width: 0;
+  background-color: #fff !important;
+}
+
+.card-table {
+  border: 2px solid $gray-200 !important;
+
+  // box-shadow: $box-shadow-lg;
+  .card-table-header {
+    border-bottom: 1px solid $gray-200 !important;
+    padding: $table-cell-padding-y $table-cell-padding-x;
+    position: sticky;
+    z-index: 4;
+    top: 120px;
+    background-color: $white;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .card-body {
+    padding: 0 $table-cell-padding-y $table-cell-padding-x !important;
+  }
+}
+
+.table-custom-- {
+  overflow-y: auto;
+  max-height: 510px;
+}
+
+.table-responsive::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.table-responsive::-webkit-scrollbar:vertical {
+  width: 10px !important;
+}
+
+.table-responsive::-webkit-scrollbar:horizontal {
+  height: 10px !important;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background: rgb(106, 106, 106) !important;
+  border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.table-icon {
+  width: 27.5px !important;
+  height: 27.5px !important;
+  border-radius: 10px !important;
+}

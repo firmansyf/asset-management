@@ -1,0 +1,113 @@
+{
+   "data":{
+      "guid":"21a4da34-e2c3-4b71-8bea-47f5c2f0c49e",
+      "name":"Bandung",
+      "address":"Jl. Pasir Kaliki No, 1234",
+      "address_alternate":null,
+      "street":"Street",
+      "city":"City",
+      "state":"State",
+      "postcode":"345598",
+      "region":null,
+      "site_id":null,
+      "country_code":"ID",
+      "country_name":"Indonesia",
+      "lat":"-6.9213009",
+      "long":"107.6071683",
+      "location_subs":[
+         
+      ],
+      "photos":[
+         
+      ],
+      "availability":{
+         "guid":"25d2b71d-ae67-4d89-9409-48098447a630",
+         "name":"Available",
+         "unique_id":"available"
+      },
+      "total_asset":3,
+      "description":"Description",
+      "created_at":"2021-12-27T09:12:45.000000Z",
+      "updated_at":"2021-12-28T12:02:17.000000Z",
+      "custom_fields":[
+         {
+            "guid":"22a47394-4a54-42ab-9566-893c07f94b6a",
+            "name":"radio",
+            "section_type":"locations",
+            "section_type_sub":"additional_information",
+            "element_type":"radio",
+            "element_type_label":null,
+            "is_required":0,
+            "status":1,
+            "created_at":"2021-12-28T02:29:45.000000Z",
+            "updated_at":"2021-12-28T02:29:45.000000Z",
+            "rules":[
+               {
+                  "key":"required",
+                  "value":"nullable",
+                  "value_string":"nullable"
+               },
+               {
+                  "key":"min",
+                  "value":"0",
+                  "value_string":"0"
+               }
+            ],
+            "option":[
+               {
+                  "key":"0",
+                  "value":"radio"
+               }
+            ],
+            "options":[
+               {
+                  "key":"0",
+                  "value":"radio"
+               }
+            ],
+            "value":null,
+            "value_string":true,
+            "value_array":[
+               
+            ],
+            "value_object":{
+               
+            }
+         }
+      ],
+      "local_custom_fields":null,
+      "global_custom_fields":{
+         "radio":null
+      },
+      "tm":{
+         "guid":"70d676c7-6308-4ee8-8a7e-c788bae896db",
+         "email":"testingaccount@mailinator.com",
+         "name":"testing account"
+      },
+      "re":{
+         "guid":"9fb243ee-7be8-4cd1-9101-03e8fc354e54",
+         "email":"johndoe@assetd.xyz",
+         "name":"John Doe"
+      },
+      "tm_super1":{
+         "guid":"7c860bb4-dd4e-4ff3-9a88-7264623fd59f",
+         "email":"rocklee@konoha.xs",
+         "name":"Rock Lee"
+      },
+      "tm_super2":{
+         "guid":"83af16ba-5434-440a-a4a2-7e90fef4d2dc",
+         "email":"queen@mailinator.com",
+         "name":"Quinn Almand"
+      },
+      "re_super1":{
+         "guid":null,
+         "email":null,
+         "name":" "
+      },
+      "re_super2":{
+         "guid":"bcfc4f2d-bda9-4abe-b787-5cd5a199097b",
+         "email":"philll@mailinator.com",
+         "name":"Phill Collins"
+      }
+   }
+}

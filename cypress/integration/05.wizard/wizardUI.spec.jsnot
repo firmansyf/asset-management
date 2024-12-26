@@ -1,0 +1,145 @@
+/* eslint-disable cypress/no-unnecessary-waiting */
+beforeEach(cy.wizard)
+
+describe('Setup Wizard', () => {
+  beforeEach(() => {
+    cy.visit('setup/wizard')
+    cy.intercept('GET', '**/setting/company').as('getCompany')
+    cy.wait('@getCompany')
+  })
+  it('Check API in Wizard', () => {
+    cy.get('@getCompany').its('response.statusCode').should('eq', 200)
+  })
+  // it('Abort Click Logo', () => {
+  //   cy.get('img[alt="Logo"]').first().click({force: true})
+  //   cy.url().should('contain', '/setup/wizard')
+  // })
+})
+describe('Step 1 (Company)', () => {
+  beforeEach(() => {
+    cy.visit('setup/wizard')
+    cy.intercept('GET', '**/setting/company').as('getCompany')
+    cy.wait('@getCompany')
+  })
+  it('Check Step is 1', () => {
+    cy.get('.stepper-number').contains(1).closest('.stepper-item').should('have.class', 'current')
+  })
+  it('Check API Company', () => {
+    cy.get('@getCompany').its('response.statusCode').should('eq', 200)
+  })
+  it('Form Input Alignment', () => {
+    cy.get('input[name="company"]').closest('.form-group').find('label').should('not.have.class', 'text-end')
+  })
+  it('File Uploader', () => {
+    cy.get('.upload__image-wrapper').find('small').should('contain', 'Drag and drop')
+  })
+})
+
+describe('Step 2 (Locations)', () => {
+  beforeEach(() => {
+    cy.visit('setup/wizard')
+    cy.intercept('GET', '**/setting/company').as('getCompany')
+    cy.intercept('GET', '**/location-availability/filter').as('getLocation')
+    cy.wait('@getCompany')
+    cy.get('button').contains('Continue').click({force: true}).then(() => cy.wait('@getLocation'))
+  })
+  it('Check Step is 2', () => {
+    cy.get('.stepper-number').contains(2).closest('.stepper-item').should('have.class', 'current')
+  })
+  it('Check API Location', () => {
+    cy.get('@getLocation').its('response.statusCode').should('eq', 200)
+  })
+  it('Button Add', () => {
+    cy.get('button').contains('Add New Location').should('have.class', 'fw-bolder')
+  })
+  it('FE-2288 improvement on location step', () => {
+    cy.get('[data-cy="btn-add-location"]').click({force: true})
+    cy.get('.modal').invoke('show')
+    cy.get('.modal.show').contains('Address 2').should('exist')
+  })
+})
+
+describe('Step 3 (Sub Location)', () => {
+  beforeEach(() => {
+    cy.visit('setup/wizard')
+    cy.intercept('GET', '**/setting/company').as('getCompany')
+    cy.intercept('GET', '**/location-availability/filter').as('getLocation')
+    cy.wait('@getCompany')
+    cy.get('button').contains('Continue').click({force: true}).then(() => cy.wait('@getLocation'))
+    cy.get('button').contains('Continue').click({force: true}).then(() => cy.wait('@getLocation'))
+  })
+  it('Check Step is 3', () => {
+    cy.get('.stepper-number').contains(3).closest('.stepper-item').should('have.class', 'current')
+  })
+  it('Check API Location', () => {
+    cy.get('@getLocation').its('response.statusCode').should('eq', 200)
+  })
+  it('Button Add', () => {
+    cy.get('button').contains('Add New Location').should('have.class', 'fw-bolder')
+  })
+})
+
+describe('Step 5 (Custom fields and Database)', () => {
+  beforeEach( () => {
+      cy.visit('setup/wizard')
+      cy.intercept('GET', '**/setting/database/asset').as('fetchDatabase')
+      cy.intercept('GET', '**/custom-field/filter*').as('fetchCF')
+      cy.intercept('POST', '**/custom-field').as('addCF')
+      cy.intercept('PUT', '**/custom-field/*').as('editCF')
+      cy.intercept('DELETE', '**/custom-field/*').as('deleteCF')
+
+      cy.get('button#0 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Locations')
+      cy.get('button#2 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Sub Locations')
+      cy.get('button#3 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Categories')
+      cy.get('button#4 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Database')
+  })
+  it('FE-2210 Move Custom Field to the top of page', () => {
+    cy.wait('@fetchDatabase')
+    cy.get('[data-cy="cf-container"]').should('contain', 'Custom Fields')
+  })
+  it('FE-2210 Change Data Required → Required Field', () => {
+    cy.wait('@fetchDatabase')
+    cy.get('[data-cy="db-container"]').should('contain', 'Required Field')
+  })
+  it('FE-2210 Button Go To Custom Field Section', () => {
+    cy.wait('@fetchDatabase')
+    cy.get('[data-cy="go-to-cf"]').should('exist')
+    cy.get('[data-cy="go-to-cf"]').find('i.las').should('have.class', 'la-arrow-down')
+  })
+})
+
+describe('Step 6 (Features)', () => {
+  beforeEach( () => {
+      cy.visit('setup/wizard')
+      cy.intercept('GET', '**/api/**').as('api')
+      cy.get('button#0 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Locations')
+      cy.get('button#2 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Sub Locations')
+      cy.get('button#3 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Categories')
+      cy.get('button#4 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.wait(2000)
+      cy.get('.stepper-nav > .current').should('contain', 'Database')
+      cy.get('button#5 > .indicator-label').should('contain', 'Continue').click({force: true})
+      cy.get('.stepper-nav > .current').should('contain', 'Features')
+  })
+  it('Step 6 is Features', () => {
+    cy.get('.stepper-number').contains(6).closest('.stepper-item').should('contain', 'Features')
+  })
+  it('Remove Sub Title', () => {
+    cy.get('.stepper-number').contains(6).closest('.stepper-item').should('not.contain', 'Test Subtitle')
+  })
+  it('Check API in Wizard', () => {
+    cy.get('@api').its('response.statusCode').should('eq', 200)
+  })
+  it('FE-2210 Change Option → Options ,  Customize → Customise in feature description', () => {
+    cy.wait('@api')
+    cy.get('[data-cy="info-title"]').should('contain', 'options')
+    cy.get('[data-cy="info-title"]').should('contain', 'customise')
+  })
+})

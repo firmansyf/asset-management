@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "guid": "e3da59b5-b866-4798-8f98-e8b887cc8ddf",
+            "name": "test",
+            "module": {
+                "guid": "2d404916-f557-4888-8bd5-e76620a273ae",
+                "name": "Insurance Claim"
+            },
+            "sub_module": null,
+            "module_field": {
+                "guid": "01bd03f7-a037-47f8-8743-9cab162a698c",
+                "name": "Ready for Review 2"
+            },
+            "types": [
+                {
+                    "guid": "232cba85-83cd-46a7-a9c5-11a049421eb2",
+                    "name": "Push Notification"
+                }
+            ],
+            "team": {
+                "guid": "13857fdf-ba04-44a3-9966-e609dd4a3ba3",
+                "name": "testing team",
+                "members": [
+                    {
+                        "guid": "5eb13cfb-c904-49c8-a21d-77c031f7b6c0",
+                        "user": {
+                            "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                            "name": "testing 002"
+                        }
+                    },
+                    {
+                        "guid": "992640a6-efb5-49f4-8b55-2ba0ae873ba3",
+                        "user": {
+                            "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                            "name": "testing 003"
+                        }
+                    }
+                ]
+            },
+            "roles": [],
+            "is_alert_owner": false,
+            "start_time": "11:11:00",
+            "end_time": "11:22:00",
+            "timezone": null,
+            "days": {
+                "monday": 0,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 0,
+                "friday": 0,
+                "saturday": 0,
+                "sunday": 0
+            },
+            "send_date": null,
+            "prior_alert": null,
+            "exclude_members": [],
+            "created_at": "2022-01-12T12:15:41.000000Z",
+            "updated_at": "2022-01-12T12:15:41.000000Z",
+            "last_alert_at": null,
+            "is_escalation": false,
+            "escalation_data": null,
+            "frequency": "daily",
+            "frequency_value": [
+                "monday"
+            ],
+            "is_active": 0
+        },{
+            "guid": "e3da59b5-b866-4798-8f98-e8b887cc8test",
+            "name": "test 2",
+            "module": {
+                "guid": "2d404916-f557-4888-8bd5-e76620a273ae",
+                "name": "Insurance Claim"
+            },
+            "sub_module": null,
+            "module_field": {
+                "guid": "01bd03f7-a037-47f8-8743-9cab162a698c",
+                "name": "Ready for Review 2"
+            },
+            "types": [
+                {
+                    "guid": "232cba85-83cd-46a7-a9c5-11a049421eb2",
+                    "name": "Push Notification"
+                }
+            ],
+            "team": {
+                "guid": "13857fdf-ba04-44a3-9966-e609dd4a3ba3",
+                "name": "testing team",
+                "members": [
+                    {
+                        "guid": "5eb13cfb-c904-49c8-a21d-77c031f7b6c0",
+                        "user": {
+                            "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                            "name": "testing 002"
+                        }
+                    },
+                    {
+                        "guid": "992640a6-efb5-49f4-8b55-2ba0ae873ba3",
+                        "user": {
+                            "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                            "name": "testing 003"
+                        }
+                    }
+                ]
+            },
+            "roles": [],
+            "is_alert_owner": false,
+            "start_time": "11:11:00",
+            "end_time": "11:22:00",
+            "timezone": null,
+            "days": {
+                "monday": 0,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 0,
+                "friday": 0,
+                "saturday": 0,
+                "sunday": 0
+            },
+            "send_date": null,
+            "prior_alert": null,
+            "exclude_members": [],
+            "created_at": "2022-01-12T12:15:41.000000Z",
+            "updated_at": "2022-01-12T12:15:41.000000Z",
+            "last_alert_at": null,
+            "is_escalation": false,
+            "escalation_data": null,
+            "frequency": "daily",
+            "frequency_value": [
+                "monday"
+            ],
+            "is_active": 0
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/alert?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/alert?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/alert?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/alert",
+        "per_page": 15,
+        "to": 2,
+        "total": 2
+    }
+}

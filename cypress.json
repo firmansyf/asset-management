@@ -1,0 +1,19 @@
+{
+  "projectId": "nve4es",
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "supportFiles": "cypress/support",
+  "baseUrl": "http://testingaccount.localhost:3000/",
+  "env": {
+    "server": "assetdata.io",
+    "tenant": "testingaccount",
+    "email": "testingaccount@mailinator.com",
+    "password": "Test@123",
+    "storageKey": "persist:v100-demo1-auth",
+    "passwordEncrypt": ["+BRnroYADsk!", "+YADsk!!"]
+  },
+  "hosts": {
+    "*.localhost": "127.0.0.1"
+  },
+  "experimentalSessionSupport": true
+}

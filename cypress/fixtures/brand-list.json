@@ -1,0 +1,92 @@
+{
+    "data": [
+      {
+        "guid": "3258ffaf-ff12-4a9d-86fa-0c73b0641007",
+        "name": "BN004",
+        "manufacturer_model": {
+          "guid": "4623a95f-88c7-420f-8b52-b1b696c53650",
+          "name": "S-008PLD-BN"
+        },
+        "manufacturer": {
+          "guid": "f94d668a-a2c0-49d1-a70c-8211a753b40b",
+          "name": "IBM"
+        },
+        "created_at": "2021-12-28T00:46:31.000000Z",
+        "update": "2021-12-28T00:46:31.000000Z"
+      },
+      {
+        "guid": "13d1afd4-e913-40de-bc4e-06e1131f070c",
+        "name": "SN001",
+        "manufacturer_model": {
+          "guid": "5c0c22fd-67f1-4106-a433-0f3c74e3552d",
+          "name": "A2-002-SN"
+        },
+        "manufacturer": {
+          "guid": "f11df696-5a90-4b2a-bcdb-67c94f89e2b9",
+          "name": "Sony"
+        },
+        "created_at": "2021-12-28T00:44:30.000000Z",
+        "update": "2021-12-28T00:44:30.000000Z"
+      },
+      {
+        "guid": "20b4fc31-524c-4084-9213-b1119981e3e5",
+        "name": "SN002",
+        "manufacturer_model": {
+          "guid": "5c0c22fd-67f1-4106-a433-0f3c74e3552d",
+          "name": "A2-002-SN"
+        },
+        "manufacturer": {
+          "guid": "f11df696-5a90-4b2a-bcdb-67c94f89e2b9",
+          "name": "Sony"
+        },
+        "created_at": "2021-12-28T00:46:02.000000Z",
+        "update": "2021-12-28T00:46:02.000000Z"
+      },
+      {
+        "guid": "81bc5ce5-9422-46d8-8ad6-5f0550357403",
+        "name": "WN0023",
+        "manufacturer_model": {
+          "guid": "0f541696-1226-41f0-9d4c-353975381ba1",
+          "name": "S-007PLD-WN"
+        },
+        "manufacturer": {
+          "guid": "f94d668a-a2c0-49d1-a70c-8211a753b40b",
+          "name": "IBM"
+        },
+        "created_at": "2021-12-28T00:46:14.000000Z",
+        "update": "2021-12-28T00:46:14.000000Z"
+      }
+    ],
+    "links": {
+      "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+      "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/brand/filter",
+      "per_page": 10,
+      "to": 4,
+      "total": 4
+    }
+  }

@@ -1,0 +1,174 @@
+{
+    "data": {
+        "guid": "55af0fb7-52f5-47f1-892a-b4de180213be",
+        "case_id": "CASEID0001",
+        "case_title": "UAT Testing 1",
+        "region": "yumio",
+        "sitename": "new location",
+        "tm": null,
+        "ro_number": null,
+        "invoice_amount": "131,415.00",
+        "vendor": {
+            "guid": null,
+            "name": null
+        },
+        "brief_description": "testing",
+        "insurance_claim_peril": {
+            "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+            "name": "Impact Damage",
+            "deductible_amount": "989.78"
+        },
+        "insurance_claim_status": {
+            "guid": "8585b264-b981-48a9-b8b7-6ae8710d58fb",
+            "name": "Ready for Approval"
+        },
+        "previous_status": {
+            "guid": "6e01296f-f787-49fb-a98a-54f7a37c1631",
+            "name": "Ready for Review 2"
+        },
+        "first_review_comment": "review 1",
+        "is_claimable": 1,
+        "review_status": "Pass review",
+        "number_of_incident_photo": 0,
+        "claim_time": "2021-11-16 02:14:00",
+        "created_at": "2021-11-09T00:44:45.000000Z",
+        "updated_at": "2021-12-01T09:02:37.000000Z",
+        "gr_status": "done",
+        "location_guid": "86c59a2c-6708-4cce-8174-f5ee477e86bb",
+        "location": {
+            "guid": null,
+            "name": null,
+            "region": null,
+            "site_id": null,
+            "tm": {
+                "guid": null,
+                "name": null,
+                "email": null
+            },
+            "re": {
+                "guid": null,
+                "name": null,
+                "email": null
+            },
+            "superior1": {
+                "tm": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                },
+                "re": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                }
+            },
+            "superior2": {
+                "tm": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                },
+                "re": {
+                    "guid": null,
+                    "name": null,
+                    "email": null
+                }
+            }
+        },
+        "incident_timestamp": "2021-11-14 02:14:00",
+        "sitename_id": "AX433",
+        "police_report_no": "test123",
+        "action_taken": "action testing",
+        "claim_approver": "approver",
+        "damages": "Test",
+        "damages_details": "test",
+        "suspicions": 0,
+        "suspicions_details": "test",
+        "tm_email": null,
+        "regional_engineer": null,
+        "regional_engineer_email": null,
+        "submit_comment": "review 2",
+        "invoice_number": "BB1213T",
+        "police_report_date": "2021-11-15 07:51:55",
+        "invoice_date": "1970-01-01",
+        "ro_data_infos": [
+            {
+                "ro_number": "RO0001",
+                "invoice_amount": "1111",
+                "invoice_date": "2021-12-10",
+                "vendor_name": "1111",
+                "invoice_number": "IN00001"
+            }
+        ],
+        "total_invoice": "1,111.00",
+        "invoice_total": "0.00",
+        "pic_name": "W Zaharah M Nazar",
+        "pic_role": "Engineering Resolution",
+        "incident_date": "2021-11-14",
+        "incident_time": "10:14:00",
+        "number_of_police_report": 2,
+        "number_of_repair_invoice": 2,
+        "number_of_other_report": 1,
+        "documents": [
+            {
+                "guid": "6e90f0bb-ec2f-47c4-88d8-ae72cbcc32be",
+                "name": "Police Report",
+                "files": []
+            },
+            {
+                "guid": "567cec39-165b-4581-8b87-27b92db9e831",
+                "name": "Police Report 2",
+                "files": []
+            },
+            {
+                "guid": "cec72e16-df8b-48fc-a322-b9f1ec8a1ee6",
+                "name": "Police Report 3",
+                "files": []
+            },
+            {
+                "guid": "f80b8701-3b63-457d-9e7c-14af6774cbc9",
+                "name": "Policy Report",
+                "files": []
+            }
+        ],
+        "invoices": [
+            {
+                "guid": "4a89d532-f441-4895-a1e2-98b730387977",
+                "title": "invoice - test.png",
+                "url": "https://petronasnew2.be.assetd.xyz/file/4a89d532-f441-4895-a1e2-98b730387977/view",
+                "download_url": "https://petronasnew2.be.assetd.xyz/file/4a89d532-f441-4895-a1e2-98b730387977/download",
+                "mime_type": "image/png",
+                "created_at": "2021-11-30T10:21:57.000000Z",
+                "created_by": {
+                    "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                    "name": "khairil anuar"
+                },
+                "comments": "test edit"
+            },
+            {
+                "guid": "7bbd9b8d-5783-4442-811a-65771f7f9c67",
+                "title": "invoice - test.png",
+                "url": "https://petronasnew2.be.assetd.xyz/file/7bbd9b8d-5783-4442-811a-65771f7f9c67/view",
+                "download_url": "https://petronasnew2.be.assetd.xyz/file/7bbd9b8d-5783-4442-811a-65771f7f9c67/download",
+                "mime_type": "image/png",
+                "created_at": "2021-11-30T10:24:27.000000Z",
+                "created_by": {
+                    "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                    "name": "khairil anuar"
+                },
+                "comments": "test invoice edit 2"
+            }
+        ],
+        "approval": {
+            "guid": "03be4980-78f0-4c2e-beb1-bf82b8620e0d",
+            "statuss": {
+                "guid": "db39ec44-380c-46ef-9011-8ff4c36cc28d",
+                "name": "Need Approval"
+            },
+            "approver": {
+                "guid": null,
+                "name": null
+            }
+        }
+    }
+}

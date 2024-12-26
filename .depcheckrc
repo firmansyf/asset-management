@@ -1,0 +1,21 @@
+{
+  "ignores": [
+    "eslint",
+    "eslint-*",
+    "babel-*",
+    "*babel/*",
+    "@commitlint/*",
+    "@types/google.maps"
+  ],
+  "skip-missing": true,
+  "ignore-bin-package": true,
+  "ignore-patterns": [
+    "build",
+    "dist",
+    "coverage",
+    "public",
+    "cypress",
+    "hooks",
+    "jest-html-reporters-attach"
+  ]
+}

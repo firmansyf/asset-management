@@ -1,0 +1,100 @@
+{
+    "data": [
+        {
+            "guid": "6a6ab3a4-1c11-4b90-97e4-033a6a942dd0",
+            "case_id": "azi1",
+            "case_title": "UAT Testing 1",
+            "incident_timestamp": "2021-06-25T06:16:00.000000Z",
+            "incident_date": "2021-06-25",
+            "incident_time": "21:16:00",
+            "police_report_no": "BBtest123",
+            "sitename_id": "ABC0001",
+            "action_taken": "action testing",
+            "damages": "Others",
+            "damages_detail": "damages testing",
+            "suspicions": 1,
+            "suspicions_details": "test suspicions",
+            "region": "Region1",
+            "sitename": "insurance location",
+            "tm": "azi anuar",
+            "type_of_peril": "Accident",
+            "deductible_amount": null,
+            "ro_number": "RJ123",
+            "invoice_amount": 300011,
+            "brief_description": "testing",
+            "status": "Approved",
+            "created_at": "2021-11-16T14:02:06.000000Z",
+            "claim_time": "2021-06-25T09:16:00.000000Z",
+            "updated_at": "2021-12-24T08:19:21.000000Z",
+            "gr_status": "done",
+            "vendor": "RJ",
+            "insurance_claim_peril": {
+                "guid": "c6d23a1d-006e-478b-80f3-25a507607afa",
+                "name": "Accident",
+                "deductible_amount": null
+            },
+            "insurance_claim_status": {
+                "guid": "14479d63-9433-4504-a49c-17a0244322ae",
+                "name": "Approved"
+            },
+            "tm_email": "hazirah@assetdata.io",
+            "regional_engineer": "azi loom3",
+            "regional_engineer_email": "aziloom3@gmail.com",
+            "claim_approver": "approver",
+            "approval_date": "2021-12-24 15:19:21",
+            "approval_by": "khairil-anuar",
+            "location_guid": "e7a3fbd0-eab4-4726-9d37-80a105913dc0",
+            "tm_super1": null,
+            "tm_super2": null,
+            "re_super1": null,
+            "re_super2": null,
+            "insurance_group": null,
+            "last_changed_status_at": "2021-12-24 15:19:21",
+            "police_report_date": "2021-06-26T05:00:00.000000Z",
+            "invoice_date": "2021-11-19",
+            "invoice_number": "123",
+            "invoice_total": "300,011.00",
+            "number_of_repair_invoice": 2,
+            "number_of_other_report": 1,
+            "number_of_incident_photo": 0,
+            "number_of_police_report": 4,
+            "is_claimable": 1,
+            "approved_by": "khairil anuar",
+            "total_invoice": "300,011.00",
+            "pic_name": null,
+            "pic_role": null
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim",
+        "per_page": 15,
+        "to": 1,
+        "total": 1
+    }
+}

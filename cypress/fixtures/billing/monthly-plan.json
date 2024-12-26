@@ -1,0 +1,90 @@
+{
+    "data": [
+      {
+        "id": 333,
+        "unique_id": "standard_plan:_idr_500000/monthly,_500_assets",
+        "name": "Standard Plan: IDR 500000/monthly, 500 Assets",
+        "description": "Standard Plan 500 IDR monthly",
+        "price": "500000.00",
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "is_public": true,
+        "is_free": false,
+        "is_default": true,
+        "trial_period_days": 14,
+        "icon": null,
+        "plan_group": 3,
+        "created_at": "2022-03-10T02:22:46.000000Z",
+        "updated_at": "2022-05-10T03:06:12.000000Z",
+        "limit_asset": 500
+      },
+      {
+        "id": 761,
+        "unique_id": "professional_plan:_idr_600000/monthly,_500_assets",
+        "name": "Professional Plan: IDR 600000/monthly, 500 Assets",
+        "description": "Professional Plan 500 IDR monthly",
+        "price": "600000.00",
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "is_public": true,
+        "is_free": false,
+        "is_default": true,
+        "trial_period_days": 14,
+        "icon": null,
+        "plan_group": 4,
+        "created_at": "2022-05-06T06:31:48.000000Z",
+        "updated_at": "2022-05-06T06:31:48.000000Z",
+        "limit_asset": 500
+      },
+      {
+        "id": 911,
+        "unique_id": "advance_plan:_idr_700000/monthly,_500_assets",
+        "name": "Advance Plan: IDR 700000/monthly, 500 Assets",
+        "description": "Advance Plan 500 IDR monthly",
+        "price": "700000.00",
+        "currency": "IDR",
+        "billing_cycle": "monthly",
+        "is_public": true,
+        "is_free": false,
+        "is_default": true,
+        "trial_period_days": 14,
+        "icon": null,
+        "plan_group": 5,
+        "created_at": "2022-05-06T06:57:16.000000Z",
+        "updated_at": "2022-05-06T06:57:16.000000Z",
+        "limit_asset": 500
+      }
+    ],
+    "links": {
+      "first": "https://testwizard.be.assetd.xyz/api/v1/plan?page=1",
+      "last": "https://testwizard.be.assetd.xyz/api/v1/plan?page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+        {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+        },
+        {
+          "url": "https://testwizard.be.assetd.xyz/api/v1/plan?page=1",
+          "label": 1,
+          "active": true
+        },
+        {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+        }
+      ],
+      "path": "https://testwizard.be.assetd.xyz/api/v1/plan",
+      "per_page": 999,
+      "to": 3,
+      "total": 3
+    }
+  }

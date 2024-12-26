@@ -1,0 +1,140 @@
+{
+    "data": [
+        {
+            "guid": "125dd9f5-789a-4107-8dda-128ec14ecc20",
+            "name": "test",
+            "description": "test",
+            "type_count": 0,
+            "asset_count": 0,
+            "is_system": null,
+            "created_at": "2022-01-10T08:38:49.000000Z",
+            "updated_at": "2022-01-10T08:40:41.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "7d119ee7-7c79-4e51-92e8-f98b4a198d15",
+            "name": "Phone and Charger",
+            "description": null,
+            "type_count": 1,
+            "asset_count": 1,
+            "is_system": null,
+            "created_at": "2021-12-01T02:32:47.000000Z",
+            "updated_at": "2021-12-01T02:32:47.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "c2a26b73-187a-483e-9a80-bca8b53936aa",
+            "name": "New Category",
+            "description": null,
+            "type_count": 0,
+            "asset_count": 1,
+            "is_system": null,
+            "created_at": "2021-10-04T09:24:15.000000Z",
+            "updated_at": "2021-10-04T09:24:15.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "8c3a606b-93f1-44a3-92fe-43ddb3700802",
+            "name": "new cat",
+            "description": null,
+            "type_count": 0,
+            "asset_count": 1,
+            "is_system": null,
+            "created_at": "2021-10-22T07:26:18.000000Z",
+            "updated_at": "2021-10-22T07:26:18.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "c9223be0-78e9-4c83-ad86-24b4652226f8",
+            "name": "category-xtype",
+            "description": null,
+            "type_count": 0,
+            "asset_count": 1,
+            "is_system": null,
+            "created_at": "2021-11-19T01:41:56.000000Z",
+            "updated_at": "2021-11-19T01:41:56.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "7ad8cff6-0d6a-4e55-a450-a291f33a02c3",
+            "name": "category-type1",
+            "description": null,
+            "type_count": 2,
+            "asset_count": 3,
+            "is_system": null,
+            "created_at": "2021-11-19T01:41:45.000000Z",
+            "updated_at": "2021-11-19T01:41:45.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "99fafd1c-1e47-44ce-984a-5149b9b40359",
+            "name": "Category 2",
+            "description": null,
+            "type_count": 0,
+            "asset_count": 3,
+            "is_system": null,
+            "created_at": "2021-10-07T15:27:20.000000Z",
+            "updated_at": "2021-10-07T15:27:20.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        },
+        {
+            "guid": "f14d2f2d-3125-46f3-8d0d-7f2f15b4920e",
+            "name": "Category 1",
+            "description": null,
+            "type_count": 1,
+            "asset_count": 11,
+            "is_system": null,
+            "created_at": "2021-10-12T03:08:20.000000Z",
+            "updated_at": "2021-10-12T03:08:20.000000Z",
+            "deleted_at": null,
+            "deleted_by": null,
+            "delete_permanent_in": null
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/category/filter?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/category/filter?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/category/filter?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/category/filter",
+        "per_page": 15,
+        "to": 8,
+        "total": 8
+    }
+}

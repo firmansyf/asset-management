@@ -1,0 +1,165 @@
+{
+    "data": {
+        "guid": "efc959c9-cd24-4ac9-8858-c78b929e0151",
+        "case_id": "AEO210",
+        "case_title": "testing snf",
+        "region": "YumiO",
+        "sitename": "BANDAR BARU BANGI",
+        "tm": null,
+        "ro_number": null,
+        "invoice_amount": null,
+        "vendor": {
+            "guid": null,
+            "name": null
+        },
+        "brief_description": null,
+        "insurance_claim_peril": {
+            "guid": "0056d0da-5b4b-42cf-a156-95ccce2494d3",
+            "name": "Fire",
+            "deductible_amount": "0.00"
+        },
+        "insurance_claim_status": {
+            "guid": "f6aeb58b-0128-47be-9a3f-845dc1f03d08",
+            "name": "Pending GR Done"
+        },
+        "previous_status": {
+            "guid": null,
+            "name": null
+        },
+        "first_review_comment": null,
+        "is_claimable": 1,
+        "review_status": "Proposed to reject and close",
+        "number_of_incident_photo": 0,
+        "claim_time": "2021-12-23 16:01:00",
+        "created_at": "2021-12-09T13:44:08.000000Z",
+        "updated_at": "2021-12-20T12:30:22.000000Z",
+        "gr_status": null,
+        "location_guid": "601bc3d8-ab2a-4306-bf44-ce2d7903b9ed",
+        "location": {
+            "guid": "601bc3d8-ab2a-4306-bf44-ce2d7903b9ed",
+            "name": "BANDAR BARU BANGI",
+            "region": "YumiO",
+            "site_id": "BB0001",
+            "tm": {
+                "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                "name": "testing 002",
+                "email": "tqah.testing002@gmail.com"
+            },
+            "re": {
+                "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                "name": "testing 003",
+                "email": "tqah.testing003@gmail.com"
+            },
+            "superior1": {
+                "tm": {
+                    "guid": "77650ec6-f1aa-47b7-9a50-30a848a1e09b",
+                    "name": "azi anuar",
+                    "email": "hazirah@assetdata.io"
+                },
+                "re": {
+                    "guid": "a2035d16-07c9-4b9f-b6dc-8c3a336d7277",
+                    "name": "testing 004",
+                    "email": "tqah.testing004@gmail.com"
+                }
+            },
+            "superior2": {
+                "tm": {
+                    "guid": "1a74acaa-0e6a-4a3e-993d-75e23b7160bb",
+                    "name": "testing 005",
+                    "email": "tqah.testing005@gmail.com"
+                },
+                "re": {
+                    "guid": "1b65ac7d-8bf7-4a83-bf00-30e4d3775507",
+                    "name": "testing 006",
+                    "email": "tqah.testing006@gmail.com"
+                }
+            }
+        },
+        "incident_timestamp": "2021-12-14 16:00:00",
+        "sitename_id": "BB0001",
+        "police_report_no": null,
+        "action_taken": null,
+        "claim_approver": null,
+        "damages": "Others",
+        "damages_details": null,
+        "suspicions": 0,
+        "suspicions_details": null,
+        "tm_email": null,
+        "regional_engineer": null,
+        "regional_engineer_email": null,
+        "submit_comment": null,
+        "invoice_number": null,
+        "police_report_date": "2021-12-16 16:00:00",
+        "invoice_date": "2021-12-14",
+        "ro_data_infos": [
+            {
+                "ro_number": "RO0001111111",
+                "invoice_amount": "111",
+                "invoice_date": "2021-12-12",
+                "vendor_name": "1111",
+                "invoice_number": "IN00001"
+            },
+            {
+                "ro_number": "RO number 123",
+                "invoice_amount": "111",
+                "invoice_date": "2021-12-12",
+                "vendor_name": "1111",
+                "invoice_number": "IN00001"
+            },
+            {
+                "ro_number": "RO number 1231",
+                "invoice_amount": "11111",
+                "invoice_date": "N/A",
+                "vendor_name": "11",
+                "invoice_number": "IN00002"
+            }
+        ],
+        "total_invoice": "11,333.00",
+        "invoice_total": "0.00",
+        "pic_name": "testing 003",
+        "pic_role": "Regional Engineer",
+        "incident_date": "2021-12-14",
+        "incident_time": "00:00:00",
+        "number_of_police_report": 4,
+        "number_of_repair_invoice": 0,
+        "number_of_other_report": 1,
+        "documents": [
+            {
+                "guid": "5c4d49b1-e7e9-475f-87bd-301bb98bfd63",
+                "name": "00test",
+                "files": [
+                    {
+                        "guid": "566a5d19-765d-493d-9668-ca230583e927",
+                        "title": "invoice - test.png",
+                        "url": "https://petronasnew2.be.assetd.xyz/file/14d1c3f2-655a-4338-908f-919a00895c2f/view",
+                        "download_url": "https://petronasnew2.be.assetd.xyz/file/14d1c3f2-655a-4338-908f-919a00895c2f/download",
+                        "mime_type": "image/png",
+                        "uploaded_date": "2021-12-28T05:21:19.000000Z",
+                        "uploaded_by": {
+                            "guid": "9d525b6e-fe67-43d1-ab8a-d8e124085e4f",
+                            "name": "khairil anuar"
+                        },
+                        "comments": "test"
+                    }
+                ]
+            },
+            {
+                "guid": "3c63f663-b275-4489-863c-1201890b3df0",
+                "name": "01test",
+                "files": []
+            }
+        ],
+        "invoices": [],
+        "approval": {
+            "guid": "6e74782b-8ffb-4941-a76b-63041e981190",
+            "statuss": {
+                "guid": null,
+                "name": null
+            },
+            "approver": {
+                "guid": null,
+                "name": null
+            }
+        }
+    }
+}

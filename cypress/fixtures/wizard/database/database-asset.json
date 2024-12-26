@@ -1,0 +1,187 @@
+{
+    "data": [
+      {
+        "label": "Asset Name",
+        "field": "name",
+        "description": "Name of the asset",
+        "example": "John's Laptop 1",
+        "is_default": true,
+        "is_required": true,
+        "is_selected": true
+      },
+      {
+        "label": "Asset Description",
+        "field": "description",
+        "description": "Additional details of the asset",
+        "example": "For Business use",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Asset Status",
+        "field": "status_guid",
+        "description": "Current status of the asset",
+        "example": "Operational",
+        "is_default": true,
+        "is_required": true,
+        "is_selected": true
+      },
+      {
+        "label": "Assigned Employee",
+        "field": "assign_employee_guid",
+        "description": "Employee that asset is assigned to",
+        "example": "David Joe",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": false
+      },
+      {
+        "label": "Assigned User",
+        "field": "assign_user_guid",
+        "description": "User that asset is assigned to",
+        "example": "John David",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Brand",
+        "field": "manufacturer_brand_guid",
+        "description": "Brand name of the asset",
+        "example": "ThoughtPad",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true,
+        "parent_field": "manufacturer_guid"
+      },
+      {
+        "label": "Category",
+        "field": "category_guid",
+        "description": "Category of the asset",
+        "example": "Computer",
+        "is_default": true,
+        "is_required": true,
+        "is_selected": true
+      },
+      {
+        "label": "Company",
+        "field": "owner_company_guid",
+        "description": "Company that owns the asset",
+        "example": "Orange Enterprise",
+        "is_default": true,
+        "is_required": true,
+        "is_selected": true
+      },
+      {
+        "label": "Sub Location",
+        "field": "location_sub_guid",
+        "description": "Sub Location of the asset",
+        "example": "Sub location name",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true,
+        "parent_field": "location_guid"
+      },
+      {
+        "label": "Department",
+        "field": "owner_company_department_guid",
+        "description": "Department that owns the asset",
+        "example": "IT Department",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Disposal Date",
+        "field": "disposal_date",
+        "description": "Disposal date of the asset",
+        "example": "2022-01-18",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Location",
+        "field": "location_guid",
+        "description": "Location of the asset",
+        "example": "Kuala Lumpur",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Manufacturer",
+        "field": "manufacturer_guid",
+        "description": "Manufacturer name of the asset",
+        "example": "Asuus",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Model",
+        "field": "manufacturer_model_guid",
+        "description": "Model name of the asset",
+        "example": "AT8910-F",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true,
+        "parent_field": "manufacturer_guid"
+      },
+      {
+        "label": "QR Code",
+        "field": "qr_code",
+        "description": "Unique QR Code of the asset",
+        "example": "XCD123AK",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Serial Number",
+        "field": "serial_number",
+        "description": "Manufacturer's serial number",
+        "example": "AT8910-Fxx011",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Status Comment",
+        "field": "status_comment",
+        "description": "Status comment for disposed asset",
+        "example": "Status operational",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Supplier",
+        "field": "supplier_guid",
+        "description": "Vendor/Supplier name",
+        "example": "ABC Distributor ENT",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Sub Location",
+        "field": "location_sub_guid",
+        "description": "Sublocation of the location for the asset",
+        "example": "Meeting Room",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      },
+      {
+        "label": "Type",
+        "field": "type_guid",
+        "description": "Type of asset",
+        "example": "Laptop",
+        "is_default": false,
+        "is_required": false,
+        "is_selected": true
+      }
+    ]
+  }

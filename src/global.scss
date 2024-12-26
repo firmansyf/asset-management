@@ -1,0 +1,13 @@
+@function isDarkSkin() {
+  @return false;
+}
+@import '@metronic/assets/sass/core/components/variables';
+@import 'react-datetime/css/react-datetime.css';
+
+.modal-header,
+.modal-footer {
+  padding: 10pt 16pt !important;
+}
+.modal-title {
+  font-size: 14pt !important;
+}

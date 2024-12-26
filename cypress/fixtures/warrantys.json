@@ -1,0 +1,96 @@
+{
+    "data": [
+        {
+            "guid": "6c3d88d8-e38b-4b95-b191-3dd1eba40ed7",
+            "description": "test",
+            "expired": "2021-11-25",
+            "asset_guid": "2e8b7ebf-e947-413c-a516-69c8688b730c",
+            "length": null,
+            "asset_id": "ABC00017",
+            "asset_name": "Ruang Lokomotive",
+            "status": "Expired"
+        },
+        {
+            "guid": "d395bb88-2e2d-45e3-b9f2-08da474f3bbb",
+            "description": "Desc Warranty V1",
+            "expired": "2021-12-07",
+            "asset_guid": "81d10782-d5f4-4b90-9dc7-db2bef2acccf",
+            "length": 11,
+            "asset_id": "ABC00019",
+            "asset_name": "Asset V1",
+            "status": "Expired"
+        },
+        {
+            "guid": "ee4bc55c-48e1-4356-8f58-414043fcd15d",
+            "description": "descrip",
+            "expired": "2021-12-12",
+            "asset_guid": "a188a0c2-9f66-436f-824b-755ee8eaea62",
+            "length": null,
+            "asset_id": "ABC00020",
+            "asset_name": "mjj",
+            "status": "Expired"
+        },
+        {
+            "guid": "b9ad58f0-bae6-4ee9-b99d-6dd657f1b2a2",
+            "description": "asdeas",
+            "expired": "2021-12-21",
+            "asset_guid": "a8cecbd4-652b-4c1c-8a7c-6964c5997e94",
+            "length": 2,
+            "asset_id": "ABC00021",
+            "asset_name": "Asset v11",
+            "status": "Expired"
+        },
+        {
+            "guid": "5d1d80ea-3b3c-4539-961b-01ad1d595cad",
+            "description": "Manufacturer",
+            "expired": "2021-12-30",
+            "asset_guid": "e056396a-05e2-4b49-9bc2-62748ca478a8",
+            "length": 2,
+            "asset_id": "ABC00025",
+            "asset_name": "Testing Asset Data V1",
+            "status": "Expiring"
+        },
+        {
+            "guid": "95814abb-24d2-4318-a311-14fdd8a84c25",
+            "description": "Desc Warranty V2",
+            "expired": "2021-12-14",
+            "asset_guid": "9b62e94e-34b6-4bdd-a0e0-167c62095330",
+            "length": 11,
+            "asset_id": "ABC00026",
+            "asset_name": "Standing Mirror",
+            "status": "Expired"
+        }
+    ],
+    "links": {
+        "first": "https://petronasnew2.be.assetd.xyz/api/v1/warranty?page=1",
+        "last": "https://petronasnew2.be.assetd.xyz/api/v1/warranty?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://petronasnew2.be.assetd.xyz/api/v1/warranty?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://petronasnew2.be.assetd.xyz/api/v1/warranty",
+        "per_page": 15,
+        "to": 6,
+        "total": 6
+    }
+}

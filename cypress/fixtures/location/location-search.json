@@ -1,0 +1,98 @@
+{
+   "data":[
+      {
+         "guid":"31b42b1b-9807-4c6f-bf83-8790ef8bc772",
+         "name":"Petaling Jaya",
+         "address":"Planting Jaya",
+         "address_alternate":null,
+         "street":null,
+         "city":null,
+         "state":null,
+         "postcode":null,
+         "region":null,
+         "site_id":null,
+         "country_code":"MY",
+         "country_name":"Malaysia",
+         "lat":"3.1260716",
+         "long":"101.5981048",
+         "location_subs":[
+            
+         ],
+         "photos":[
+            
+         ],
+         "availability":{
+            "guid":"52801d35-1dd9-4df1-aa3c-bd1c0f7306e2",
+            "name":"Under Renovation",
+            "unique_id":"under-renovation"
+         },
+         "total_asset":0,
+         "description":null,
+         "created_at":"2021-12-18T05:14:44.000000Z",
+         "updated_at":"2021-12-20T12:25:48.000000Z"
+      },
+      {
+         "guid":"7e199ba9-6dea-4764-b7cc-ce2e7c971513",
+         "name":"Jaya Giri",
+         "address":null,
+         "address_alternate":null,
+         "street":null,
+         "city":null,
+         "state":null,
+         "postcode":null,
+         "region":null,
+         "site_id":null,
+         "country_code":"ID",
+         "country_name":"Indonesia",
+         "lat":null,
+         "long":null,
+         "location_subs":[
+            
+         ],
+         "photos":[
+            
+         ],
+         "availability":{
+            "guid":"25d2b71d-ae67-4d89-9409-48098447a630",
+            "name":"Available",
+            "unique_id":"available"
+         },
+         "total_asset":0,
+         "description":null,
+         "created_at":"2021-12-23T14:01:36.000000Z",
+         "updated_at":"2021-12-23T14:01:36.000000Z"
+      }
+   ],
+   "links":{
+      "first":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/location\/filter?page=1",
+      "last":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/location\/filter?page=1",
+      "prev":null,
+      "next":null
+   },
+   "meta":{
+      "current_page":1,
+      "from":1,
+      "last_page":1,
+      "links":[
+         {
+            "url":null,
+            "label":"&laquo; Previous",
+            "active":false
+         },
+         {
+            "url":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/location\/filter?page=1",
+            "label":1,
+            "active":true
+         },
+         {
+            "url":null,
+            "label":"Next &raquo;",
+            "active":false
+         }
+      ],
+      "path":"https:\/\/testingaccount.be.assetd.xyz\/api\/v1\/location\/filter",
+      "per_page":25,
+      "to":2,
+      "total":2
+   }
+}

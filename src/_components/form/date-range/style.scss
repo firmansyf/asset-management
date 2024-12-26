@@ -1,0 +1,103 @@
+@function isDarkSkin() {
+  @return false;
+}
+@import '@metronic/assets/sass/core/components/variables';
+.fc th.fc-widget-header {
+  background: transparent;
+  color: $primary;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.5 !important;
+  font-size: 10pt;
+  padding: 5px 0;
+}
+.fc-content {
+  color: $white;
+}
+.fc-day-grid-event {
+  border-radius: 2px !important;
+}
+.fc table {
+  font-size: 9pt !important;
+  font-weight: 600;
+}
+.fc th,
+.fc td {
+  border-color: $light;
+}
+.fc-button-primary {
+  background-color: $primary;
+  border-color: $primary;
+  border-radius: 50px;
+  &:disabled {
+    background-color: $primary;
+    border-color: $primary;
+    color: #fff;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $primary !important;
+    border-color: $primary !important;
+    filter: brightness(1.2) !important;
+    outline: none !important;
+    box-shadow: unset !important;
+  }
+}
+// react-date-range
+.rdrStaticRangeLabel {
+  padding: 5px 10px !important;
+  border-radius: 5px !important;
+}
+.rdrInputRange {
+  padding: 5px !important;
+  font-size: 8.5pt !important;
+  text-align: left !important;
+  line-height: 1.2 !important;
+}
+.rdrInputRangeInput {
+  width: 25px !important;
+  height: 25px !important;
+  line-height: 25px !important;
+  border-radius: 5px !important;
+  text-align: center !important;
+  border: solid 1px rgb(222, 231, 235) !important;
+  margin-right: 5px !important;
+  color: $primary !important;
+  font-weight: bold !important;
+}
+.rdrDateDisplayItem {
+  box-shadow: unset !important;
+  border-radius: 5px !important;
+  background: $light;
+}
+.rdrDateDisplayItemActive {
+  background: $primary-light !important;
+  border: none !important;
+}
+.rdrDateDisplayItem input {
+  color: $gray-500;
+  font-weight: 500 !important;
+}
+.rdrDateDisplayItemActive input {
+  color: $primary;
+}
+.rdrDateDisplayWrapper {
+  background-color: transparent !important;
+}
+.rdrCalendarWrapper,
+.rdrMonth {
+  width: 100%;
+}
+.rdrMonth {
+  padding-bottom: 0;
+}
+.rdrMonthAndYearWrapper {
+  padding-top: 0;
+}
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+  color: #fff !important;
+}

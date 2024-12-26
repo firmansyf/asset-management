@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "label": "Asset",
+            "field": "asset_guid",
+            "description": "Asset linked to the warranty",
+            "example": "Computer",
+            "is_default": true,
+            "is_required": true,
+            "is_selected": true
+        },
+        {
+            "label": "Warranty Expiration Date",
+            "field": "expired",
+            "description": "Expiration date of the warranty",
+            "example": "2021-09-21",
+            "is_default": true,
+            "is_required": true,
+            "is_selected": true
+        },
+        {
+            "label": "Warranty Description",
+            "field": "description",
+            "description": "Description of the warranty",
+            "example": "Description",
+            "is_default": false,
+            "is_required": true,
+            "is_selected": true
+        },
+        {
+            "label": "Warranty Period",
+            "field": "length",
+            "description": "Validity period of the warranty",
+            "example": "12",
+            "is_default": false,
+            "is_required": false,
+            "is_selected": true
+        }
+    ]
+}

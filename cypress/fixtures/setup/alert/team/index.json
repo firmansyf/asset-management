@@ -1,0 +1,213 @@
+{
+    "data": [
+        {
+            "guid": "13857fdf-ba04-44a3-9966-e609dd4a3ba3",
+            "name": "testing team",
+            "members": [
+                {
+                    "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                    "email": "tqah.testing002@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "002"
+                },
+                {
+                    "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                    "email": "tqah.testing003@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "003"
+                }
+            ],
+            "total_members": 2,
+            "created_at": "2021-12-10T15:03:29.000000Z",
+            "updated_at": "2021-12-10T15:03:29.000000Z"
+        },
+        {
+            "guid": "33466880-51a8-4f62-8d5f-95e647648dc7",
+            "name": "TEAM RICKY 2",
+            "members": [
+                {
+                    "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                    "email": "tqah.testing002@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "002"
+                },
+                {
+                    "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                    "email": "tqah.testing003@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "003"
+                },
+                {
+                    "guid": "1b65ac7d-8bf7-4a83-bf00-30e4d3775507",
+                    "email": "tqah.testing006@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "006"
+                },
+                {
+                    "guid": "200ba708-22fc-4186-8b04-83ee211108b5",
+                    "email": "atiqah@assetdata.io",
+                    "first_name": "new",
+                    "last_name": "new"
+                }
+            ],
+            "total_members": 4,
+            "created_at": "2021-12-16T14:42:02.000000Z",
+            "updated_at": "2021-12-16T14:42:02.000000Z"
+        },
+        {
+            "guid": "5694ae89-ba28-466d-aeb9-378e3b84b601",
+            "name": "TEAM RICKY 1",
+            "members": [
+                {
+                    "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                    "email": "tqah.testing002@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "002"
+                },
+                {
+                    "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                    "email": "tqah.testing003@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "003"
+                },
+                {
+                    "guid": "1a74acaa-0e6a-4a3e-993d-75e23b7160bb",
+                    "email": "tqah.testing005@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "005"
+                },
+                {
+                    "guid": "1b65ac7d-8bf7-4a83-bf00-30e4d3775507",
+                    "email": "tqah.testing006@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "006"
+                },
+                {
+                    "guid": "4bc8deab-67c9-471c-87e0-2bf4ffa92755",
+                    "email": "new@gmail.com",
+                    "first_name": "new",
+                    "last_name": "new"
+                }
+            ],
+            "total_members": 5,
+            "created_at": "2021-12-16T14:39:42.000000Z",
+            "updated_at": "2021-12-16T14:39:42.000000Z"
+        },
+        {
+            "guid": "5d12c3cd-ab00-4e54-92d4-a33839be5c1c",
+            "name": "azi",
+            "members": [
+                {
+                    "guid": "77650ec6-f1aa-47b7-9a50-30a848a1e09b",
+                    "email": "hazirah@assetdata.io",
+                    "first_name": "azi",
+                    "last_name": "anuar"
+                }
+            ],
+            "total_members": 1,
+            "created_at": "2021-11-18T10:50:09.000000Z",
+            "updated_at": "2021-11-18T10:50:09.000000Z"
+        },
+        {
+            "guid": "64d08c7c-fabc-429d-808c-2daab8391626",
+            "name": "push me",
+            "members": [
+                {
+                    "guid": "092b3565-aa6f-44ef-9692-86669730d4e1",
+                    "email": "haisyam@assetdata.io",
+                    "first_name": "Haisyam",
+                    "last_name": "Maulana"
+                }
+            ],
+            "total_members": 1,
+            "created_at": "2021-10-22T07:07:16.000000Z",
+            "updated_at": "2021-11-25T07:17:56.000000Z"
+        },
+        {
+            "guid": "946c64d7-810e-494e-8613-8f60037cc9cb",
+            "name": "test team",
+            "members": [
+                {
+                    "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+                    "email": "tqah.testing002@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "002"
+                },
+                {
+                    "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+                    "email": "tqah.testing003@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "003"
+                },
+                {
+                    "guid": "1a74acaa-0e6a-4a3e-993d-75e23b7160bb",
+                    "email": "tqah.testing005@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "005"
+                },
+                {
+                    "guid": "1b65ac7d-8bf7-4a83-bf00-30e4d3775507",
+                    "email": "tqah.testing006@gmail.com",
+                    "first_name": "testing",
+                    "last_name": "006"
+                },
+                {
+                    "guid": "3f01d7c2-7662-468a-bc61-702b06b2b461",
+                    "email": "ridwan@assetdata.io",
+                    "first_name": "Ridwan",
+                    "last_name": "Dev"
+                }
+            ],
+            "total_members": 5,
+            "created_at": "2021-12-22T07:42:21.000000Z",
+            "updated_at": "2021-12-22T07:42:21.000000Z"
+        },
+        {
+            "guid": "9da3b244-8c30-4389-ba32-a5f1eee189c3",
+            "name": "snf",
+            "members": [
+                {
+                    "guid": "6a81fbed-1271-4696-894e-3eea5ffe48d7",
+                    "email": "ahmad.mushonnif@assetdata.io",
+                    "first_name": "Ahmad",
+                    "last_name": "Mushonnif"
+                }
+            ],
+            "total_members": 1,
+            "created_at": "2021-12-17T04:02:51.000000Z",
+            "updated_at": "2021-12-17T04:02:51.000000Z"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/team?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/team?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/team?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/team",
+        "per_page": 15,
+        "to": 7,
+        "total": 7
+    }
+}

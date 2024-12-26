@@ -1,0 +1,18 @@
+{
+    "data": {
+        "guid": "ef669950-dc24-4c95-9bac-1bf01f52d1ff",
+        "name": "Super",
+        "model": {
+            "guid": "83995bd9-3cde-4969-b4e0-45b1f1f66e15",
+            "name": "Model 1.3"
+        },
+        "manufacturer": {
+            "guid": "b5c24c1d-12dd-48aa-b1cc-b10003860957",
+            "name": "Manufacturer 1"
+        },
+        "created_at": "2021-11-18T04:06:37.000000Z",
+        "update": "2021-11-18T04:06:37.000000Z",
+        "deleted_by": null,
+        "delete_permanent_in": null
+    }
+}

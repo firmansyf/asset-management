@@ -1,0 +1,70 @@
+{
+    "data" : [
+        {
+            "created_at": "2021-12-28T02:29:45.000000Z",
+            "element_type": "radio",
+            "element_type_label": "Radio Button List",
+            "guid": "22a47394-4a54-42ab-9566-893c07f94b6a",
+            "is_required": 0,
+            "name": "email",
+            "option" : [
+                {
+                    "key" : "0",
+                    "value" : "radio"
+                }
+            ],
+            "options" : [
+                {
+                    "key" : "required",
+                    "value" : "nullable",
+                    "value_string": "nullable"
+                },
+                {
+                    "key": "min",
+                    "value": "0",
+                    "value_string": "0"
+                }
+            ],
+            "section_type": "locations",
+            "section_type_sub": "additional_information",
+            "status": 1,
+            "updated_at": "2021-12-28T02:29:45.000000Z",
+            "value": null,
+            "value_array": [],
+            "value_object": {},
+            "value_string": false
+        }
+    ],
+    "links" : {
+      "first": "https://testingaccount.be.assetd.xyz/api/v1/custom-field/filter?page=1",
+      "last": "https://testingaccount.be.assetd.xyz/api/v1/custom-field/filter?page=1",
+      "next": null,
+      "prev": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/custom-field/filter?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/custom-field/filter",
+        "per_page": 10,
+        "to": 1,
+        "total": 1
+    }
+}

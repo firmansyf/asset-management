@@ -1,0 +1,13 @@
+{
+    "message":"2 models was successfully deleted",
+    "data":{
+        "guids":[
+            "a7954a8e-8318-4146-afe5-1bbb62cb5ff7",
+            "7720fe8a-8162-44ac-ba00-d43a8525f780",
+            "ab518e52-7d16-4487-88bc-5e1aa8aeb2b1",
+            "31b888b4-200a-422e-8ba4-ac7ef895de2c",
+            "5e0cae3c-d3d6-435f-81c7-8c0d526f77f3",
+            "b97c91d4-9dfe-47f3-8012-a771f9d48668"
+        ]
+    }
+}

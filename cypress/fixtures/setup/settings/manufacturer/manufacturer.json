@@ -1,0 +1,48 @@
+{
+    "data" : [
+        {
+            "created_at": "2022-01-12T15:40:04.000000Z",
+            "delete_permanent_in": null,
+            "deleted_by": null,
+            "description": "Marck",
+            "guid": "0b882231-96db-4586-9b06-4016f03b260f",
+            "models": [],
+            "name": "Metaverse",
+            "status": 1,
+            "updated_at": "2022-01-12T15:40:04.000000Z"
+        }
+    ],
+    "links" : {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/filter?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/filter?page=1",
+        "next": null,
+        "prev": null
+    },
+
+    "meta" : {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links" : [
+            {
+                "active": false,
+                "label": "&laquo; Previous",
+                "url": null
+            },
+            {
+                "active": true,
+                "label": 1,
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/filter?page=1"
+            },
+            {
+                "active": false,
+                "label": "Next &raquo;",
+                "url": null
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/setting/manufacturer/filter",
+        "per_page": 10,
+        "to": 4,
+        "total": 4
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "data": [
+        {
+            "guid": "09455fdb-4b10-4cd5-87c7-cdd7f5029714",
+            "name": "Police Report",
+            "peril": {
+                "guid": "c6d23a1d-006e-478b-80f3-25a507607afa",
+                "name": "Accident"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-11-10T00:53:53.000000Z",
+            "updated_at": "2021-11-10T00:53:53.000000Z"
+        },
+        {
+            "guid": "0e28c6ff-0fc2-45aa-b669-81abdd8793c4",
+            "name": "nujm",
+            "peril": {
+                "guid": "4e85b6db-fb1e-4857-aa11-0ce98164118f",
+                "name": "test123"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-10-09T22:46:14.000000Z",
+            "updated_at": "2021-10-09T22:46:14.000000Z"
+        },
+        {
+            "guid": "3c63f663-b275-4489-863c-1201890b3df0",
+            "name": "01test",
+            "peril": {
+                "guid": "0056d0da-5b4b-42cf-a156-95ccce2494d3",
+                "name": "Fire"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-11-30T09:30:11.000000Z",
+            "updated_at": "2021-11-30T09:30:11.000000Z"
+        },
+        {
+            "guid": "4142005f-650b-46ef-9184-3c2ee9078350",
+            "name": "dfsfsd",
+            "peril": {
+                "guid": "4e85b6db-fb1e-4857-aa11-0ce98164118f",
+                "name": "test123"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-10-09T22:51:09.000000Z",
+            "updated_at": "2021-10-09T22:51:09.000000Z"
+        },
+        {
+            "guid": "567cec39-165b-4581-8b87-27b92db9e831",
+            "name": "Police Report 2",
+            "peril": {
+                "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+                "name": "Impact Damage"
+            },
+            "is_mandatory_document": 0,
+            "created_at": "2021-11-22T05:09:04.000000Z",
+            "updated_at": "2021-11-22T05:09:04.000000Z"
+        },
+        {
+            "guid": "59c9b986-b9e5-4e40-ba54-8dfd8e31da14",
+            "name": "BBtest01",
+            "peril": {
+                "guid": "078f5300-ebb0-4eac-88eb-cbce6ba3fbfb",
+                "name": "TestBB01"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-11-17T06:50:17.000000Z",
+            "updated_at": "2021-11-17T06:50:17.000000Z"
+        },
+        {
+            "guid": "5c4d49b1-e7e9-475f-87bd-301bb98bfd63",
+            "name": "00test",
+            "peril": {
+                "guid": "0056d0da-5b4b-42cf-a156-95ccce2494d3",
+                "name": "Fire"
+            },
+            "is_mandatory_document": 0,
+            "created_at": "2021-11-19T02:05:37.000000Z",
+            "updated_at": "2021-11-19T02:05:37.000000Z"
+        },
+        {
+            "guid": "6e90f0bb-ec2f-47c4-88d8-ae72cbcc32be",
+            "name": "Police Report",
+            "peril": {
+                "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+                "name": "Impact Damage"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-11-06T04:44:24.000000Z",
+            "updated_at": "2021-12-06T10:29:12.000000Z"
+        },
+        {
+            "guid": "831e1b23-aef3-4538-9be6-94a8a5661088",
+            "name": "BBtest02",
+            "peril": {
+                "guid": "078f5300-ebb0-4eac-88eb-cbce6ba3fbfb",
+                "name": "TestBB01"
+            },
+            "is_mandatory_document": 0,
+            "created_at": "2021-11-17T06:50:32.000000Z",
+            "updated_at": "2021-11-17T06:50:32.000000Z"
+        },
+        {
+            "guid": "cec72e16-df8b-48fc-a322-b9f1ec8a1ee6",
+            "name": "Police Report 3",
+            "peril": {
+                "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+                "name": "Impact Damage"
+            },
+            "is_mandatory_document": 0,
+            "created_at": "2021-11-23T06:25:03.000000Z",
+            "updated_at": "2021-11-23T06:25:03.000000Z"
+        },
+        {
+            "guid": "d199e38c-3d11-4dd1-894b-4c6b53565a94",
+            "name": "Image of Accident",
+            "peril": {
+                "guid": "c6d23a1d-006e-478b-80f3-25a507607afa",
+                "name": "Accident"
+            },
+            "is_mandatory_document": 0,
+            "created_at": "2021-11-10T00:54:19.000000Z",
+            "updated_at": "2021-11-10T00:54:19.000000Z"
+        },
+        {
+            "guid": "f80b8701-3b63-457d-9e7c-14af6774cbc9",
+            "name": "Policy Report",
+            "peril": {
+                "guid": "68c46dd2-799d-44c8-b96e-927a8a41fe22",
+                "name": "Impact Damage"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-11-23T06:27:02.000000Z",
+            "updated_at": "2021-12-01T08:12:22.000000Z"
+        },
+        {
+            "guid": "fe013a80-8c78-4fc3-9961-ef7d8ce317ff",
+            "name": "jumbh",
+            "peril": {
+                "guid": "db6e3c0a-3295-400f-b499-c9b2f3dbf00c",
+                "name": "umikk"
+            },
+            "is_mandatory_document": 1,
+            "created_at": "2021-10-09T22:48:14.000000Z",
+            "updated_at": "2021-10-09T22:48:14.000000Z"
+        }
+    ],
+    "links": {
+        "first": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/document?page=1",
+        "last": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/document?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/document?page=1",
+                "label": 1,
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://testingaccount.be.assetd.xyz/api/v1/insurance_claim/document",
+        "per_page": 20,
+        "to": 13,
+        "total": 13
+    }
+}

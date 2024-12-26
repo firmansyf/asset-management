@@ -1,0 +1,9 @@
+{
+    "message":"2 warranties was successfully deleted",
+    "data":{
+        "guids":[
+            "8a770f88-6b50-4f94-96fc-9382b70b7df2",
+            "08d09c58-1d1d-4717-9fd9-ca533f457343"
+        ]
+    }
+}

@@ -1,0 +1,137 @@
+{
+  "data": [
+    {
+      "guid": "9fb44a81-b849-4725-92ab-3842fe57ebac",
+      "name": "test",
+      "module": {
+        "guid": "2d404916-f557-4888-8bd5-e76620a273ae",
+        "name": "Insurance Claim"
+      },
+      "sub_module": null,
+      "module_field": {
+        "guid": "01bd03f7-a037-47f8-8743-9cab162a698c",
+        "name": "Ready for Review 2"
+      },
+      "types": [
+        {
+          "guid": "a3ce4471-7b81-481e-b439-7abde8387cff",
+          "name": "Email"
+        }
+      ],
+      "team": {
+        "guid": "13857fdf-ba04-44a3-9966-e609dd4a3ba3",
+        "name": "testing team",
+        "members": [
+          {
+            "guid": "5eb13cfb-c904-49c8-a21d-77c031f7b6c0",
+            "user": {
+              "guid": "16fbdd53-97bb-4591-a5a8-eb9707ca50b8",
+              "name": "testing 002"
+            }
+          },
+          {
+            "guid": "992640a6-efb5-49f4-8b55-2ba0ae873ba3",
+            "user": {
+              "guid": "1a09671e-a6e5-44f1-919e-452090e875a2",
+              "name": "testing 003"
+            }
+          }
+        ]
+      },
+      "roles": [],
+      "is_alert_owner": false,
+      "start_time": "05:00:00",
+      "end_time": "23:59:00",
+      "timezone": null,
+      "days": {
+        "monday": 0,
+        "tuesday": 0,
+        "wednesday": 0,
+        "thursday": 0,
+        "friday": 0,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "send_date": null,
+      "prior_alert": null,
+      "exclude_members": [],
+      "created_at": "2021-12-10T15:13:08.000000Z",
+      "updated_at": "2021-12-10T15:13:08.000000Z",
+      "last_alert_at": null,
+      "is_escalation": false,
+      "escalation_data": null,
+      "frequency": "daily",
+      "frequency_value": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "is_active": 1
+    },
+    {
+      "guid": "3f4ea94e-98e5-44a3-a194-513373b888fb",
+      "name": "test yearly",
+      "module": {
+        "guid": "2d404916-f557-4888-8bd5-e76620a273ae",
+        "name": "Insurance Claim"
+      },
+      "sub_module": null,
+      "module_field": {
+        "guid": "8d2396da-3fd9-44b8-a5c2-654ae5d96ff8",
+        "name": "Upload Document"
+      },
+      "types": [
+        {
+          "guid": "a3ce4471-7b81-481e-b439-7abde8387cff",
+          "name": "Email"
+        }
+      ],
+      "team": {
+        "guid": "5d12c3cd-ab00-4e54-92d4-a33839be5c1c",
+        "name": "azi",
+        "members": [
+          {
+            "guid": "a00f882b-5fae-4937-a31c-24c496fea33f",
+            "user": {
+              "guid": "77650ec6-f1aa-47b7-9a50-30a848a1e09b",
+              "name": "azi anuar"
+            }
+          }
+        ]
+      },
+      "roles": [],
+      "is_alert_owner": false,
+      "start_time": "09:00:00",
+      "end_time": "23:00:00",
+      "timezone": null,
+      "days": {
+        "monday": 0,
+        "tuesday": 0,
+        "wednesday": 0,
+        "thursday": 0,
+        "friday": 0,
+        "saturday": 0,
+        "sunday": 0
+      },
+      "send_date": null,
+      "prior_alert": null,
+      "exclude_members": [],
+      "created_at": "2021-12-16T03:52:42.000000Z",
+      "updated_at": "2021-12-16T03:52:50.000000Z",
+      "last_alert_at": null,
+      "is_escalation": false,
+      "escalation_data": null,
+      "frequency": "daily",
+      "frequency_value": [
+        "thursday",
+        "friday",
+        "saturday"
+      ],
+      "is_active": 1
+    }
+  ]
+}

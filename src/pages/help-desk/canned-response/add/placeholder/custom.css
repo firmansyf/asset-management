@@ -1,0 +1,12 @@
+.ant-modal-content {
+  max-height: 400px;
+  top: 140px;
+}
+
+.ButtonWrap__root___1EO_R {
+  z-index: 0;
+}
+
+.ant-design-draggable-modal {
+  z-index: 200 !important;
+}

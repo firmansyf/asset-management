@@ -1,0 +1,116 @@
+{
+    "data":[
+       {
+          "guid":"fdbdcd37-f3ae-46e4-9e65-ad0ed595db7e",
+          "name":"Jakarta Barat",
+          "address":null,
+          "location":{
+             "guid":"d9c88000-a765-427e-b66b-38d53ab698f0",
+             "name":"Jakarta",
+             "address":null
+          },
+          "country_name":"Malaysia",
+          "created_at":"2022-01-05T14:02:00.000000Z",
+          "updated_at":"2022-01-05T14:02:00.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"5b3a622f-0467-4522-9e98-b983ff6bec8a",
+          "name":"Jakarta Pusat",
+          "address":null,
+          "location":{
+             "guid":"d9c88000-a765-427e-b66b-38d53ab698f0",
+             "name":"Jakarta",
+             "address":null
+          },
+          "country_name":"Malaysia",
+          "created_at":"2022-01-05T14:02:10.000000Z",
+          "updated_at":"2022-01-05T14:02:10.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"49a1f465-f5ba-420a-b995-04d6986a89e1",
+          "name":"Jakarta Selatan",
+          "address":null,
+          "location":{
+             "guid":"d9c88000-a765-427e-b66b-38d53ab698f0",
+             "name":"Jakarta",
+             "address":null
+          },
+          "country_name":"Malaysia",
+          "created_at":"2022-01-05T14:02:31.000000Z",
+          "updated_at":"2022-01-05T14:02:31.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"aec9d7aa-9160-4020-9111-dde07429c590",
+          "name":"Jakarta Timur",
+          "address":null,
+          "location":{
+             "guid":"d9c88000-a765-427e-b66b-38d53ab698f0",
+             "name":"Jakarta",
+             "address":null
+          },
+          "country_name":"Malaysia",
+          "created_at":"2022-01-05T14:02:20.000000Z",
+          "updated_at":"2022-01-05T14:02:20.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       },
+       {
+          "guid":"bd225df4-de24-4147-91e9-8529d7ce7074",
+          "name":"Jakarta Utara",
+          "address":null,
+          "location":{
+             "guid":"d9c88000-a765-427e-b66b-38d53ab698f0",
+             "name":"Jakarta",
+             "address":null
+          },
+          "country_name":"Malaysia",
+          "created_at":"2022-01-05T14:02:45.000000Z",
+          "updated_at":"2022-01-05T14:02:45.000000Z",
+          "location_sub_sub":[
+             
+          ]
+       }
+    ],
+    "links":{
+       "first":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+       "last":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+       "prev":null,
+       "next":null
+    },
+    "meta":{
+       "current_page":1,
+       "from":1,
+       "last_page":1,
+       "links":[
+          {
+             "url":null,
+             "label":"&laquo; Previous",
+             "active":false
+          },
+          {
+             "url":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter?page=1",
+             "label":1,
+             "active":true
+          },
+          {
+             "url":null,
+             "label":"Next &raquo;",
+             "active":false
+          }
+       ],
+       "path":"https:\/\/idzzz.be.assetd.xyz\/api\/v1\/location-sub\/filter",
+       "per_page":10,
+       "to":5,
+       "total":5
+    }
+ }

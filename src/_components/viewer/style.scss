@@ -1,0 +1,37 @@
+$primary: #009ef7;
+$success: #21a465;
+.react-docx {
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+  min-height: 30vh;
+  max-height: 70vh !important;
+  overflow-y: auto;
+}
+.react-excel {
+  .table {
+    border-collapse: collapse;
+    & > :not(caption) > * > * {
+      padding: 0.25rem;
+    }
+    tr:nth-child(even) {
+      td {
+        background-color: #f7f7f7;
+      }
+    }
+    th {
+      position: sticky;
+      top: -1px;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      background-color: $success;
+      color: #fff;
+      font-weight: 600 !important;
+    }
+  }
+  // padding: 0 2.5rem;
+  min-height: 30vh;
+  max-height: 70vh !important;
+  overflow: auto;
+}
